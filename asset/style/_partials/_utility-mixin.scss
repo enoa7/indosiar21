@@ -1,0 +1,27 @@
+/* ------------------- */
+// utility mixin
+/* ------------------- */
+
+@mixin spacepad($value) {
+    padding-top: $value;
+    padding-bottom: $value;
+}
+
+@mixin spacepad-nosides($value) {
+    padding-top: $value;
+    padding-bottom: $value;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@mixin spacemar($value) {
+    margin-top: $value;
+    margin-bottom: $value;
+}
+
+@mixin spacemar-nosides($value) {
+    margin-top: $value;
+    margin-bottom: $value;
+    margin-left: 0;
+    margin-right: 0;
+}

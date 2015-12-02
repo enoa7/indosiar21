@@ -1,0 +1,86 @@
+/* *********************************** */
+/* Utility class */
+/* *********************************** */
+
+ul.nodots > li {
+	list-style-type: none !important;
+}
+.nopadding {
+	padding: 0 !important;
+}
+.nomargin {
+	margin: 0;
+}
+.block {
+	display: block;
+}
+.inline-block {
+	display: inline-block;
+}
+.inline {
+	display: inline;
+}
+.spacepad {
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+.spacemar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.pos-relative {
+	position: relative;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.nomarginbottom {
+	margin-bottom: 0;
+}
+.bold {
+	font-weight: 700;
+}
+.visibility-hidden {
+	visibility: hidden;
+}
+.fullwidth {
+	width: 100%;
+}
+/* **************** Truncate Function CSS **************** */
+.truncate-text.collapsed .dot .more,
+.truncate-text.expanded .ad-text,
+.truncate-text.expanded .dot .less {
+    display: inline;
+}
+.truncate-text.collapsed .dot .less,
+.truncate-text.collapsed .ad-text,
+.truncate-text.expanded .dot .more {
+    display: none;
+}
+/* **************** /Truncate Function CSS **************** */
+/*use the nofloat if child(div) elements are float*/
+.vertical-align-nofloat > div,
+.vertical-align-nofloat > ul {
+    display: inline-block;
+    float: none !important;
+
+    vertical-align: middle;
+}
+/*move the all child of the div except the first child so that it can sit side by side*/
+.vertical-align-nofloat > div:not(first-child),
+.vertical-align-nofloat > ul:not(first-child) {
+    margin-left: -4px;
+}
+
+/* create skew object - it must have the correct html structure*/
+.skew {
+    &-bg {
+        transform: skew(0, -3deg); //skew
+    }
+    &-content {
+        transform: skew(0, 3deg);  //inverse skew
+    }
+}
