@@ -10,3 +10,14 @@
 /*kodein--*/
 @import 'style/animate';
 @import 'style/kodein';
+
+
+.navbar-inverse {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c89c3+0,24c296+100 */
+background: #2c89c3; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #2c89c3 0%, #24c296 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #2c89c3 0%,#24c296 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #2c89c3 0%,#24c296 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c89c3', endColorstr='#24c296',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}

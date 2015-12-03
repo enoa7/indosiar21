@@ -11,7 +11,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="subject" content="%SUBJECT%">
+    <meta name="keywords" content="%KEYWORDS%">
+    <meta property=“og:title” content= “How Important Are Quotes in Press Releases?” /> 
+    <meta property=“og:type” content= “article” /> 
+    <meta property=“og:description” content= “PR pros discuss whether quotes are an essential component in press releases.” /> 
+    <meta property=“og:url” content= “http://www.cyberalert.com/blog/index.php/how-important-are-quotes-in-press-releases” />
+    <meta property=“og:image” content= “http://www.cyberalert.com/blog/wp-content/uploads/2014/04/People-Talking.jpg” />
      <title>%TITLE%</title>
+
 
     <!-- all compiled css -->
     <link rel="stylesheet" type="text/css" href="asset/main.css">

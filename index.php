@@ -1,12 +1,11 @@
-<?php
-	ob_start();
-	include("header.php");
-	$buffer=ob_get_contents();
-	ob_end_clean();
-	$buffer=str_replace("%TITLE%","INSERTTITLEPAGEHERE",$buffer);
-	echo $buffer;
-?>
+<?php 
+	
+	include("functions.php");
+	getHeader('HUT Indosiar 21 | Home', 'indosiar, indosiar21, HUT', 'Ulang Tahun Indosiar21');
 
+?>
+	
+<?php include("header.php"); ?>
 <?php require('nav.php') ?>
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -37,5 +36,5 @@
         </div>
     </div>
     <hr>
-
+</div>
 <?php require('footer.php') ?>
