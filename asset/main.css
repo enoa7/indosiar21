@@ -10276,6 +10276,9 @@ ul.nodots > li {
 @font-face {
   font-family: "Gotham-Med";
   src: url("../fonts/gotham-medium.eot?") format("eot"), url("../fonts/gotham-medium.woff2") format("woff2"), url("../fonts/gotham-medium.woff") format("woff"), url("../fonts/gotham-medium.ttf") format("truetype"), url("../fonts/gotham-medium.svg#Gotham-Med") format("svg"); }
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("../fonts/gotham-book.eot?") format("eot"), url("../fonts/gotham-book.woff2") format("woff2"), url("../fonts/gotham-book.woff") format("woff"), url("../fonts/gotham-book.ttf") format("truetype"), url("../fonts/gotham-book.svg#Gotham-Book") format("svg"); }
 html {
   width: 100%; }
 
@@ -10286,7 +10289,11 @@ body {
 nav.navbar {
   position: relative;
   border-bottom: none;
-  font-family: 'Gotham-Med'; }
+  font-family: 'Gotham-Book'; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    nav.navbar .container-fluid {
+      padding-top: 15px;
+      padding-bottom: 15px; } }
 
 .navbar-inverse {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c89c3+0,24c296+100 */
@@ -10314,27 +10321,60 @@ nav.navbar {
   padding-left: 10px;
   padding-right: 10px; }
 
-.logo img {
-  max-width: 45px; }
+.logo {
+  text-align: left; }
+  @media (min-width: 1200px) {
+    .logo {
+      text-align: right; } }
+  .logo img {
+    max-width: 45px; }
 
 .logo,
 .social {
   padding-top: .5rem; }
 
-#megamenu-burger {
+.menu-burger {
   font-size: 3.5rem;
   text-align: right;
   color: #fff;
   cursor: pointer; }
 
 .overlay-menu {
-  background: #000;
-  position: absolute;
+  background: #16D0DA;
+  padding-top: 15px;
+  position: fixed;
+  right: 0;
   z-index: 2;
-  left: -600px;
+  transform: translate(600px, 0px);
+  transform-origin: right;
   width: 320px;
   height: 100%;
-  transition: .6s ease-in; }
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  text-align: right;
+  font-family: 'Gotham-Med'; }
+  @media (max-width: 768px) {
+    .overlay-menu {
+      width: 220px; } }
+  .overlay-menu li {
+    padding: 10px; }
+  .overlay-menu a {
+    color: #fff;
+    font-size: 1.3em; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .overlay-menu a {
+        font-size: 1.5em; } }
+
+.no-csstransforms .overlay-menu {
+  right: 320px; }
+
+.sliding-menu-open .overlay-menu {
+  transform: translate(0px, 0px); }
+.sliding-menu-open .page-wrap {
+  transform: translate(-220px, 0px); }
 
 /* navigation -- end */
 .pos-fixed {
@@ -10349,8 +10389,18 @@ nav.navbar {
   background: #c4e6e8; }
 
 .page-wrap {
-  transition: .6s ease-in;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-transform: translateZ(0);
+  -webkit-transform-style: preserve-3d;
   position: relative;
-  right: 0; }
+  transform: translate(0px, 0px); }
+
+#list-artist > div {
+  padding-left: 0;
+  padding-right: 0; }
 
 /*# sourceMappingURL=main.css.map */

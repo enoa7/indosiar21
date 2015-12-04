@@ -33,4 +33,4 @@
 		<![endif]-->
 </head>
 
-<body>
+<body class="sliding-menu-close">

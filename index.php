@@ -22,9 +22,16 @@
 	    </div>
 	</div>
 
-	<div class="list-artist-2">
+	<div class="segment" id="list-artist">
 		<div class="container-fluid">
-			<div><img class="img-responsive center-block"src="asset/images/indosiar21-artist-isyana2.jpg"></div>
+			<div><img class="img-responsive center-block" src="asset/images/indosiar21-artist-isyana2.jpg"></div>
+			<div><img class="img-responsive center-block" src="asset/images/indosiar21-artist-noa.jpg" alt=""></div>
+			<div><img class="img-responsive center-block" src="asset/images/indosiar21-artist-slank.jpg" alt=""></div>
+		</div>
+	</div>
+	<div class="segment">
+		<div class="container-fluid">
+			<div><img class="img-responsive center-block" src="asset/images/kontes-wefie.jpg" alt=""></div>
 		</div>
 	</div>
 	<?php require('footer.php') ?>
