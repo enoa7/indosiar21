@@ -1,40 +1,31 @@
 <?php 
-	
-	include("functions.php");
-	getHeader('HUT Indosiar 21 | Home', 'indosiar, indosiar21, HUT', 'Ulang Tahun Indosiar21');
+
+	$pageTitle = "HUT Indosiar 21 | Home";
+	$pageSubject = "Ulang Tahun Indosiar 21";
+	$pageKeywords = "indosiar, indosiar21, HUT";
+	include("header.php");
 
 ?>
 	
-<?php include("header.php"); ?>
+
 <?php require('nav.php') ?>
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-    <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
-    </div>
+<div class="page-wrap" id="homepage">
+	<div class="main-banner">
+	    <div class="container-fluid">
+			<div class="col-xs-12">
+				<div>
+					<img class="img-responsive center-block" src="asset/images/indosiar21-logo.png">
+				</div>
+			</div>
+	    </div>
+	</div>
+
+	<div class="list-artist-2">
+		<div class="container-fluid">
+			<div><img class="img-responsive center-block"src="asset/images/indosiar21-artist-isyana2.jpg"></div>
+		</div>
+	</div>
+	<?php require('footer.php') ?>
 </div>
-<div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-    </div>
-    <hr>
-</div>
-<?php require('footer.php') ?>
