@@ -34,5 +34,9 @@
 			<div><img class="img-responsive center-block" src="asset/images/kontes-wefie.jpg" alt=""></div>
 		</div>
 	</div>
+	
 	<?php require('footer.php') ?>
+	<?php require('overlay-menu.php') ?>
+	</div>
 </div>
+</html>

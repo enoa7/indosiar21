@@ -8010,6 +8010,38 @@ button.close {
       color: black;
       opacity: 0.75; }
 
+/*vendor override--*/
+/*
+* List of css that overrides vendors css
+*/
+/* override slick slider css - start */
+/* ---------------------------- */
+/* 
+* make the arrow sits on top of the content and not on side
+* this fixes the extra width on the sides for the whole page
+*/
+.slick-prev,
+.slick-next {
+  z-index: 2;
+  padding: 75px; }
+
+.slick-next {
+  right: 0; }
+  .slick-next:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f138";
+    color: #000;
+    font-size: 30px; }
+
+.slick-prev {
+  left: 0; }
+  .slick-prev:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f137";
+    color: #000;
+    font-size: 30px; }
+
+/* ---------------------------- */
 /*variables--*/
 /*
 *	Variables SCSS
@@ -8019,6 +8051,112 @@ button.close {
 /* ------------------- */
 /* ------------------- */
 /* ------------------- */
+/*pages--*/
+/* navigation -- start */
+nav.navbar {
+  position: relative;
+  border-bottom: none;
+  font-family: 'Gotham-Book';
+  margin-bottom: 0; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    nav.navbar .container-fluid {
+      padding-top: 15px;
+      padding-bottom: 15px; } }
+
+.navbar-inverse {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c89c3+0,24c296+100 */
+  background: #2c89c3;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #2c89c3 0%, #24c296 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #2c89c3 0%, #24c296 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #2c89c3 0%, #24c296 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c89c3', endColorstr='#24c296', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.nav-list li a {
+  float: left;
+  padding: 15px;
+  color: #fff; }
+
+.social li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .social li img {
+    max-width: 30px; }
+
+.logo {
+  text-align: left; }
+  @media (min-width: 1200px) {
+    .logo {
+      text-align: right; } }
+  .logo img {
+    max-width: 45px; }
+
+.logo,
+.social {
+  padding-top: .5rem; }
+
+.menu-burger {
+  font-size: 2.3em;
+  text-align: right;
+  cursor: pointer; }
+  .menu-burger a {
+    color: #fff; }
+
+.overlay-menu {
+  background: #16D0DA;
+  position: fixed;
+  right: -180px;
+  z-index: 2;
+  top: 0;
+  transform-origin: right;
+  height: 100%;
+  max-width: 320px;
+  text-align: right;
+  font-family: 'Gotham-Med';
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease; }
+  @media (max-width: 768px) {
+    .overlay-menu {
+      width: 180px; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .overlay-menu {
+      right: -240px; } }
+  .overlay-menu li:after {
+    content: "";
+    border-top: 1px solid #fff;
+    display: block;
+    opacity: 0.4; }
+  .overlay-menu a {
+    color: #fff;
+    font-size: 1em;
+    padding: 15px;
+    width: 100%;
+    display: block; }
+    .overlay-menu a:hover, .overlay-menu aa:active, .overlay-menu a:focus {
+      text-decoration: none !important;
+      background-color: #039E73; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .overlay-menu a {
+        font-size: 1.5em; } }
+
+.sliding-menu-open .page-wrap {
+  transform: translate(-180px, 0px); }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .sliding-menu-open .page-wrap {
+      transform: translate(-240px, 0px); } }
+
+.no-csstransforms .overlay-menu {
+  right: 320px; }
+
+/* navigation -- end */
 /*kodein--*/
 /*!
 Animate.css - http://daneden.me/animate
@@ -10273,6 +10411,7 @@ ul.nodots > li {
 .skew-content {
   transform: skew(0, 3deg); }
 
+/* include font */
 @font-face {
   font-family: "Gotham-Med";
   src: url("../fonts/gotham-medium.eot?") format("eot"), url("../fonts/gotham-medium.woff2") format("woff2"), url("../fonts/gotham-medium.woff") format("woff"), url("../fonts/gotham-medium.ttf") format("truetype"), url("../fonts/gotham-medium.svg#Gotham-Med") format("svg"); }
@@ -10282,101 +10421,9 @@ ul.nodots > li {
 html {
   width: 100%; }
 
-body {
+body, .segment {
   position: relative; }
 
-/* navigation -- start */
-nav.navbar {
-  position: relative;
-  border-bottom: none;
-  font-family: 'Gotham-Book'; }
-  @media (min-width: 768px) and (max-width: 992px) {
-    nav.navbar .container-fluid {
-      padding-top: 15px;
-      padding-bottom: 15px; } }
-
-.navbar-inverse {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c89c3+0,24c296+100 */
-  background: #2c89c3;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #2c89c3 0%, #24c296 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #2c89c3 0%, #24c296 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #2c89c3 0%, #24c296 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c89c3', endColorstr='#24c296', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */ }
-
-nav.navbar {
-  margin-bottom: 0; }
-
-.nav-list li a {
-  float: left;
-  padding: 15px;
-  color: #fff; }
-
-.social li {
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px; }
-
-.logo {
-  text-align: left; }
-  @media (min-width: 1200px) {
-    .logo {
-      text-align: right; } }
-  .logo img {
-    max-width: 45px; }
-
-.logo,
-.social {
-  padding-top: .5rem; }
-
-.menu-burger {
-  font-size: 3.5rem;
-  text-align: right;
-  color: #fff;
-  cursor: pointer; }
-
-.overlay-menu {
-  background: #16D0DA;
-  padding-top: 15px;
-  position: fixed;
-  right: 0;
-  z-index: 2;
-  transform: translate(600px, 0px);
-  transform-origin: right;
-  width: 320px;
-  height: 100%;
-  -webkit-transition: 0.3s ease;
-  -moz-transition: 0.3s ease;
-  -ms-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
-  transition: 0.3s ease;
-  text-align: right;
-  font-family: 'Gotham-Med'; }
-  @media (max-width: 768px) {
-    .overlay-menu {
-      width: 220px; } }
-  .overlay-menu li {
-    padding: 10px; }
-  .overlay-menu a {
-    color: #fff;
-    font-size: 1.3em; }
-    @media (min-width: 768px) and (max-width: 992px) {
-      .overlay-menu a {
-        font-size: 1.5em; } }
-
-.no-csstransforms .overlay-menu {
-  right: 320px; }
-
-.sliding-menu-open .overlay-menu {
-  transform: translate(0px, 0px); }
-.sliding-menu-open .page-wrap {
-  transform: translate(-220px, 0px); }
-
-/* navigation -- end */
 .pos-fixed {
   position: fixed; }
 

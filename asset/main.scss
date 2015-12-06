@@ -5,142 +5,32 @@
 @import 'vendor/slick/style/slick';
 @import 'vendor/slick/style/slick-theme';
 
-/*variables--*/
+/*vendor override--*/
+@import 'style/override';
 
+/*variables--*/
 @import 'style/variables';
 
 /*base--*/
-
 @import 'style/base';
 
-/*kodein--*/
+/*pages--*/
+@import 'style/nav';
 
+/*kodein--*/
 @import 'style/animate';
 @import 'style/kodein';
+
+/* include font */
 @include font-face(Gotham-Med, "../fonts/gotham-medium");
 @include font-face(Gotham-Book, "../fonts/gotham-book");
 
 html {
 	width: 100%;
 }
-body {
+body, .segment {
 	position: relative;
 }
-/* navigation -- start */
-
-nav.navbar {
-    position: relative;
-    border-bottom: none;
-    font-family: 'Gotham-Book';
-
-    & .container-fluid {
-        @media (min-width: 768px) and (max-width: 992px) {
-            padding-top: 15px;
-            padding-bottom: 15px;
-        }
-    }
-}
-
-.navbar-inverse {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c89c3+0,24c296+100 */
-    background: #2c89c3;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #2c89c3 0%, #24c296 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #2c89c3 0%, #24c296 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #2c89c3 0%, #24c296 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c89c3', endColorstr='#24c296', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
-}
-
-nav.navbar {
-    margin-bottom: 0;
-}
-
-.nav-list {
-    li a {
-        float: left;
-        padding: 15px;
-        color: #fff;
-    }
-}
-
-.social li {
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.logo {
-    text-align: left;
-    @media (min-width: 1200px) {
-        text-align: right;
-    }
-    img {
-        max-width: 45px;
-    }
-}
-
-.logo,
-.social {
-    padding-top: .5rem;
-}
-
-.menu-burger {
-	font-size: 3.5rem;
-    text-align: right;
-    color: #fff;
-    cursor: pointer;
-}
-
-.overlay-menu {
-    background: $secondary-color-one;
-    padding-top: 15px; //give space between the menu burger and the overlay
-    position: fixed;
-    right: 0;
-    z-index: 2;
-    transform: translate(600px, 0px);
-    transform-origin: right;
-    // right: -320px;
-    @media (max-width: 768px) {
-        width: 220px;
-    }
-    
-    width: 320px;
-    height: 100%;
-    @include transition(.3s ease);
-    text-align: right;
-    font-family: 'Gotham-Med';
-    li {
-        padding: 10px;
-    }
-    a {
-        color: #fff;
-        font-size: 1.3em;
-        @media (min-width: 768px) and (max-width: 992px) {
-            font-size: 1.5em;
-        }
-    }
-}
-
-// .csstransforms .overlay-menu {
-//     transform: translate(600px, 0px);
-// }
-.no-csstransforms .overlay-menu {
-    right: 320px;
-}
-.sliding-menu-open {
-    .overlay-menu {
-        // right: 0;
-        transform: translate(0px, 0px);
-    }
-    .page-wrap {
-        // right: 60%;
-        transform: translate(-220px, 0px);
-    }
-}
-/* navigation -- end */
 
 .pos-fixed {
     position: fixed;

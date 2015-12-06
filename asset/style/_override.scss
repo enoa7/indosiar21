@@ -1,0 +1,44 @@
+/*
+* List of css that overrides vendors css
+*/
+
+
+/* override slick slider css - start */
+/* ---------------------------- */
+
+
+/* 
+* make the arrow sits on top of the content and not on side
+* this fixes the extra width on the sides for the whole page
+*/
+
+.slick-prev,
+.slick-next {
+    z-index: 2;
+    padding: 75px;
+}
+
+.slick-next {
+    right: 0;
+    &:before {
+        // font-family: 'Glyphicons Halflings';
+        // content: '\e080';
+        font: normal normal normal 14px/1 FontAwesome;
+        content: "\f138";
+        color: #000;
+        font-size: 30px;
+    }
+}
+
+.slick-prev {
+	left: 0;
+    &:before {
+        // font-family: 'Glyphicons Halflings';
+        // content: '\e079';
+        font: normal normal normal 14px/1 FontAwesome;
+        content: "\f137";
+        color: #000;
+        font-size: 30px;
+    }
+}
+/* ---------------------------- */
