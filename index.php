@@ -40,17 +40,19 @@
 	</div>
 	<div class="segment" id="livestream">
 		<div class="container-fluid">
-			<div class="intro-text"><h2>Watch our livestream here!</div>
-				<div class="video col-xs-12">
-					<div class="">
-						<iframe class="vidio-embed" src="http://www.vidio.com/embed/208881-andik-tiru-cr7-jadi-kakek-kakek-main-bola-di-jalan?autoplay=false" scrolling="no" frameborder="0" height="380" allowfullscreen></iframe>
-					</div>
+			<div class="intro-text">
+				<h2>Watch our livestream here!
+			</div>
+			<div class="video col-xs-12">
+				<div class="">
+					<iframe class="vidio-embed" src="http://www.vidio.com/embed/208881-andik-tiru-cr7-jadi-kakek-kakek-main-bola-di-jalan?autoplay=false" scrolling="no" frameborder="0" height="380" allowfullscreen></iframe>
 				</div>
+			</div>
 		</div>
 	</div>
-	
-	<?php require('footer.php') ?>
+
 	<?php require('overlay-menu.php') ?>
 	</div>
+	<?php require('footer.php') ?>
 </div>
 </html>
