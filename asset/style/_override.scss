@@ -18,6 +18,7 @@
     padding: 75px;
 }
 
+/* change the arrow to fontawesome */
 .slick-next {
     right: 0;
     &:before {
@@ -40,5 +41,10 @@
         color: #000;
         font-size: 30px;
     }
+}
+
+// remove the default margin bottom(30px) from slick slider
+.slick-slider {
+    margin-bottom: 0;
 }
 /* ---------------------------- */

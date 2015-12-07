@@ -6,30 +6,40 @@
 @import 'vendor/slick/style/slick-theme';
 
 /*vendor override--*/
+
 @import 'style/override';
 
 /*variables--*/
+
 @import 'style/variables';
 
 /*base--*/
+
 @import 'style/base';
 
 /*pages--*/
+
 @import 'style/nav';
 
 /*kodein--*/
+
 @import 'style/animate';
 @import 'style/kodein';
 
 /* include font */
+
 @include font-face(Gotham-Med, "../fonts/gotham-medium");
 @include font-face(Gotham-Book, "../fonts/gotham-book");
+@include font-face(Gotham-Bold, "../fonts/gotham-bold");
 
 html {
-	width: 100%;
+    width: 100%;
 }
-body, .segment {
-	position: relative;
+
+body,
+.segment {
+    position: relative;
+    font-family: 'Gotham-Book';
 }
 
 .pos-fixed {
@@ -40,28 +50,55 @@ body, .segment {
     @include spacepad(4rem);
     background: url(../asset/images/indosiar21-pattern.jpg);
     > .container-fluid {
-        // 	height: 600px;
+        //  height: 600px;
         // overflow: hidden;
     }
     // padding-top: 4rem;
 }
 
-.list-artist {
-    background: #c4e6e8;
-}
-
-
-
 .page-wrap {
-	// transition: .3s ease-in;
+    // transition: .3s ease-in;
     @include transition(.3s ease);
     -webkit-transform: translateZ(0);
     -webkit-transform-style: preserve-3d;
-	position: relative;
-	transform: translate(0px, 0px);
+    position: relative;
+    transform: translate(0px, 0px);
 }
 
-#list-artist > div {
-    padding-left: 0;
-    padding-right: 0;
+#list-artist {
+    background: #c4e6e8;
+    > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+#livestream {
+    background-color: $main-color-one;
+    > .container-fluid {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .intro-text {
+        text-align: center;
+        color: #fff;
+        font-family: 'Gotham-Bold';
+    }
+    .video {
+        text-align: center;
+        > div {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+        .embed-responsive-16by9 {
+            // padding-bottom: 0; //fix the height issue
+        }
+        iframe {
+            width: 100%;
+        }
+    }
+}
+
+#kontes {
+    background: url(../asset/images/indosiar21-pattern.jpg);
 }

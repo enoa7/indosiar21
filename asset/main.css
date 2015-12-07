@@ -8025,6 +8025,7 @@ button.close {
   z-index: 2;
   padding: 75px; }
 
+/* change the arrow to fontawesome */
 .slick-next {
   right: 0; }
   .slick-next:before {
@@ -8040,6 +8041,9 @@ button.close {
     content: "\f137";
     color: #000;
     font-size: 30px; }
+
+.slick-slider {
+  margin-bottom: 0; }
 
 /* ---------------------------- */
 /*variables--*/
@@ -10418,11 +10422,16 @@ ul.nodots > li {
 @font-face {
   font-family: "Gotham-Book";
   src: url("../fonts/gotham-book.eot?") format("eot"), url("../fonts/gotham-book.woff2") format("woff2"), url("../fonts/gotham-book.woff") format("woff"), url("../fonts/gotham-book.ttf") format("truetype"), url("../fonts/gotham-book.svg#Gotham-Book") format("svg"); }
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("../fonts/gotham-bold.eot?") format("eot"), url("../fonts/gotham-bold.woff2") format("woff2"), url("../fonts/gotham-bold.woff") format("woff"), url("../fonts/gotham-bold.ttf") format("truetype"), url("../fonts/gotham-bold.svg#Gotham-Bold") format("svg"); }
 html {
   width: 100%; }
 
-body, .segment {
-  position: relative; }
+body,
+.segment {
+  position: relative;
+  font-family: 'Gotham-Book'; }
 
 .pos-fixed {
   position: fixed; }
@@ -10431,9 +10440,6 @@ body, .segment {
   padding-top: 4rem;
   padding-bottom: 4rem;
   background: url(../asset/images/indosiar21-pattern.jpg); }
-
-.list-artist {
-  background: #c4e6e8; }
 
 .page-wrap {
   -webkit-transition: 0.3s ease;
@@ -10446,8 +10452,30 @@ body, .segment {
   position: relative;
   transform: translate(0px, 0px); }
 
-#list-artist > div {
-  padding-left: 0;
-  padding-right: 0; }
+#list-artist {
+  background: #c4e6e8; }
+  #list-artist > div {
+    padding-left: 0;
+    padding-right: 0; }
+
+#livestream {
+  background-color: #24c296; }
+  #livestream > .container-fluid {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  #livestream .intro-text {
+    text-align: center;
+    color: #fff;
+    font-family: 'Gotham-Bold'; }
+  #livestream .video {
+    text-align: center; }
+    #livestream .video > div {
+      max-width: 650px;
+      margin: 0 auto; }
+    #livestream .video iframe {
+      width: 100%; }
+
+#kontes {
+  background: url(../asset/images/indosiar21-pattern.jpg); }
 
 /*# sourceMappingURL=main.css.map */

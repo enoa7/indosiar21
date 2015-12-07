@@ -1,0 +1,494 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"gp_",
+				"gp_rename"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"get",
+				"getAns"
+			],
+			[
+				"me",
+				"megamenu"
+			],
+			[
+				"html",
+				"html5Mode"
+			],
+			[
+				"control",
+				"controllerAs"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"border",
+				"border-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 118.0,
+		"last_filter": "syn javasc",
+		"selected_items":
+		[
+			[
+				"syn javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn json",
+				"Set Syntax: JSON"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn",
+				"Set Syntax: PHP"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/wamp/www/sctv-awards/Capfile",
+		"/E/wamp/www/indosiar21/Capfile",
+		"/C/Users/gamal.pratama/Desktop/account details.txt",
+		"/C/Users/gamal.pratama/Downloads/week5_script.txt",
+		"/E/wamp/www/sctv-awards/config/deploy/staging.rb",
+		"/E/wamp/www/indosiar21/config/deploy/staging.rb",
+		"/E/wamp/www/sctv-awards/config/deploy/production.rb",
+		"/E/wamp/www/indosiar21/config/deploy/production.rb",
+		"/E/wamp/www/indosiar21/config/deploy.rb",
+		"/E/wamp/www/sctv-awards/config/deploy.rb",
+		"/E/SCM/WeeklyReport/week5_script.txt",
+		"/E/wamp/www/indosiar21/asset/base.js",
+		"/E/wamp/www/indosiar21/asset/main.scss",
+		"/E/wamp/www/indosiar21/asset/style/_partials/_utility-mixin.scss",
+		"/E/wamp/www/indosiar21/index.php",
+		"/E/wamp/www/indosiar21/nav.php",
+		"/E/wamp/www/indosiar21/.htaccess",
+		"/E/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/E/wamp/www/indosiar21/header.php",
+		"/E/wamp/www/indosiar21/footer.php",
+		"/E/wamp/www/indosiar21/asset/style/_variables.scss",
+		"/E/wamp/www/indosiar21/asset/main.js",
+		"/E/wamp/www/indosiar21/asset/style/_page/_banner.scss",
+		"/E/wamp/www/indosiar21/gulpfile.js",
+		"/E/wamp/www/indosiar21/package.json",
+		"/E/wamp/www/indosiar21/dist/main.min.js",
+		"/E/wamp/www/indosiar21/dist/main.js",
+		"/E/wamp/www/indosiar21/dist/uglify.js",
+		"/E/wamp/www/indosiar21/asset/main.min.js",
+		"/E/wamp/www/indosiar21/node_modules/gulp-concat/index.js",
+		"/E/wamp/www/indosiar21/node_modules/gulp-util/index.js",
+		"/E/wamp/www/indosiar21/node_modules/gulp-concat/package.json",
+		"/E/wamp/www/indosiar21/node_modules/gulp-util/package.json",
+		"/C/Users/gamal.pratama/Desktop/compiler-latest/README.md",
+		"/E/wamp/www/indosiar21/asset/style/_base.scss",
+		"/E/wamp/www/indosiar21/asset/style/_page/_nav.scss",
+		"/E/wamp/www/indosiar21/asset/style/_page/nav.scss",
+		"/E/wamp/www/indosiar21/asset/style/_partials/mixin/_color-mixin.scss",
+		"/E/wamp/www/indosiar21/asset/style/_partials/mixin/_utility-mixin.scss",
+		"/E/wamp/www/indosiar21/asset/style/_partials/mixin/_font-mixin.scss",
+		"/E/wamp/www/indosiar21/asset/main.css",
+		"/E/wamp/www/indosiar21/asset/style/_partials/_color-mixin.scss",
+		"/E/wamp/www/indosiar21/.git/info/exclude",
+		"/E/wamp/www/indosiar21/asset/style/_page.scss",
+		"/E/wamp/www/indosiar21/asset/style/page.scss",
+		"/E/wamp/www/indosiar21/functions.php",
+		"/E/wamp/www/kodein-template/index.php",
+		"/E/wamp/www/hut-indosiar/app/menu.html",
+		"/E/wamp/www/hut-indosiar/app/styles/main.scss",
+		"/E/wamp/www/hut-indosiar/app/scripts/main.js",
+		"/E/wamp/www/hut-indosiar/app/index.html",
+		"/C/Users/gamal.pratama/Desktop/score.js",
+		"/C/Users/gamal.pratama/Documents/tauga.html",
+		"/E/wamp/www/hut-indosiar/app/styles/_partials/kodein-mixin.scss",
+		"/E/wamp/www/hut-indosiar/app/styles/_vendor/_kodein.scss",
+		"/E/wamp/www/hut-indosiar/app/scripts/json/megamenu.json",
+		"/E/wamp/www/hut-indosiar/app/index.php",
+		"/E/wamp/www/kodein-template/asset/style/_kodein.scss",
+		"/E/wamp/www/hut-indosiar/bower.json",
+		"/E/wamp/www/hut-indosiar/gulpfile.babel.js",
+		"/E/wamp/www/eddie/app/scripts/app.js",
+		"/E/wamp/www/eddie/app/views/tai.html",
+		"/E/wamp/www/eddie/app/views/main.html",
+		"/E/wamp/www/eddie/app/scripts/controllers/tai.js",
+		"/E/wamp/www/eddie/app/scripts/controllers/contact.js",
+		"/E/wamp/www/eddie/app/index.html",
+		"/E/wamp/www/eddie/app/scripts/controllers/about.js",
+		"/E/wamp/www/eddie/Gruntfile.js",
+		"/E/wamp/www/eddie/app/views/contact.html",
+		"/E/wamp/www/eddie/bower.json",
+		"/E/wamp/www/eddie/bower_components/angular/.bower.json",
+		"/E/wamp/www/eddie/bower_components/angular/bower.json",
+		"/E/wamp/www/eddie/bower_components/angular/angular.js",
+		"/E/wamp/www/eddie/app/robots.txt",
+		"/E/wamp/www/jeff/laravel/app/Http/routes.php",
+		"/E/wamp/www/apps/application/config/routes.php",
+		"/E/wamp/www/apps/application/views/templates/header.php",
+		"/E/wamp/www/apps/application/controllers/hello.php",
+		"/E/wamp/www/apps/application/controllers/myhome.php",
+		"/E/wamp/bin/php/php5.5.12/php.ini",
+		"/E/wamp/www/apps/application/views/myhome.php",
+		"/E/wamp/www/apps/application/controllers/Welcome.php",
+		"/E/wamp/www/apps/application/config/config.php",
+		"/E/wamp/www/apps/application/controllers/pages.php",
+		"/E/wamp/www/apps/application/views/pages/about.php",
+		"/E/wamp/www/apps/application/views/pages/home.php",
+		"/E/wamp/www/apps/application/views/welcome_message.php",
+		"/E/wamp/www/apps/application/controllers/myapp.php",
+		"/E/wamp/www/apps/application/views/templates/footer.php",
+		"/E/wamp/www/apps/application/controllers/Pages.php",
+		"/E/wamp/www/apps/application/controllers/page.php",
+		"/E/wamp/www/apps/application/views/test.php",
+		"/E/wamp/www/apps/application/views/index.html",
+		"/E/wamp/www/CodeIgniter-3.0.3/application/config/config.php",
+		"/E/wamp/www/hut-indosiar/.git/info/exclude",
+		"/E/wamp/www/hut-indosiar/asset/style/_partials/_font-mixin.scss",
+		"/C/Users/gamal.pratama/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/wamp/www/hut-indosiar/asset/style/_partials/_color-mixin.scss",
+		"/E/wamp/www/kodein-template/asset/style/_partials/_utility-mixin.scss",
+		"/E/wamp/www/hut-indosiar/asset/style/_kodein.scss",
+		"/E/wamp/www/hut-indosiar/README.md",
+		"/E/wamp/www/sctv-awards/index.php",
+		"/E/wamp/www/sctv-awards/asset/main.js",
+		"/E/wamp/www/sctv-awards/kategori.php",
+		"/E/wamp/www/sctv-awards/nassar-inul-daratista-medley.php",
+		"/E/wamp/www/sctv-awards/shae-cita-citata-dj-arida-dj-rizuka-medley.php",
+		"/E/wamp/www/sctv-awards/cast-sinetron-elif-indonesia.php",
+		"/E/wamp/www/sctv-awards/aliando-and-the-girlz-pergi-dari-hatiku.php",
+		"/E/wamp/www/sctv-awards/prillyncjrocks.php",
+		"/E/wamp/www/sctv-awards/five-minutes-zaskia-gotik-selalu-menunggumu-bang-jono.php",
+		"/E/wamp/www/sctv-awards/asset/sass/_home.scss",
+		"/E/wamp/www/sctv-awards/syahrini-feat-dj-kevin-bun-dream-big-sctvawards-2015.php",
+		"/E/wamp/www/sctv-awards/prilly-latuconsina-sahabat-hidup.php",
+		"/E/wamp/www/sctv-awards/musdalifah-suca-ngeledek-syahrini-sctv.php",
+		"/E/wamp/www/sctv-awards/ephy-suca-ngeledek-syahrini.php",
+		"/E/wamp/www/sctv-awards/kotak-rock-n-love-terbang-sctv-awards.php",
+		"/E/wamp/www/sctv-awards/lesti-sindentelling-sinetron-pangeran.php",
+		"/E/wamp/www/sctv-awards/syahrini-seperti-itu-sesuatu.php",
+		"/E/wamp/www/sctv-awards/ggs-dance.php",
+		"/E/wamp/www/sctv-awards/reka-adegan-elif-oleh-fitri-ayu-michelle-joan-uus.php",
+		"/E/wamp/www/sctv-awards/reka-adegan-elif-oleh-fita-anggriani-audi-marissa.php",
+		"/E/wamp/www/sctv-awards/asset/main.scss",
+		"/E/wamp/www/sctv-awards/opening-sctv-awards.php",
+		"/E/wamp/www/sctv-awards/video/opening-sctv-awards.php",
+		"/E/wamp/www/sctv-awards/asset/sass/_kategori.scss",
+		"/E/wamp/www/sctv-awards/livestream.php",
+		"/E/wamp/www/sctv-awards/header.php",
+		"/E/wamp/www/sctv-awards/kuis.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"trans",
+			"allowover",
+			"mod_re",
+			"modr_re",
+			"allow",
+			"megamenu-burger",
+			"\",\n",
+			"connec",
+			"xdebug",
+			"xebug",
+			"xe",
+			"spacepad",
+			"col-xs-6 col-sm-4 text-center vod-thumb",
+			"winner col-xs-12 spacepad",
+			"/watch/",
+			"<h2>LiveStream</h2>",
+			"pemenang col-xs-3",
+			"pemenang-1 col-xs-3",
+			"-",
+			"kate",
+			"dodo",
+			" data-target=\"#myModal\"",
+			"data-toggle=\"modal\"",
+			"ec2-user",
+			" -",
+			"&nbsp;-",
+			"</strong>",
+			"                                                                                                                ",
+			"col-xs-12 col-sm-4 video-list",
+			"                                                                                                                ",
+			"(SPASI) ",
+			"michille",
+			"telkomsel",
+			"97289",
+			"SA12",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"text-center vod-thumb",
+			"winner col-xs-12 spacepad hide",
+			"/embed/",
+			"<h2>Behind the scenes SCTV Awards</h2>",
+			"pemenang col-xs-6 col-sm-3",
+			"pemenang col-xs-3",
+			"ec2-user",
+			"",
+			"dodo",
+			"<br>",
+			"",
+			"</strong><br>",
+			"",
+			"col-xs-12 col-sm-6 video-list",
+			"col-xs-12 col-sm-3 video-list",
+			"",
+			"(SPASI)",
+			"michelle",
+			"Telkomsel",
+			"97288",
+			"SA3"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 24.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 141.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
