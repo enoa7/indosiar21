@@ -1,0 +1,19 @@
+{
+  "name": "indosiar21",
+  "version": "1.0.0",
+  "description": "HUT Indosiar 21 Microsite",
+  "main": "index.js",
+  "scripts": {
+    "test": "Indosiar21!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enoa7/indosiar21.git"
+  },
+  "author": "Gamal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enoa7/indosiar21/issues"
+  },
+  "homepage": "https://github.com/enoa7/indosiar21#readme"
+}
