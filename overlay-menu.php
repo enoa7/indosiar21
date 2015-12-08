@@ -7,4 +7,4 @@
         <li><a href=""><span>25 jam live nonstop</span></a></li>
         <li><a href=""><span>Live Streaming</span></a></li>
     </ul>
-</nav>`
+</nav>

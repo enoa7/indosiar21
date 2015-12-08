@@ -4,6 +4,7 @@
 @import 'vendor/fontawesome/font-awesome';
 @import 'vendor/slick/style/slick';
 @import 'vendor/slick/style/slick-theme';
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 /*vendor override--*/
 
@@ -32,14 +33,12 @@
 @include font-face(Gotham-Med, "../fonts/gotham-medium");
 @include font-face(Gotham-Book, "../fonts/gotham-book");
 @include font-face(Gotham-Bold, "../fonts/gotham-bold");
-
 html {
     width: 100%;
 }
 
 $base-font: 12px;
 $base-font-lg: 14px;
-
 body,
 .segment {
     position: relative;
@@ -51,7 +50,7 @@ body,
 }
 
 .main-banner {
-    @include spacepad(4rem);
+    // @include spacepad(4rem);
     background: url(../asset/images/indosiar21-pattern.jpg);
     > .container-fluid {
         //  height: 600px;
@@ -75,22 +74,98 @@ body,
         padding-left: 0;
         padding-right: 0;
     }
+    .slick-artist {
+        &.afgan .overlay-title {
+            background-color: #3f3f3f;
+        }
+        &.ayu .overlay-title {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec248f+0,ee974a+100 */
+            background: #ec248f;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #ec248f 0%, #ee974a 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #ec248f 0%, #ee974a 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #ec248f 0%, #ee974a 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec248f', endColorstr='#ee974a', GradientType=1);
+            /* IE6-9 */
+        }
+        &.evidanang .overlay-title {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#61396e+0,f7d399+100 */
+            background: #61396e;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #61396e 0%, #f7d399 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #61396e 0%, #f7d399 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #61396e 0%, #f7d399 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#61396e', endColorstr='#f7d399', GradientType=1);
+            /* IE6-9 */
+        }
+        &.raditya .overlay-title {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7261e1+0,00a256+100 */
+            background: #7261e1;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #7261e1 0%, #00a256 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #7261e1 0%, #00a256 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #7261e1 0%, #00a256 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#7261e1', endColorstr='#00a256', GradientType=1);
+            /* IE6-9 */
+        }
+        &.teza .overlay-title {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f36f30+0,3f46a0+100 */
+            background: #f36f30;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #f36f30 0%, #3f46a0 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #f36f30 0%, #3f46a0 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #f36f30 0%, #3f46a0 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36f30', endColorstr='#3f46a0', GradientType=1);
+            /* IE6-9 */
+        }
+    }
+    .overlay-title {
+        color: #fff;
+        width: 100%;
+        z-index: 2;
+        padding: 10px;
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Varela Round', sans-serif;
+    }
 }
 
 #livestream {
-    background-color: $main-color-one;
+    // background-color: $main-color-one;
+    background: url(../asset/images/livestream-bg.jpg);
     > .container-fluid {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        // padding-top: 25px;
+        // padding-bottom: 25px;
         @media (max-width: 768px) {
             padding-left: 0;
             padding-right: 0;
-        } 
+        }
     }
     .intro-text {
         text-align: center;
-        color: #fff;
-        font-family: 'Gotham-Bold';
+        color: #000;
+        // font-family: 'Gotham-Bold';
+        font-family: 'Varela Round', sans-serif;
+        color: $secondary-color-two;
+        hr {
+            border-color: $secondary-color-two;
+            border-width: 2px;
+            margin: 0 auto;
+            text-align: center;
+            width: 10em;
+        }
     }
     .video {
         text-align: center;
@@ -100,9 +175,9 @@ body,
         }
         iframe {
             width: 100%;
-            height: 200px;
-            @media (min-width: 768px) {
-                height: 400px;
+            height: 400px;
+            @media (min-width: 320px) and (max-width: 500) {
+                height: 200px;
             }
         }
     }
