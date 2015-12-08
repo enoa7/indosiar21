@@ -1,5 +1,5 @@
 <footer class="spacepad">
-    <div class="container spacepad">
+    <div class="container">
         <div class="footer-content">
             <div class="client-logo-list clearfix">
                 <div class="col-xs-4"><img class="img-responsive center-block" src="asset/images/indosiar-logo.png" alt="indosiar logo"></div>
