@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/enoa7/indosiar21/issues"
   },
-  "homepage": "https://github.com/enoa7/indosiar21#readme"
+  "homepage": "https://github.com/enoa7/indosiar21#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
