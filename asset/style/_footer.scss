@@ -12,9 +12,13 @@ footer {
     /* IE6-9 */
 
     .footer-content {
-        &-list {
-            max-width: 500px;
+        .client-logo-list {
+            max-width: 300px;
             margin: 0 auto;
+        }
+        .copyright {
+            color: #fff;
+            text-align: center;
         }
     }
 }

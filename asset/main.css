@@ -8173,9 +8173,12 @@ footer {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c89c3', endColorstr='#24c296', GradientType=1);
   /* IE6-9 */ }
-  footer .footer-content-list {
-    max-width: 500px;
+  footer .footer-content .client-logo-list {
+    max-width: 300px;
     margin: 0 auto; }
+  footer .footer-content .copyright {
+    color: #fff;
+    text-align: center; }
 
 /*kodein--*/
 /*!
