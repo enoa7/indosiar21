@@ -10583,8 +10583,7 @@ body,
       max-width: 650px;
       margin: 0 auto; }
     #livestream .video iframe {
-      width: 100%;
-      height: 400px; }
+      width: 100%; }
       @media (min-width: 320px) and (max-width: 500) {
         #livestream .video iframe {
           height: 200px; } }
