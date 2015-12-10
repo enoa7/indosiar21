@@ -194,8 +194,11 @@ body,
         }
         iframe {
             width: 100%;
-            @media (min-width: 320px) and (max-width: 500) {
+            @media (min-width: 320px) and (max-width: 500px) {
                 height: 200px;
+            }
+            @media(min-width: 768px) {
+                height: 400px;
             }
         }
     }

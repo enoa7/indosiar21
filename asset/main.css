@@ -10588,9 +10588,12 @@ body,
       margin: 0 auto; }
     #livestream .video iframe {
       width: 100%; }
-      @media (min-width: 320px) and (max-width: 500) {
+      @media (min-width: 320px) and (max-width: 500px) {
         #livestream .video iframe {
           height: 200px; } }
+      @media (min-width: 768px) {
+        #livestream .video iframe {
+          height: 400px; } }
 
 #kontes {
   background: url(../asset/images/indosiar21-pattern.jpg); }
