@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8061,7 +8061,7 @@ button.close {
 nav.navbar {
   position: relative;
   border-bottom: none;
-  font-family: 'Gotham-Book';
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin-bottom: 0; }
   nav.navbar .container-fluid {
@@ -8090,7 +8090,8 @@ nav.navbar {
   padding: 15px;
   color: #fff; }
   .nav-list li a:hover, .nav-list li a:active {
-    color: #F6BF74; }
+    color: #F6BF74;
+    text-decoration: none !important; }
 
 .social li {
   float: left;
@@ -8129,7 +8130,7 @@ nav.navbar {
   height: 100%;
   max-width: 320px;
   text-align: right;
-  font-family: 'Gotham-Med';
+  font-family: 'Montserrat', sans-serif;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
   -ms-transition: 0.3s ease;
@@ -10442,23 +10443,14 @@ ul.nodots > li {
 .skew-content {
   transform: skew(0, 3deg); }
 
-/* include font */
-@font-face {
-  font-family: "Gotham-Med";
-  src: url("../fonts/gotham-medium.eot?") format("eot"), url("../fonts/gotham-medium.woff2") format("woff2"), url("../fonts/gotham-medium.woff") format("woff"), url("../fonts/gotham-medium.ttf") format("truetype"), url("../fonts/gotham-medium.svg#Gotham-Med") format("svg"); }
-@font-face {
-  font-family: "Gotham-Book";
-  src: url("../fonts/gotham-book.eot?") format("eot"), url("../fonts/gotham-book.woff2") format("woff2"), url("../fonts/gotham-book.woff") format("woff"), url("../fonts/gotham-book.ttf") format("truetype"), url("../fonts/gotham-book.svg#Gotham-Book") format("svg"); }
-@font-face {
-  font-family: "Gotham-Bold";
-  src: url("../fonts/gotham-bold.eot?") format("eot"), url("../fonts/gotham-bold.woff2") format("woff2"), url("../fonts/gotham-bold.woff") format("woff"), url("../fonts/gotham-bold.ttf") format("truetype"), url("../fonts/gotham-bold.svg#Gotham-Bold") format("svg"); }
 html {
-  width: 100%; }
+  width: 100%;
+  font-family: 'Montserrat', sans-serif; }
 
 body,
 .segment {
   position: relative;
-  font-family: 'Gotham-Book'; }
+  font-family: 'Montserrat', sans-serif; }
 
 .pos-fixed {
   position: fixed; }
@@ -10468,6 +10460,9 @@ body,
   .main-banner .call-to-action {
     padding-bottom: 25px;
     text-align: center; }
+    @media (min-width: 768px) {
+      .main-banner .call-to-action {
+        margin-top: -60px; } }
     .main-banner .call-to-action button {
       font-size: 18px; }
       @media (min-width: 768px) {
@@ -10490,63 +10485,65 @@ body,
   #list-artist > div {
     padding-left: 0;
     padding-right: 0; }
-  #list-artist .slick-artist.afgan .overlay-title {
-    background-color: #3f3f3f; }
-  #list-artist .slick-artist.ayu .overlay-title {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec248f+0,ee974a+100 */
-    background: #ec248f;
-    /* Old browsers */
-    background: -moz-linear-gradient(left, #ec248f 0%, #ee974a 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ec248f 0%, #ee974a 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #ec248f 0%, #ee974a 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec248f', endColorstr='#ee974a', GradientType=1);
-    /* IE6-9 */ }
-  #list-artist .slick-artist.evidanang .overlay-title {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#61396e+0,f7d399+100 */
-    background: #61396e;
-    /* Old browsers */
-    background: -moz-linear-gradient(left, #61396e 0%, #f7d399 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #61396e 0%, #f7d399 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #61396e 0%, #f7d399 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61396e', endColorstr='#f7d399', GradientType=1);
-    /* IE6-9 */ }
-  #list-artist .slick-artist.raditya .overlay-title {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7261e1+0,00a256+100 */
-    background: #7261e1;
-    /* Old browsers */
-    background: -moz-linear-gradient(left, #7261e1 0%, #00a256 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #7261e1 0%, #00a256 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #7261e1 0%, #00a256 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7261e1', endColorstr='#00a256', GradientType=1);
-    /* IE6-9 */ }
-  #list-artist .slick-artist.teza .overlay-title {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f36f30+0,3f46a0+100 */
-    background: #f36f30;
-    /* Old browsers */
-    background: -moz-linear-gradient(left, #f36f30 0%, #3f46a0 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #f36f30 0%, #3f46a0 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #f36f30 0%, #3f46a0 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36f30', endColorstr='#3f46a0', GradientType=1);
-    /* IE6-9 */ }
+  #list-artist .slick-artist {
+    text-transform: uppercase; }
+    #list-artist .slick-artist.afgan .overlay-title {
+      background-color: #3f3f3f; }
+    #list-artist .slick-artist.ayu .overlay-title {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec248f+0,ee974a+100 */
+      background: #ec248f;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #ec248f 0%, #ee974a 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #ec248f 0%, #ee974a 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #ec248f 0%, #ee974a 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec248f', endColorstr='#ee974a', GradientType=1);
+      /* IE6-9 */ }
+    #list-artist .slick-artist.evidanang .overlay-title {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#61396e+0,f7d399+100 */
+      background: #61396e;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #61396e 0%, #f7d399 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #61396e 0%, #f7d399 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #61396e 0%, #f7d399 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61396e', endColorstr='#f7d399', GradientType=1);
+      /* IE6-9 */ }
+    #list-artist .slick-artist.raditya .overlay-title {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7261e1+0,00a256+100 */
+      background: #7261e1;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #7261e1 0%, #00a256 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #7261e1 0%, #00a256 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #7261e1 0%, #00a256 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7261e1', endColorstr='#00a256', GradientType=1);
+      /* IE6-9 */ }
+    #list-artist .slick-artist.teza .overlay-title {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f36f30+0,3f46a0+100 */
+      background: #f36f30;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #f36f30 0%, #3f46a0 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #f36f30 0%, #3f46a0 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #f36f30 0%, #3f46a0 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36f30', endColorstr='#3f46a0', GradientType=1);
+      /* IE6-9 */ }
   #list-artist .overlay-title {
     color: #fff;
     width: 100%;
     z-index: 2;
     padding: 10px;
     text-align: center;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13.2px; }
     @media (min-width: 768px) and (max-width: 992px) {
       #list-artist .overlay-title {
@@ -10564,7 +10561,7 @@ body,
   #livestream .intro-text {
     text-align: center;
     color: #000;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #e72057; }
     #livestream .intro-text h2 {
       font-size: 1.2em; }

@@ -4,7 +4,7 @@
 nav.navbar {
     position: relative;
     border-bottom: none;
-    font-family: 'Gotham-Book';
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-bottom: 0;
     & .container-fluid {
@@ -40,6 +40,7 @@ nav.navbar {
         color: #fff;
         &:hover, &:active {
             color: #F6BF74;
+            text-decoration: none !important;
         }
     }
 }
@@ -93,7 +94,7 @@ nav.navbar {
     height: 100%;
     max-width: 320px;
     text-align: right;
-    font-family: 'Gotham-Med';
+    font-family: 'Montserrat', sans-serif;
     @media (max-width: 768px) {
         width: 180px;
     }

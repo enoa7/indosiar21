@@ -4,7 +4,8 @@
 @import 'vendor/fontawesome/font-awesome';
 @import 'vendor/slick/style/slick';
 @import 'vendor/slick/style/slick-theme';
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+// @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*vendor override--*/
 
@@ -28,13 +29,9 @@
 @import 'style/animate';
 @import 'style/kodein';
 
-/* include font */
-
-@include font-face(Gotham-Med, "../fonts/gotham-medium");
-@include font-face(Gotham-Book, "../fonts/gotham-book");
-@include font-face(Gotham-Bold, "../fonts/gotham-bold");
 html {
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 $base-font: 12px;
@@ -42,7 +39,7 @@ $base-font-lg: 14px;
 body,
 .segment {
     position: relative;
-    font-family: 'Gotham-Book';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .pos-fixed {
@@ -55,6 +52,10 @@ body,
     .call-to-action {
         padding-bottom: 25px;
         text-align: center;
+        @media (min-width: 768px) {
+            margin-top: -60px;
+        }
+        
         button {
             font-size: $base-font * 1.5;
             @media (min-width: 768px) {
@@ -80,6 +81,7 @@ body,
         padding-right: 0;
     }
     .slick-artist {
+        text-transform: uppercase;
         &.afgan .overlay-title {
             background-color: #3f3f3f;
         }
@@ -142,7 +144,7 @@ body,
         z-index: 2;
         padding: 10px;
         text-align: center;
-        font-family: 'Varela Round', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: $base-font * 1.1;
         @media (min-width: 768px) and (max-width: 992px) {
             font-size: $base-font * 1.5;
@@ -177,8 +179,7 @@ body,
         text-align: center;
         color: #000;
         // font-family: 'Gotham-Bold';
-        font-family: 'Varela Round',
-        sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: $secondary-color-two;
         hr {
             border-color: $secondary-color-two;

@@ -57,7 +57,8 @@
 			<?php } ?>
 		</div>
 	</div> -->
-	<div class="segment" id="livestream">
+	<div id="livestream">
+			<div class="segment">
 		<div class="container-fluid">
 			<div class="intro-text">
 				<h2>Watch our livestream here!</h2>
@@ -70,6 +71,8 @@
 			</div>
 		</div>
 	</div>
+	</div>
+
 	<?php require('footer.php') ?>
 	<?php require('overlay-menu.php') ?>
 </div>
