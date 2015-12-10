@@ -16,8 +16,8 @@
         </div>
         <div class="social col-sm-2 visible-lg">
             <ul class="nodots nopadding">
-                <li><a target="_blank" href="https://www.facebook.com/IndosiarID.TV/"><img class="img-responsive" src="asset/images/twitter-social.png"></a></li>
-                <li><a target="_blank" href="https://twitter.com/indosiarid"><img class="img-responsive" src="asset/images/fb-social.png"></a></li>
+                <li><a target="_blank" href="https://twitter.com/indosiarid"><img class="img-responsive" src="asset/images/twitter-social.png"></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/IndosiarID.TV/"><img class="img-responsive" src="asset/images/fb-social.png"></a></li>
                 <li><a target="_blank" href="https://www.vidio.com/@indosiar"><img class="img-responsive" src="asset/images/vidio-social.png"></a></li>
             </ul>
         </div>
