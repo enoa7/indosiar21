@@ -67,7 +67,7 @@
 			<div class="video col-xs-12 spacepad">
 				<div class="">
 					<!-- <iframe class="vidio-embed" src="http://www.vidio.com/embed/208881-andik-tiru-cr7-jadi-kakek-kakek-main-bola-di-jalan?autoplay=false" scrolling="no" frameborder="0" allowfullscreen></iframe> -->
-					<iframe class="vidio-embed" src="http://www.vidio.com/live/205-indosiar-tv-stream/embed" scrolling="no" frameborder="0" allowfullscreen="" id="fitvid273370"></iframe>
+					<iframe class="vidio-embed" src="http://www.vidio.com/live/205-indosiar-tv-stream/embed?autoplay=false" scrolling="no" frameborder="0" allowfullscreen="" id="fitvid273370"></iframe>
 				</div>
 			</div>
 		</div>

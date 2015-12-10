@@ -15,9 +15,10 @@
     <meta name="keywords" content="<?php echo $pageKeywords ?>">
     <meta property="og:title" content= "How Important Are Quotes in Press Releases?" /> 
     <meta property="og:type" content= "article" /> 
-    <meta property="og:description" content= "Konser Raya HUT Indosiar ke 21" /> 
-    <meta property="og:url" content= "hut.indosiar.com" />
-    <meta property="og:image" content= "http://www.cyberalert.com/blog/wp-content/uploads/2014/04/People-Talking.jpg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta property="og:description" content="Konser Raya HUT Indosiar ke 21" /> 
+    <meta property="og:url" content="hut.indosiar.com" />
+    <meta property="og:image" content="" />
      <title><?php echo $pageTitle ?></title>
 
 
