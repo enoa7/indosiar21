@@ -5,12 +5,13 @@
         </div>
         <div class="nav-list col-sm-7 visible-lg">
             <ul class="nodots nopadding clearfix nomarginbottom menu-list">
-                <li><a href="#beranda"><span>Beranda</span></a></li>
+                <li><a href="/"><span>Beranda</span></a></li>
+                <li><a href="#livestream" class="smoothScroll"><span>Live Streaming</span></a></li>
                 <!-- <li><a href="#kontes"><span>Kontes</span></a></li> -->
-                <li><a href="#kuis"><span>Kuis</span></a></li>
+                <!-- <li><a href="#kuis"><span>Kuis</span></a></li> -->
                 <!-- <li><a href="#kegiatan-sosial"><span>Kegiatan Sosial</span></a></li> -->
                 <!-- <li><a href="#25-jam-live-nonstop"><span>25 jam live nonstop</span></a></li> -->
-                <li><a href="#livestreaming"><span>Live Streaming</span></a></li>
+                
             </ul>
         </div>
         <div class="social col-sm-2 visible-lg">
@@ -21,7 +22,8 @@
             </ul>
         </div>
         <div class="col-xs-3 col-sm-1 hidden-lg menu-burger">
-            <a href="#"><i class="fa fa-bars"></i></a>
+            <!-- <a href="#" class="smoothScroll"><i class="fa fa-bars"></i></a> -->
+            <i class="fa fa-bars"></i>
         </div>
     </div>
 </nav>

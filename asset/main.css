@@ -8111,6 +8111,7 @@ nav.navbar {
 .menu-burger {
   font-size: 2.3em;
   text-align: right;
+  color: #fff;
   cursor: pointer; }
   .menu-burger a {
     color: #fff; }
