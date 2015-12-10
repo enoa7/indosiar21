@@ -8062,6 +8062,7 @@ nav.navbar {
   position: relative;
   border-bottom: none;
   font-family: 'Gotham-Book';
+  text-transform: uppercase;
   margin-bottom: 0; }
   nav.navbar .container-fluid {
     padding-top: 10px;
@@ -8088,6 +8089,8 @@ nav.navbar {
   float: left;
   padding: 15px;
   color: #fff; }
+  .nav-list li a:hover, .nav-list li a:active {
+    color: #F6BF74; }
 
 .social li {
   float: left;
