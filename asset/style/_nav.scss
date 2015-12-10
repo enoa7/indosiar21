@@ -7,6 +7,8 @@ nav.navbar {
     font-family: 'Gotham-Book';
     margin-bottom: 0;
     & .container-fluid {
+        padding-top: 10px;
+        padding-bottom: 10px;
         @media (min-width: 768px) and (max-width: 992px) {
             padding-top: 15px;
             padding-bottom: 15px;
@@ -72,7 +74,6 @@ nav.navbar {
     // color: #fff;
     cursor: pointer;
     a {
-
         color: #fff;
     }
 }
@@ -118,7 +119,7 @@ nav.navbar {
             background-color: #039E73;
         }
         @media (min-width: 768px) and (max-width: 992px) {
-            font-size: 1.5em;
+            font-size: 1.2em;
         }
     }
 }

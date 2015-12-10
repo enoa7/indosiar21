@@ -14,12 +14,15 @@
 <div class="page-wrap" id="homepage">
 	<div class="main-banner">
 	    <div class="container-fluid">
-			<div class="col-xs-12">
+			<div class="col-xs-12 pos-relative">
 				<!-- generic banner -->
 				<!-- <div>
 					<img class="img-responsive center-block" src="asset/images/indosiar21-logo.png">
 				</div> -->
 				<div><img class="img-responsive center-block" src="asset/images/kontes-wefie_02.jpg" alt=""></div>
+				<div class="call-to-action">
+					<a target="_blank" href="http://www.vidio.com/events/15-indosiar-21"><button type="button" class="btn btn-default btn-danger">Ikuti Kontes!</button></a>
+				</div>
 			</div>
 	    </div>
 	</div>
@@ -62,7 +65,7 @@
 			</div>
 			<div class="video col-xs-12 spacepad">
 				<div class="">
-					<iframe class="vidio-embed" src="http://www.vidio.com/embed/208881-andik-tiru-cr7-jadi-kakek-kakek-main-bola-di-jalan?autoplay=false" scrolling="no" frameborder="0" height="380" allowfullscreen></iframe>
+					<iframe class="vidio-embed" src="http://www.vidio.com/embed/208881-andik-tiru-cr7-jadi-kakek-kakek-main-bola-di-jalan?autoplay=false" scrolling="no" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>

@@ -5,19 +5,19 @@
         </div>
         <div class="nav-list col-sm-7 visible-lg">
             <ul class="nodots nopadding clearfix nomarginbottom menu-list">
-                <li><a href="#tst"><span>Beranda</span></a></li>
-                <li><a href="#test2"><span>Kontes</span></a></li>
-                <li><a href="#test3"><span>Kuis</span></a></li>
-                <li><a href="#test4"><span>Kegiatan Sosial</span></a></li>
-                <li><a href="#test5"><span>25 jam live nonstop</span></a></li>
-                <li><a href="#test6"><span>Live Streaming</span></a></li>
+                <li><a href="#beranda"><span>Beranda</span></a></li>
+                <!-- <li><a href="#kontes"><span>Kontes</span></a></li> -->
+                <li><a href="#kuis"><span>Kuis</span></a></li>
+                <!-- <li><a href="#kegiatan-sosial"><span>Kegiatan Sosial</span></a></li> -->
+                <!-- <li><a href="#25-jam-live-nonstop"><span>25 jam live nonstop</span></a></li> -->
+                <li><a href="#livestreaming"><span>Live Streaming</span></a></li>
             </ul>
         </div>
         <div class="social col-sm-2 visible-lg">
             <ul class="nodots nopadding">
-                <li><a href=""><img class="img-responsive" src="asset/images/twitter-social.png"></a></li>
-                <li><a href=""><img class="img-responsive" src="asset/images/fb-social.png"></a></li>
-                <li><a href=""><img class="img-responsive" src="asset/images/vidio-social.png"></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/IndosiarID.TV/"><img class="img-responsive" src="asset/images/twitter-social.png"></a></li>
+                <li><a target="_blank" href="https://twitter.com/indosiarid"><img class="img-responsive" src="asset/images/fb-social.png"></a></li>
+                <li><a target="_blank" href="https://www.vidio.com/@indosiar"><img class="img-responsive" src="asset/images/vidio-social.png"></a></li>
             </ul>
         </div>
         <div class="col-xs-3 col-sm-1 hidden-lg menu-burger">

@@ -1,9 +1,3 @@
-$(document).ready(function() {
-
-    // instantiate fastclick
-    FastClick.attach(document.body);
-
-    // create a function to make el sticky
     function stickIt() {
         var orgElementPos = $('.original').offset();
         orgElementTop = orgElementPos.top;
@@ -33,31 +27,27 @@ $(document).ready(function() {
         $(megamenu).addClass('original').clone().insertAfter(megamenu).addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').removeClass('original').hide();
         scrollIntervalID = setInterval(stickIt, 10);
     }
+    $(document).ready(function() {
 
-    // call the function
-    cloneMegamenu();
+        // instantiate fastclick
+        FastClick.attach(document.body);
+        
+        // call the function
+        cloneMegamenu();
 
-    $(".menu-burger").click(function() {
-        $('body').toggleClass('sliding-menu-open sliding-menu-close');
+        $(".menu-burger").click(function() {
+            $('body').toggleClass('sliding-menu-open sliding-menu-close');
+        });
+
+        $('#list-artist > .slicky').slick();
+
+        var target = $('.nav-list .menu-list a');
+        // console.log(getHref);
+
+        $(target).one("click", function() {
+            var getHref = $(this).attr('href').split('#'); //get this el's href
+            var newHref = getHref[1];
+            $('.main-banner > .container-fluid').append($('<div>').hide().load(newHref + '.html')).fadeIn('500');
+        });
+
     });
-
-    $('#list-artist > .slicky').slick();
-
-    var target = $('.nav-list .menu-list a');
-    // console.log(getHref);
-
-    $(target).one("click", function() {
-        var getHref = $(this).attr('href').split('#'); //get this el's href
-        var newHref = getHref[1];
-        $('.main-banner > .container-fluid').append($('<div>').hide().load(newHref + '.html')).fadeIn('500');
-    });
-
-    
-    // $('.slicky').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-    //     var newTarget = currentSlide + 1;
-    //     var child = $('.slicky .slick-artist:nth-child('+newTarget+') span').attr('data-artist');
-    //     // var getData = $(child).data('artist');
-    //     console.log(child);
-    // });
-
-});

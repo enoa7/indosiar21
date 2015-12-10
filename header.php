@@ -15,8 +15,8 @@
     <meta name="keywords" content="<?php echo $pageKeywords ?>">
     <meta property="og:title" content= "How Important Are Quotes in Press Releases?" /> 
     <meta property="og:type" content= "article" /> 
-    <meta property="og:description" content= "PR pros discuss whether quotes are an essential component in press releases." /> 
-    <meta property="og:url" content= "http://www.cyberalert.com/blog/index.php/how-important-are-quotes-in-press-releases" />
+    <meta property="og:description" content= "Konser Raya HUT Indosiar ke 21" /> 
+    <meta property="og:url" content= "hut.indosiar.com" />
     <meta property="og:image" content= "http://www.cyberalert.com/blog/wp-content/uploads/2014/04/People-Talking.jpg" />
      <title><?php echo $pageTitle ?></title>
 
