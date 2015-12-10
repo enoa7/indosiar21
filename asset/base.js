@@ -35,10 +35,18 @@
         // call the function
         cloneMegamenu();
 
+        // add animation on the logo when the page loads
+        var navLogo = $('.navbar .logo img');
+        navLogo.hide();
+        setTimeout(function() {
+           navLogo.show().addClass('animated bounceInDown');
+        }, 1000);
+        // set the state open/close for the mobile menu
         $(".menu-burger").click(function() {
             $('body').toggleClass('sliding-menu-open sliding-menu-close');
         });
 
+        // set the properties for the slick slider
         $('#list-artist > .slicky').slick({
             autoplay: true,
             autoplaySpeed: 5000,
@@ -52,5 +60,7 @@
             var newHref = getHref[1];
             $('.main-banner > .container-fluid').append($('<div>').hide().load(newHref + '.html')).fadeIn('500');
         });
+
+
 
     });
