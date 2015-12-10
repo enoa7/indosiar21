@@ -17,7 +17,7 @@
 # property set. Specify the username and a domain or IP for the server.
 # Don't use `:all`, it's a meta role.
 
-set :deploy_to, '/home/ec2-user/sctvawards2015'
+set :deploy_to, '/home/ec2-user/indosiar21'
 
 role :app, %w{54.254.216.202}
 role :web, %w{54.254.216.202}
