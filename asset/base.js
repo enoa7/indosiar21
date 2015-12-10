@@ -31,7 +31,7 @@
 
         // instantiate fastclick
         FastClick.attach(document.body);
-        
+
         // call the function
         cloneMegamenu();
 
@@ -39,7 +39,10 @@
             $('body').toggleClass('sliding-menu-open sliding-menu-close');
         });
 
-        $('#list-artist > .slicky').slick();
+        $('#list-artist > .slicky').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
 
         var target = $('.nav-list .menu-list a');
         // console.log(getHref);
