@@ -19,7 +19,12 @@
 				<!-- <div>
 					<img class="img-responsive center-block" src="asset/images/indosiar21-logo.png">
 				</div> -->
-				<div><img class="img-responsive center-block" src="asset/images/indosiar21-kontes-generic.jpg" alt="Indosiar 21 kontes"></div>
+				<?php if ( $detect->isMobile() ) { ?>
+					<div><img class="img-responsive center-block" src="asset/images/indosiar21-kontes-generic-mobile.jpg" alt="Indosiar 21 kontes"></div>
+				<?php } else { ?>
+					<div><img class="img-responsive center-block" src="asset/images/indosiar21-kontes-generic.jpg" alt="Indosiar 21 kontes"></div>
+				<?php } ?>
+				
 				<div class="call-to-action">
 					<a target="_blank" href="http://www.vidio.com/events/15-indosiar-21"><button type="button" class="btn btn-default btn-danger">Ikuti Kontes!</button></a>
 				</div>
