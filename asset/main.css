@@ -8191,7 +8191,8 @@ footer {
     margin: 0 auto; }
   footer .footer-content .copyright {
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    padding-top: 15px; }
 
 /*kodein--*/
 /*!

@@ -6,7 +6,7 @@
                 <div class="col-xs-4"><a target="_blank" href="http://www.liputan6.com/"><img class="img-responsive center-block" src="asset/images/liputan6_footer.png" alt="liputan6 logo"></a></div>
                 <div class="col-xs-4"><a target="_blank" href="http://www.vidio.com/@indosiar"_blank" "><img class="img-responsive center-block" src="asset/images/vidio_footer.png" alt="vidio logo"></a></div>
             </div>
-            <div class="copyright clearfix spacepad">
+            <div class="copyright clearfix">
                 &copy;&nbsp; Copyright 2015 Indosiar
             </div>
         </div>
