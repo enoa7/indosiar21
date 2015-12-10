@@ -16,6 +16,11 @@
 .slick-next {
     z-index: 2;
     padding: 75px;
+
+    // hide the arrows on the slider on small screen
+    @media (max-width: 768px) {
+        display: none !important;
+    }
 }
 
 /* change the arrow to fontawesome */

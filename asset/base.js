@@ -41,7 +41,7 @@
 
         $('#list-artist > .slicky').slick({
             autoplay: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 5000,
         });
 
         var target = $('.nav-list .menu-list a');

@@ -8025,6 +8025,10 @@ button.close {
 .slick-next {
   z-index: 2;
   padding: 75px; }
+  @media (max-width: 768px) {
+    .slick-prev,
+    .slick-next {
+      display: none !important; } }
 
 /* change the arrow to fontawesome */
 .slick-next {
