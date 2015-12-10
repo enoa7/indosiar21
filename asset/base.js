@@ -37,9 +37,8 @@
 
         // add animation on the logo when the page loads
         var navLogo = $('.navbar .logo img');
-        navLogo.hide();
         setTimeout(function() {
-           navLogo.show().addClass('animated bounceInDown');
+           navLogo.removeClass('visibility-hidden').addClass('animated bounceInDown');
         }, 1000);
         // set the state open/close for the mobile menu
         $(".menu-burger").click(function() {
