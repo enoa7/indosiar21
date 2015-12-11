@@ -10542,6 +10542,8 @@ body,
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36f30', endColorstr='#3f46a0', GradientType=1);
       /* IE6-9 */ }
+    #list-artist .slick-artist.lesti .overlay-title {
+      background: #F56023; }
   #list-artist .overlay-title {
     color: #fff;
     width: 100%;

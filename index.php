@@ -37,25 +37,28 @@
 		<div class="container-fluid slicky">
 			<div class="slick-artist raditya">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-raditya.jpg" alt="">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-raditya.jpg" alt="raditya">
 			</div>
 						<div class="slick-artist evidanang">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-evidanang.jpg" alt="">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-evidanang.jpg" alt="evi & danang">
 			</div>
 			<div class="slick-artist afgan">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-afgan.jpg" alt="">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-afgan.jpg" alt="afgan">
 			</div>
 			<div class="slick-artist ayu">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-ayutingting.jpg">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-ayutingting.jpg" alt="ayu ting ting">
 			</div>
 			<div class="slick-artist ayu">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-teza.jpg">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-teza.jpg" alt="teza">
 			</div>
-
+			<div class="slick-artist lesti">
+				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-lesti.jpg" alt="lesti">
+			</div>
 		</div>
 	</div>
 	<!-- <div class="segment" id="kontes">

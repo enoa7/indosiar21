@@ -137,6 +137,10 @@ body,
             filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36f30', endColorstr='#3f46a0', GradientType=1);
             /* IE6-9 */
         }
+        &.lesti .overlay-title {
+            background: #F56023;
+        }
+        
     }
     .overlay-title {
         color: #fff;
