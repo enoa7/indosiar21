@@ -38,7 +38,7 @@
         // add animation on the logo when the page loads
         var navLogo = $('.navbar .logo img');
         setTimeout(function() {
-           navLogo.removeClass('visibility-hidden').addClass('animated bounceInDown');
+            navLogo.removeClass('visibility-hidden').addClass('animated bounceInDown');
         }, 1000);
         // set the state open/close for the mobile menu
         $(".menu-burger").click(function() {
@@ -51,15 +51,27 @@
             autoplaySpeed: 5000,
         });
 
-        var target = $('.nav-list .menu-list a');
+        // var target = $('.nav-list .menu-list a');
         // console.log(getHref);
 
-        $(target).one("click", function() {
-            var getHref = $(this).attr('href').split('#'); //get this el's href
-            var newHref = getHref[1];
-            $('.main-banner > .container-fluid').append($('<div>').hide().load(newHref + '.html')).fadeIn('500');
-        });
+        // $(target).one("click", function() {
+        //     var getHref = $(this).attr('href').split('#'); //get this el's href
+        //     var newHref = getHref[1];
+        //     $('.main-banner > .container-fluid').append($('<div>').hide().load(newHref + '.html')).fadeIn('500');
+        // });
 
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
 
 
     });
