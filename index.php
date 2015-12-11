@@ -35,6 +35,14 @@
 	<div class="segment" id="list-artist">
 		
 		<div class="container-fluid slicky">
+			<div class="slick-artist raditya">
+				<div class="overlay-title">Konser HUT Indosiar 21 - 1st Lineup </div>
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-raditya.jpg" alt="">
+			</div>
+						<div class="slick-artist evidanang">
+				<div class="overlay-title">Konser HUT Indosiar 21 - 1st Lineup </div>
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-evidanang.jpg" alt="">
+			</div>
 			<div class="slick-artist afgan">
 				<div class="overlay-title">Konser HUT Indosiar 21 - 1st Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-afgan.jpg" alt="">
@@ -43,14 +51,11 @@
 				<div class="overlay-title">Konser HUT Indosiar 21 - 1st Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-ayutingting.jpg">
 			</div>
-			<div class="slick-artist evidanang">
+			<div class="slick-artist ayu">
 				<div class="overlay-title">Konser HUT Indosiar 21 - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-evidanang.jpg" alt="">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-teza.jpg">
 			</div>
-			<div class="slick-artist raditya">
-				<div class="overlay-title">Konser HUT Indosiar 21 - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-raditya.jpg" alt="">
-			</div>
+
 		</div>
 	</div>
 	<!-- <div class="segment" id="kontes">
