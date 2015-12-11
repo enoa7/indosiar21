@@ -37,6 +37,7 @@
 				<div class="slick-kuis two">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-2.jpg" alt="">
 				</div>
+				
 				<!-- <div class="slick-kuis three">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-3.jpg" alt="">
 				</div>
