@@ -23,7 +23,7 @@
 
 @import 'style/nav';
 @import 'style/footer';
-
+@import 'style/personality-kuis';
 /*kodein--*/
 
 @import 'style/animate';
@@ -82,7 +82,8 @@ body,
     }
     .slick-artist {
         text-transform: uppercase;
-        &.afgan .overlay-title {
+        &.afgan .overlay-title,
+        &.noah .overlay-title {
             background-color: #3f3f3f;
         }
         &.ayu .overlay-title {

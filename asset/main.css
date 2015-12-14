@@ -8194,6 +8194,17 @@ footer {
     text-align: center;
     padding-top: 15px; }
 
+/* ===============================
+ * Personality Kuis
+ * =============================== */
+.quiz .options {
+  line-height: 2; }
+  .quiz .options input {
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px; }
+
 /*kodein--*/
 /*!
 Animate.css - http://daneden.me/animate
@@ -10492,7 +10503,7 @@ body,
     padding-right: 0; }
   #list-artist .slick-artist {
     text-transform: uppercase; }
-    #list-artist .slick-artist.afgan .overlay-title {
+    #list-artist .slick-artist.afgan .overlay-title, #list-artist .slick-artist.noah .overlay-title {
       background-color: #3f3f3f; }
     #list-artist .slick-artist.ayu .overlay-title {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec248f+0,ee974a+100 */
