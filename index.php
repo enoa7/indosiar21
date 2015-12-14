@@ -59,6 +59,11 @@
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-lesti.jpg" alt="lesti">
 			</div>
+			<div class="slick-artist noah">
+				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-noa.jpg" alt="noah">
+			</div>
+			
 		</div>
 	</div>
 	<!-- <div class="segment" id="kontes">
