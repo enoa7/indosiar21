@@ -35,6 +35,10 @@
 	<div class="segment" id="list-artist">
 		
 		<div class="container-fluid slicky">
+			<div class="slick-artist noah">
+				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-noa.jpg" alt="noah">
+			</div>
 			<div class="slick-artist raditya">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-raditya.jpg" alt="raditya">
@@ -59,11 +63,6 @@
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-lesti.jpg" alt="lesti">
 			</div>
-			<div class="slick-artist noah">
-				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-noa.jpg" alt="noah">
-			</div>
-			
 		</div>
 	</div>
 	<!-- <div class="segment" id="kontes">
