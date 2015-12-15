@@ -15,10 +15,10 @@
     <meta name="description" content="<?php echo $pageDesc ?>">
     <link rel="shortcut icon" href="favicon.ico" />
     <meta property="og:title" content= "Konser Raya HUT 21 Indosiar untuk Indonesia" /> 
-    <meta property="og:type" content= "" /> 
+    <meta property="og:type" content= "website" /> 
     <meta property="og:description" content="Konser Raya HUT Indosiar ke 21" /> 
-    <meta property="og:url" content="hut.indosiar.com" />
-    <meta property="og:image" content="asset/images/indosiar21-banner.png" />
+    <meta property="og:url" content="http://hut.indosiar.com" />
+    <meta property="og:image" content="http://hut.indosiar.com/asset/images/indosiar21-banner.png" />
     <title><?php echo $pageTitle ?></title>
 
 
