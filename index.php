@@ -1,11 +1,11 @@
 <?php 
 
 	$pageTitle = "HUT Indosiar 21 | Home";
-	$pageSubject = "Ulang Tahun Indosiar 21";
-	$pageKeywords = "indosiar, indosiar21, HUT, Konser Raya, Indosiar 21 kontes";
-	$pageDesc = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
+	$pageSubject = "HUT Indosiar 21";
+	$pageKeywords = "indosiar, indosiar21, HUT, Konser Raya Indosiar untuk Indonesia, kuis indosiar 21, kontes indosiar 21";
+	$pageDesc = "HUT 21 Indosiar Untuk Indonesia";
 	$socialTitle = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
-	$socialDesc = "Rangkaian acara hari ulang tahun Indosiar ke 21. Nantikan kemegahan acaranya pada tanggal 11 januari 2016.";
+	$socialDesc = "Rangkaian acara hari ulang tahun Indosiar ke 21. Nantikan malam puncaknya di Konser Raya Indosiar untuk Indonesia";
 	include("header.php");
 
 ?>
