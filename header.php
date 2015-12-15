@@ -12,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="subject" content="<?php echo $pageSubject; ?>">
     <meta name="keywords" content="<?php echo $pageKeywords ?>">
-    <meta property="og:title" content= "How Important Are Quotes in Press Releases?" /> 
-    <meta property="og:type" content= "article" /> 
+    <meta property="og:title" content= "" /> 
+    <meta property="og:type" content= "" /> 
     <link rel="shortcut icon" href="favicon.ico" />
     <meta property="og:description" content="Konser Raya HUT Indosiar ke 21" /> 
     <meta property="og:url" content="hut.indosiar.com" />
