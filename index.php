@@ -2,7 +2,7 @@
 
 	$pageTitle = "HUT Indosiar 21 | Home";
 	$pageSubject = "Ulang Tahun Indosiar 21";
-	$pageKeywords = "indosiar, indosiar21, HUT";
+	$pageKeywords = "indosiar, indosiar21, HUT, Konser Raya, Indosiar 21 kontes";
 	$pageDesc = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
 	include("header.php");
 

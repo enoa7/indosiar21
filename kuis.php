@@ -3,6 +3,7 @@
 	$pageTitle = "HUT Indosiar 21 | Kuis";
 	$pageSubject = "Kuis Tebak Program";
 	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
+	$pageDesc = "Kontes tebak program unggulan dari Indosiar dalam rangka HUT ke 21";
 	include("header.php");
 
 ?>
@@ -14,9 +15,10 @@
 <div class="page-wrap" id="kuis">
 	<div class="segment" id="kuis-list">
 		<div class="container-fluid slicky nopadding">
+		<h1>
 			<?php if ( $detect->isMobile() ) { ?>
 				<div class="slick-kuis one">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-1.jpg" alt="">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-1.jpg" alt="indosiar 21 tebak program unggulan">
 				</div>
 				<!-- <div class="slick-kuis two">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-2.jpg" alt="">
@@ -32,7 +34,7 @@
 				</div>  -->
 			<?php } else { ?>
 				<div class="slick-kuis one">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-1.jpg" alt="">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-1.jpg" alt="indosiar 21 tebak program unggulan">
 				</div>
 				<!-- <div class="slick-kuis two">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-2.jpg" alt="">
@@ -48,6 +50,7 @@
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-5.jpg" alt="">
 				</div>  -->
 			<?php } ?>
+		</h1>
 		</div>
 	</div>
 
