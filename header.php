@@ -14,11 +14,17 @@
     <meta name="keywords" content="<?php echo $pageKeywords ?>">
     <meta name="description" content="<?php echo $pageDesc ?>">
     <link rel="shortcut icon" href="favicon.ico" />
-    <meta property="og:title" content= "Konser Raya HUT 21 Indosiar untuk Indonesia" /> 
-    <meta property="og:type" content= "website" /> 
-    <meta property="og:description" content="Rangkaian acara hari ulang tahun Indosiar ke 21. Nantikan kemegahan acaranya pada tanggal 11 januari 2016." /> 
+    <meta property="og:title" content= "<?php echo $socialTitle ?>" /> 
+    <meta property="og:type" content= "website" />
+    <meta property="og:description" content="<?php echo $socialDesc ?>" /> 
     <meta property="og:url" content="http://hut.indosiar.com" />
     <meta property="og:image" content="http://hut.indosiar.com/asset/images/indosiar21-banner.png" />
+    <meta name="twitter:image" content="http://hut.indosiar.com/asset/images/indosiar21-banner.png">
+    <meta name="twitter:site" content="@IndosiarID">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo $socialTitle ?>">
+    <meta name="twitter:url" content="http://hut.indosiar.com">
+    <meta name="twitter:description" content="<?php echo $socialDesc ?>">
     <title><?php echo $pageTitle ?></title>
 
 

@@ -4,6 +4,8 @@
 	$pageSubject = "Ulang Tahun Indosiar 21";
 	$pageKeywords = "indosiar, indosiar21, HUT, Konser Raya, Indosiar 21 kontes";
 	$pageDesc = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
+	$socialTitle = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
+	$socialDesc = "Rangkaian acara hari ulang tahun Indosiar ke 21. Nantikan kemegahan acaranya pada tanggal 11 januari 2016.";
 	include("header.php");
 
 ?>
