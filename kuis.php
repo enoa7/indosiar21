@@ -15,9 +15,9 @@
 	<div class="segment" id="kuis-list">
 		<div class="container-fluid slicky nopadding">
 			<?php if ( $detect->isMobile() ) { ?>
-				<!-- <div class="slick-kuis one">
+				<div class="slick-kuis one">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-1.jpg" alt="">
-				</div> -->
+				</div>
 				<!-- <div class="slick-kuis two">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-2.jpg" alt="">
 				</div> -->
@@ -27,13 +27,13 @@
 				<div class="slick-kuis four">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-4.jpg" alt="">
 				</div>-->
-				<div class="slick-kuis five">
+				<!-- <div class="slick-kuis five">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-5.jpg" alt="">
-				</div> 
+				</div>  -->
 			<?php } else { ?>
-				<!-- <div class="slick-kuis one">
+				<div class="slick-kuis one">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-1.jpg" alt="">
-				</div> -->
+				</div>
 				<!-- <div class="slick-kuis two">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-2.jpg" alt="">
 				</div> -->
@@ -44,9 +44,9 @@
 				<div class="slick-kuis four">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-4.jpg" alt="">
 				</div>-->
-				<div class="slick-kuis five">
+				<!-- <div class="slick-kuis five">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-5.jpg" alt="">
-				</div> 
+				</div>  -->
 			<?php } ?>
 		</div>
 	</div>
