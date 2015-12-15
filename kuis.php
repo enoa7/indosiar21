@@ -3,7 +3,9 @@
 	$pageTitle = "HUT Indosiar 21 | Kuis";
 	$pageSubject = "Kuis Tebak Program";
 	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
-	$pageDesc = "Kontes tebak program unggulan dari Indosiar dalam rangka HUT ke 21";
+	$pageDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
+	$socialTitle = "Kuis Tebak Program HUT indosiar 21";
+	$socialDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
 	include("header.php");
 
 ?>
