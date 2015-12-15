@@ -13,7 +13,7 @@
     <meta name="subject" content="<?php echo $pageSubject; ?>">
     <meta name="keywords" content="<?php echo $pageKeywords ?>">
     <meta name="description" content="<?php echo $pageDesc ?>">
-    <meta property="og:title" content= "" /> 
+    <meta property="og:title" content= "Konser Raya HUT 21 Indosiar untuk Indonesia" /> 
     <meta property="og:type" content= "" /> 
     <link rel="shortcut icon" href="favicon.ico" />
     <meta property="og:description" content="Konser Raya HUT Indosiar ke 21" /> 
