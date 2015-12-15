@@ -3,6 +3,7 @@
 	$pageTitle = "HUT Indosiar 21 | Home";
 	$pageSubject = "Ulang Tahun Indosiar 21";
 	$pageKeywords = "indosiar, indosiar21, HUT";
+	$pageDesc = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
 	include("header.php");
 
 ?>
@@ -15,6 +16,7 @@
 	<div class="main-banner">
 	    <div class="container-fluid">
 			<div class="col-xs-12 pos-relative">
+
 				<!-- generic banner -->
 				<!-- <div>
 					<img class="img-responsive center-block" src="asset/images/indosiar21-logo.png">

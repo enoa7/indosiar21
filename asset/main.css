@@ -10463,6 +10463,9 @@ html {
   width: 100%;
   font-family: 'Montserrat', sans-serif; }
 
+h1 {
+  margin: 0 !important; }
+
 body,
 .segment {
   position: relative;

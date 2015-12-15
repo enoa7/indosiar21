@@ -12,13 +12,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="subject" content="<?php echo $pageSubject; ?>">
     <meta name="keywords" content="<?php echo $pageKeywords ?>">
+    <meta name="description" content="<?php echo $pageDesc ?>">
     <meta property="og:title" content= "" /> 
     <meta property="og:type" content= "" /> 
     <link rel="shortcut icon" href="favicon.ico" />
     <meta property="og:description" content="Konser Raya HUT Indosiar ke 21" /> 
     <meta property="og:url" content="hut.indosiar.com" />
     <meta property="og:image" content="" />
-     <title><?php echo $pageTitle ?></title>
+    <title><?php echo $pageTitle ?></title>
 
 
     <!-- all compiled css -->
