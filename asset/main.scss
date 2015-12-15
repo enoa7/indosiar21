@@ -145,6 +145,24 @@ body,
         &.lesti .overlay-title {
             background: #F56023;
         }
+        &.inul .overlay-title {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#685a51+0,a59386+100 */
+background: #685a51; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #685a51 0%, #a59386 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #685a51 0%,#a59386 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #685a51 0%,#a59386 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#685a51', endColorstr='#a59386',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+&.sazkia .overlay-title {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2f292b+0,a2a3a2+100 */
+background: #2f292b; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #2f292b 0%, #a2a3a2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #2f292b 0%,#a2a3a2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #2f292b 0%,#a2a3a2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f292b', endColorstr='#a2a3a2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
         
     }
     .overlay-title {
