@@ -18,8 +18,8 @@
     <meta property="og:type" content= "website" />
     <meta property="og:description" content="<?php echo $socialDesc ?>" /> 
     <meta property="og:url" content="http://hut.indosiar.com" />
-    <meta property="og:image" content="http://hut.indosiar.com/asset/images/indosiar21-banner.png" />
-    <meta name="twitter:image" content="http://hut.indosiar.com/asset/images/indosiar21-banner.png">
+    <meta property="og:image" content="http://hut.indosiar.com/asset/images/hutindosiar21.jpg" />
+    <meta name="twitter:image" content="http://hut.indosiar.com/asset/images/hutindosiar21.jpg">
     <meta name="twitter:site" content="@IndosiarID">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="<?php echo $socialTitle ?>">
