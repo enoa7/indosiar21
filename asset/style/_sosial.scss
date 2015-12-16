@@ -1,0 +1,96 @@
+/* ================================
+ * sosial.php style
+ * ================================ */
+
+@import 'variables';
+$sosial-red: #D03C3C; //text color red
+$sosial-orange: #FBA227;
+
+#sosial {
+    background: #458FE0; //bg green
+    color: #fff;
+    .progress {
+        height: 40px;
+        border-radius: 0;
+    }
+    .progress-bar {
+        background-color: $sosial-red;
+        font-size: 1.2em;
+        padding-top: 0.5em;
+    }
+}
+
+#sosial .intro-text {
+    .title {
+        color: #fff;
+        font-weight: 700;
+    }
+    .desc {
+        padding-top: 15px;
+    }
+    .mobile-text{
+    	@media (max-width: 768px) {
+    		padding-top: 15px;
+    	}
+    	
+    }
+}
+
+#sosial .activity {
+	.title {
+		text-align: left;
+		@media (max-width: 768px) {
+			text-align: center;
+		}
+	}
+    .video {
+        @include spacepad-nosides(20px);
+        > div {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+        iframe {
+            width: 100%;
+            @media (min-width: 320px) and (max-width: 500px) {
+                height: 200px;
+            }
+            @media(min-width: 768px) {
+                height: 400px;
+            }
+        }
+    }
+    .details {
+        @include spacepad-nosides(20px);
+        > div {
+            font-size: 2em;
+            padding: 15px;
+            color: #fff;
+            text-align: center;
+        }
+        .name {
+            background: #DA8F27;
+            text-transform: uppercase;
+        }
+        .amount {
+            background: $sosial-orange;
+        }
+    }
+}
+
+#sosial .gallery {
+	.slick-prev, .slick-next {
+		padding: 0;
+	}
+	.slick-next:before,
+	.slick-prev:before {
+		opacity: .5;
+		color: #fff;
+	}
+}
+#sosial .gallery img {
+	padding: 15px;
+}
+
+#sosial hr {
+	max-width: 780px;
+}

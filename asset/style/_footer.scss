@@ -15,6 +15,9 @@ footer {
         .client-logo-list {
             max-width: 300px;
             margin: 0 auto;
+            & > div:first-child img {
+                max-width: 40px;
+            }
         }
         .copyright {
             color: #fff;

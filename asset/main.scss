@@ -24,6 +24,8 @@
 @import 'style/nav';
 @import 'style/footer';
 @import 'style/personality-kuis';
+@import 'style/sosial';
+
 /*kodein--*/
 
 @import 'style/animate';
@@ -86,6 +88,15 @@ body,
     }
     .slick-artist {
         text-transform: uppercase;
+        &.isyana .overlay-title {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec4324+0,d02a7e+50,493288+100 */
+background: #ec4324; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ec4324 0%, #d02a7e 50%, #493288 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ec4324 0%,#d02a7e 50%,#493288 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ec4324 0%,#d02a7e 50%,#493288 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec4324', endColorstr='#493288',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+        }
         &.afgan .overlay-title,
         &.noah .overlay-title {
             background-color: #3f3f3f;

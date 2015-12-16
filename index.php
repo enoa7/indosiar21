@@ -3,7 +3,7 @@
 	$pageTitle = "HUT Indosiar 21 | Home";
 	$pageSubject = "HUT Indosiar 21";
 	$pageKeywords = "indosiar, indosiar21, HUT, Konser Raya Indosiar untuk Indonesia, kuis indosiar 21, kontes indosiar 21, ulang tahun ke-21";
-	$pageDesc = "HUT 21 Indosiar Untuk Indonesia";
+	$pageDesc = "Menyambut ulang tahun ke-21, Indosiar akan mempersembahkan 'Konser Raya HUT 21 Tahun Indosiar untuk Indonesia' panggung spesial dan penuh kejutan segera di 11 januari 2016.";
 	$socialTitle = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
 	$socialDesc = "Menyambut ulang tahun ke-21, Indosiar akan mempersembahkan 'Konser Raya HUT 21 Tahun Indosiar untuk Indonesia' panggung spesial dan penuh kejutan segera di 11 januari 2016.";
 	include("header.php");
@@ -39,6 +39,10 @@
 	<div class="segment" id="list-artist">
 		
 		<div class="container-fluid slicky">
+			<!-- <div class="slick-artist isyana">
+				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-isyana.jpg" alt="2nd-lineup-inul">
+			</div> -->
 			<div class="slick-artist inul">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-inul.jpg" alt="2nd-lineup-inul">

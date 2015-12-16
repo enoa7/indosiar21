@@ -8189,6 +8189,8 @@ footer {
   footer .footer-content .client-logo-list {
     max-width: 300px;
     margin: 0 auto; }
+    footer .footer-content .client-logo-list > div:first-child img {
+      max-width: 40px; }
   footer .footer-content .copyright {
     color: #fff;
     text-align: center;
@@ -8204,6 +8206,82 @@ footer {
     margin-right: 5px;
     position: relative;
     top: 2px; }
+
+/* ================================
+ * sosial.php style
+ * ================================ */
+/*
+*	Variables SCSS
+*/
+#sosial {
+  background: #458FE0;
+  color: #fff; }
+  #sosial .progress {
+    height: 40px;
+    border-radius: 0; }
+  #sosial .progress-bar {
+    background-color: #D03C3C;
+    font-size: 1.2em;
+    padding-top: 0.5em; }
+
+#sosial .intro-text .title {
+  color: #fff;
+  font-weight: 700; }
+#sosial .intro-text .desc {
+  padding-top: 15px; }
+@media (max-width: 768px) {
+  #sosial .intro-text .mobile-text {
+    padding-top: 15px; } }
+
+#sosial .activity .title {
+  text-align: left; }
+  @media (max-width: 768px) {
+    #sosial .activity .title {
+      text-align: center; } }
+#sosial .activity .video {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0; }
+  #sosial .activity .video > div {
+    max-width: 650px;
+    margin: 0 auto; }
+  #sosial .activity .video iframe {
+    width: 100%; }
+    @media (min-width: 320px) and (max-width: 500px) {
+      #sosial .activity .video iframe {
+        height: 200px; } }
+    @media (min-width: 768px) {
+      #sosial .activity .video iframe {
+        height: 400px; } }
+#sosial .activity .details {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0; }
+  #sosial .activity .details > div {
+    font-size: 2em;
+    padding: 15px;
+    color: #fff;
+    text-align: center; }
+  #sosial .activity .details .name {
+    background: #DA8F27;
+    text-transform: uppercase; }
+  #sosial .activity .details .amount {
+    background: #FBA227; }
+
+#sosial .gallery .slick-prev, #sosial .gallery .slick-next {
+  padding: 0; }
+#sosial .gallery .slick-next:before,
+#sosial .gallery .slick-prev:before {
+  opacity: .5;
+  color: #fff; }
+
+#sosial .gallery img {
+  padding: 15px; }
+
+#sosial hr {
+  max-width: 780px; }
 
 /*kodein--*/
 /*!
@@ -10506,6 +10584,18 @@ body,
     padding-right: 0; }
   #list-artist .slick-artist {
     text-transform: uppercase; }
+    #list-artist .slick-artist.isyana .overlay-title {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec4324+0,d02a7e+50,493288+100 */
+      background: #ec4324;
+      /* Old browsers */
+      background: -moz-linear-gradient(-45deg, #ec4324 0%, #d02a7e 50%, #493288 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg, #ec4324 0%, #d02a7e 50%, #493288 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg, #ec4324 0%, #d02a7e 50%, #493288 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec4324', endColorstr='#493288',GradientType=1 );
+      /* IE6-9 fallback on horizontal gradient */ }
     #list-artist .slick-artist.afgan .overlay-title, #list-artist .slick-artist.noah .overlay-title {
       background-color: #3f3f3f; }
     #list-artist .slick-artist.ayu .overlay-title {
