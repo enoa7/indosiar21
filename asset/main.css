@@ -8234,10 +8234,7 @@ footer {
     padding-top: 15px; } }
 
 #sosial .activity .title {
-  text-align: left; }
-  @media (max-width: 768px) {
-    #sosial .activity .title {
-      text-align: center; } }
+  text-align: center; }
 #sosial .activity .video {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -8254,21 +8251,6 @@ footer {
     @media (min-width: 768px) {
       #sosial .activity .video iframe {
         height: 400px; } }
-#sosial .activity .details {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 0;
-  padding-right: 0; }
-  #sosial .activity .details > div {
-    font-size: 2em;
-    padding: 15px;
-    color: #fff;
-    text-align: center; }
-  #sosial .activity .details .name {
-    background: #DA8F27;
-    text-transform: uppercase; }
-  #sosial .activity .details .amount {
-    background: #FBA227; }
 
 #sosial .gallery .slick-prev, #sosial .gallery .slick-next {
   padding: 0; }
@@ -8282,6 +8264,22 @@ footer {
 
 #sosial hr {
   max-width: 780px; }
+
+.saldo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0; }
+  .saldo > div {
+    font-size: 2em;
+    padding: 15px;
+    color: #fff;
+    text-align: center; }
+  .saldo .name {
+    background: #DA8F27;
+    text-transform: uppercase; }
+  .saldo .amount {
+    background: #FBA227; }
 
 /*kodein--*/
 /*!

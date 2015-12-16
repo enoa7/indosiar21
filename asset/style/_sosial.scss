@@ -38,10 +38,7 @@ $sosial-orange: #FBA227;
 
 #sosial .activity {
 	.title {
-		text-align: left;
-		@media (max-width: 768px) {
-			text-align: center;
-		}
+		text-align: center;
 	}
     .video {
         @include spacepad-nosides(20px);
@@ -59,22 +56,7 @@ $sosial-orange: #FBA227;
             }
         }
     }
-    .details {
-        @include spacepad-nosides(20px);
-        > div {
-            font-size: 2em;
-            padding: 15px;
-            color: #fff;
-            text-align: center;
-        }
-        .name {
-            background: #DA8F27;
-            text-transform: uppercase;
-        }
-        .amount {
-            background: $sosial-orange;
-        }
-    }
+
 }
 
 #sosial .gallery {
@@ -94,3 +76,19 @@ $sosial-orange: #FBA227;
 #sosial hr {
 	max-width: 780px;
 }
+    .saldo {
+        @include spacepad-nosides(20px);
+        > div {
+            font-size: 2em;
+            padding: 15px;
+            color: #fff;
+            text-align: center;
+        }
+        .name {
+            background: #DA8F27;
+            text-transform: uppercase;
+        }
+        .amount {
+            background: $sosial-orange;
+        }
+    }
