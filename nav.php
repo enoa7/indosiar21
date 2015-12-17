@@ -1,7 +1,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" id="megamenu-lg">
     <div class="container-fluid">
         <div class="logo col-xs-9 col-sm-11 col-lg-3">
-            <h1><a href=""><img class="visibility-hidden" src="asset/images/indosiar-logo.png" alt="indosiar hut 21"></a></h1>
+            <h1><a href="index.php"><img class="visibility-hidden" src="asset/images/indosiar-logo.png" alt="indosiar hut 21"></a></h1>
         </div>
         <div class="nav-list col-sm-7 visible-lg">
             <ul class="nodots nopadding clearfix nomarginbottom menu-list">
