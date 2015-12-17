@@ -26,7 +26,7 @@
 			</div>
 				<div class="saldo col-xs-12">
 					<div class="name col-xs-12 col-sm-6">total saldo</div>
-					<div class="amount col-xs-12 col-sm-6">Rp 1.218.329.175,00</div>
+					<div class="amount col-xs-12 col-sm-6">Rp 1.285.352.078,-</div>
 				</div>
 			<div class="activity one clearfix">
 				<h3 class="title">SDN Tenjolahang 2, Jiput - Pandeglang Banten</h3>
