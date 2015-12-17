@@ -1,6 +1,6 @@
 <nav class="overlay-menu">
     <ul class="nodots nopadding">
-        <li><a href="/"><span>Beranda</span></a></li>
+        <li><a href="index"><span>Beranda</span></a></li>
 		<li><a href="index#livestream" class="smoothScroll"><span>Live Streaming</span></a></li>
 		<li><a href="kuis"><span>Kuis</span></a></li>
         <!-- <li><a href="#kontes"><span>Kontes</span></a></li> -->

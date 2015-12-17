@@ -5,7 +5,7 @@
         </div>
         <div class="nav-list col-sm-7 visible-lg">
             <ul class="nodots nopadding clearfix nomarginbottom menu-list">
-                <li><a href="/"><span>Beranda</span></a></li>
+                <li><a href="index"><span>Beranda</span></a></li>
                 <li><a href="index#livestream" class="smoothScroll"><span>Live Streaming</span></a></li>
                 <li><a href="kuis"><span>Kuis</span></a></li>
                 <!-- <li><a href="#kontes"><span>Kontes</span></a></li> -->
