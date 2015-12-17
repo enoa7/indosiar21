@@ -39,10 +39,10 @@
 	<div class="segment" id="list-artist">
 		
 		<div class="container-fluid slicky">
-			<!-- <div class="slick-artist isyana">
+			<div class="slick-artist isyana">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-isyana.jpg" alt="2nd-lineup-inul">
-			</div> -->
+			</div>
 			<div class="slick-artist inul">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-inul.jpg" alt="2nd-lineup-inul">
