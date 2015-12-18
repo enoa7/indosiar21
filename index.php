@@ -46,16 +46,16 @@
 			</div>
 			<div class="slick-artist isyana">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-isyana.jpg" alt="2nd-lineup-inul">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-isyana.jpg" alt="2nd-lineup-isyana">
 			</div>
 			<div class="slick-artist inul">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-inul.jpg" alt="2nd-lineup-inul">
 			</div>
-			<div class="slick-artist sazkia">
+			<!-- <div class="slick-artist sazkia">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-zaskia.jpg" alt="2nd-lineup-zaskia">
-			</div>
+			</div> -->
 			<div class="slick-artist noah">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-noa.jpg" alt="2nd-lineup-noah">
@@ -66,11 +66,11 @@
 			</div>
 			<div class="slick-artist evidanang">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-evidanang.jpg" alt="1st-lineup-raditya-evi & danang">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-evidanang.jpg" alt="1st-lineup-evi & danang">
 			</div>
 			<div class="slick-artist afgan">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-afgan.jpg" alt="1st-lineup-raditya-afgan">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-afgan.jpg" alt="1st-lineup-afgan">
 			</div>
 			<div class="slick-artist ayu">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
@@ -78,7 +78,7 @@
 			</div>
 			<div class="slick-artist lesti">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-lesti.jpg" alt="1st-lineup-raditya-lesti">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-lesti.jpg" alt="1st-lineup-lesti">
 			</div>
 		</div>
 	</div>
