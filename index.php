@@ -115,5 +115,6 @@
 	<?php require('footer.php') ?>
 	<?php require('overlay-menu.php') ?>
 </div>
+<!-- made by KG - SCM digital -->
 </body>
 </html>
