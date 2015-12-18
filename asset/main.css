@@ -10592,7 +10592,7 @@ body,
       /* Chrome10-25,Safari5.1-6 */
       background: linear-gradient(135deg, #ec4324 0%, #d02a7e 50%, #493288 100%);
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec4324', endColorstr='#493288',GradientType=1 );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec4324', endColorstr='#493288', GradientType=1);
       /* IE6-9 fallback on horizontal gradient */ }
     #list-artist .slick-artist.afgan .overlay-title, #list-artist .slick-artist.noah .overlay-title {
       background-color: #3f3f3f; }
@@ -10620,7 +10620,7 @@ body,
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61396e', endColorstr='#f7d399', GradientType=1);
       /* IE6-9 */ }
-    #list-artist .slick-artist.raditya .overlay-title {
+    #list-artist .slick-artist.raditya .overlay-title, #list-artist .slick-artist.cemenxdavid .overlay-title {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7261e1+0,00a256+100 */
       background: #7261e1;
       /* Old browsers */
@@ -10656,7 +10656,7 @@ body,
       /* Chrome10-25,Safari5.1-6 */
       background: linear-gradient(135deg, #685a51 0%, #a59386 100%);
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#685a51', endColorstr='#a59386',GradientType=1 );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#685a51', endColorstr='#a59386', GradientType=1);
       /* IE6-9 fallback on horizontal gradient */ }
     #list-artist .slick-artist.sazkia .overlay-title {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2f292b+0,a2a3a2+100 */
@@ -10668,7 +10668,7 @@ body,
       /* Chrome10-25,Safari5.1-6 */
       background: linear-gradient(135deg, #2f292b 0%, #a2a3a2 100%);
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f292b', endColorstr='#a2a3a2',GradientType=1 );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f292b', endColorstr='#a2a3a2', GradientType=1);
       /* IE6-9 fallback on horizontal gradient */ }
   #list-artist .overlay-title {
     color: #fff;
