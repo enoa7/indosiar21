@@ -16,11 +16,6 @@
 	<div class="main-banner">
 	    <div class="container-fluid">
 			<div class="col-xs-12 pos-relative">
-
-				<!-- generic banner -->
-				<!-- <div>
-					<img class="img-responsive center-block" src="asset/images/indosiar21-logo.png">
-				</div> -->
 				<?php if ( $detect->isMobile() ) { ?>
 					<div><img class="img-responsive center-block" src="asset/images/indosiar21-kontes-generic-mobile.jpg" alt="Indosiar 21 kontes"></div>
 				<?php } else { ?>
@@ -80,15 +75,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div class="segment" id="kontes">
-		<div class="container-fluid">
-			<?php if ( $detect->isMobile() ) { ?>
-				<div><img class="img-responsive center-block" src="asset/images/kontes-wefie-title.png" alt=""></div>
-			<?php } else { ?>
-				<div><img class="img-responsive center-block" src="asset/images/kontes-wefie.jpg" alt=""></div>
-			<?php } ?>
-		</div>
-	</div> -->
 	<div id="livestream">
 			<div class="segment">
 		<div class="container-fluid">
@@ -98,7 +84,6 @@
 			</div>
 			<div class="video col-xs-12 spacepad">
 				<div class="">
-					<!-- <iframe class="vidio-embed" src="http://www.vidio.com/embed/208881-andik-tiru-cr7-jadi-kakek-kakek-main-bola-di-jalan?autoplay=false" scrolling="no" frameborder="0" allowfullscreen></iframe> -->
 					<iframe class="vidio-embed" src="http://www.vidio.com/live/205-indosiar-tv-stream/embed?autoplay=false" scrolling="no" frameborder="0" allowfullscreen="" id="fitvid273370"></iframe>
 				</div>
 			</div>
@@ -112,5 +97,3 @@
 <!-- made by KG - SCM digital -->
 </body>
 </html>
-Status API Training Shop Blog About Pricing
-© 2015 GitHub, Inc. Terms Privacy Security Contact Help
