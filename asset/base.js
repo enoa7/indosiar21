@@ -48,7 +48,7 @@
         // set the properties for the slick slider
         $('#list-artist > .slicky').slick({
             autoplay: true,
-            autoplaySpeed: 5000,
+            autoplaySpeed: 5000
         });
 
         $('a[href*=#]:not([href=#])').click(function() {

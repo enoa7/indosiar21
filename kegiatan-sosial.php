@@ -26,7 +26,7 @@
 			</div>
 				<div class="saldo col-xs-12">
 					<div class="name col-xs-12 col-sm-6">total saldo</div>
-					<div class="amount col-xs-12 col-sm-6">Rp 1.310.877.078</div>
+					<div class="amount col-xs-12 col-sm-6">Rp 1.340.171.553</div>
 				</div>
 			<div class="activity one clearfix">
 				<h3 class="title">SDN Tenjolahang 2, Jiput - Pandeglang Banten</h3>
@@ -35,11 +35,6 @@
 						<iframe class="vidio-embed" src="http://www.vidio.com/embed/166927-sdn-tenjolahang-2-pandeglang-sekolah-kita?autoplay=false&" scrolling="no" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<!-- <div class="progress col-xs-12 nopadding hidden-xs">
-				  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-				    <span class="">65% progress</span>
-				  </div>
-				</div> -->
 				<?php if( $detect->isMobile() && !$detect->isTablet() ){ ?>
 					<div class="gallery mobile col-xs-12">
 						<img class="img-responsive" src="asset/images/activity/sdn-tenjolahang-1.jpg" alt="">
