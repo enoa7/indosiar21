@@ -11,7 +11,7 @@
 
 <?php require('nav.php') ?>
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
+<!-- this is the index page -->
 <div class="page-wrap" id="homepage">
 	<div class="main-banner">
 	    <div class="container-fluid">
