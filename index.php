@@ -1,5 +1,20 @@
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @enoa7
+ Unwatch 1
+  Star 0
+  Fork 0 enoa7/indosiar21
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathindosiar21/index.php
+0369ba9  19 hours ago
+@enoa7 enoa7 fix alt tags for list artist & temp remove zaskia due to wrong text
+1 contributor
+RawBlameHistory     117 lines (106 sloc)  5.6 KB
 <?php 
-
 	$pageTitle = "HUT Indosiar 21 | Home";
 	$pageSubject = "HUT Indosiar 21";
 	$pageKeywords = "indosiar, indosiar21, HUT, Konser Raya Indosiar untuk Indonesia, kuis indosiar 21, kontes indosiar 21, ulang tahun ke-21";
@@ -7,7 +22,6 @@
 	$socialTitle = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
 	$socialDesc = "Menyambut ulang tahun ke-21, Indosiar akan mempersembahkan 'Konser Raya HUT 21 Tahun Indosiar untuk Indonesia' panggung spesial dan penuh kejutan segera di 11 januari 2016.";
 	include("header.php");
-
 ?>
 	
 
@@ -46,7 +60,7 @@
 			</div>
 			<div class="slick-artist isyana">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-isyana.jpg" alt="2nd-lineup-inul">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-isyana.jpg" alt="2nd-lineup-isyana">
 			</div>
 			<div class="slick-artist inul">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
@@ -54,7 +68,7 @@
 			</div>
 			<!-- <div class="slick-artist sazkia">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-sazkia.jpg" alt="2nd-lineup-sazkia">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-zaskia.jpg" alt="2nd-lineup-zaskia">
 			</div> -->
 			<div class="slick-artist noah">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
@@ -66,11 +80,11 @@
 			</div>
 			<div class="slick-artist evidanang">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-evidanang.jpg" alt="1st-lineup-raditya-evi & danang">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-evidanang.jpg" alt="1st-lineup-evi & danang">
 			</div>
 			<div class="slick-artist afgan">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-afgan.jpg" alt="1st-lineup-raditya-afgan">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-afgan.jpg" alt="1st-lineup-afgan">
 			</div>
 			<div class="slick-artist ayu">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
@@ -78,7 +92,7 @@
 			</div>
 			<div class="slick-artist lesti">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-lesti.jpg" alt="1st-lineup-raditya-lesti">
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-lesti.jpg" alt="1st-lineup-lesti">
 			</div>
 		</div>
 	</div>
@@ -114,3 +128,5 @@
 <!-- made by KG - SCM digital -->
 </body>
 </html>
+Status API Training Shop Blog About Pricing
+© 2015 GitHub, Inc. Terms Privacy Security Contact Help

@@ -22,12 +22,12 @@
 				<!-- <div class="slick-kuis two">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-2.jpg" alt="">
 				</div> -->
-				 <div class="slick-kuis three">
+				<!--  <div class="slick-kuis three">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-3.jpg" alt="">
-				</div>
-				<!-- <div class="slick-kuis four">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-4.jpg" alt="">
 				</div> -->
+				<div class="slick-kuis four">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-4.jpg" alt="">
+				</div>
 				<!-- <div class="slick-kuis five">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-mobile-5.jpg" alt="">
 				</div>  -->
@@ -36,12 +36,12 @@
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-2.jpg" alt="">
 				</div> -->
 				
-				 <div class="slick-kuis three">
+				 <!-- <div class="slick-kuis three">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-3.jpg" alt="">
-				</div>
-				<!-- <div class="slick-kuis four">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-4.jpg" alt="">
 				</div> -->
+				<div class="slick-kuis four">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-4.jpg" alt="">
+				</div>
 				<!-- <div class="slick-kuis five">
 					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-5.jpg" alt="">
 				</div>  -->
