@@ -1,19 +1,3 @@
-Skip to content
-This repository  
-Search
-Pull requests
-Issues
-Gist
- @enoa7
- Unwatch 1
-  Star 0
-  Fork 0 enoa7/indosiar21
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathindosiar21/index.php
-0369ba9  19 hours ago
-@enoa7 enoa7 fix alt tags for list artist & temp remove zaskia due to wrong text
-1 contributor
-RawBlameHistory     117 lines (106 sloc)  5.6 KB
 <?php 
 	$pageTitle = "HUT Indosiar 21 | Home";
 	$pageSubject = "HUT Indosiar 21";
