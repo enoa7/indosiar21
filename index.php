@@ -52,10 +52,10 @@
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-inul.jpg" alt="2nd-lineup-inul">
 			</div>
-			<!-- <div class="slick-artist sazkia">
+			<div class="slick-artist sazkia">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-zaskia.jpg" alt="2nd-lineup-zaskia">
-			</div> -->
+			</div>
 			<div class="slick-artist noah">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 2nd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-noa.jpg" alt="2nd-lineup-noah">
