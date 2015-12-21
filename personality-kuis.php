@@ -137,9 +137,31 @@
 	<?php require('overlay-menu.php') ?>
 </div>
 <style type="text/css">
+ 	#kuis.page-wrap > .segment {
+ 		min-height: 600px;
+ 	}
 	#submit {
-		    font-size: 2em;
-    width: 100%;
+		font-size: 2em;
+    	width: 100%;
+	}
+	.makeitdisabled {
+		content: "";
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(255,2555,255, .2);
+	    position: absolute;
+	    z-index: 66;
+	    top: 0;
+	    left: 0;
+	}
+
+	#result > div {
+		animation-delay: 1s;
+		transition: 1s all ease-in;
+	}
+	#retake > div {
+		animation-delay: 1.1s;
+		transition: 1s all ease-in;
 	}
 </style>
 <script>
@@ -168,12 +190,23 @@ $(function(){
 		// $('form').fadeOut(2000).hide();
 		// $('.submission').fadeOut(1000);
 		ev.preventDefault();
-		$('.submission').addClass('animated bounceOutLeft');
+		$('#quiz').click(false).css('color', 'rgba(0, 0, 0, .4)').addClass('animated fadeOutUp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+			$(this).hide();
+		});
+		$('footer').addClass('animated fadeInUp');
+		$(this).animate({
+            scrollTop: 0
+        }, 700);
+
+		$('#submit').addClass('disabled');
+		// $('#yourElement').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
+
 		  $.ajax({
 			type: "POST",
 			data: $('form').serialize(),
 			success: function(data) {
-			  $('#retake').append('<div><a href="personality-kuis.php"><button type="button" class="btn btn-primary">Take the quiz again</button></a></div>');
+				$('#result').append('<div class="spacepad animated bounceInRight">Wah! Gaya pdkt kamu mirip banget nih sama Cemen karena kamu tuh rela melakukan apapun demi mendapatkan perhatian gebetan kamu. Dalam proses pdkt kamu akan sering kasih sinyal-sinyal positif ke gebetan kamu. Kamu akan mengatur strategi sedemikian rupa demi mendapat tanggapan dari gebetan kamu.</div>');
+				$('#retake').append('<div class="animated bounceInRight"><a href="personality-kuis.php"><button type="button" class="btn btn-primary">Take the quiz again</button></a></div>');
 			}
 	     });
 	});
