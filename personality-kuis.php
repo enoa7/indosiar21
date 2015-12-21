@@ -1,8 +1,11 @@
 <?php 
 
-	$pageTitle = "HUT Indosiar 21 | Kuis";
-	$pageSubject = "Kuis Tebak Program";
+	$pageTitle = "HUT Indosiar 21 | Personality Kuis";
+	$pageSubject = "Kuis Personality";
 	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
+	$pageDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
+	$socialTitle = "Kuis Tebak Program HUT indosiar 21";
+	$socialDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
 	include("header.php");
 
 ?>
@@ -120,7 +123,7 @@
 					    </div>
 					</div>
 				</div>
-				<div><input type="button" id="submit" value="Submit Quiz" /></div>
+				<div class="hide"><input type="button" id="submit" value="Submit Quiz" /></div>
 			</form>
 			<div id="result"></div>
 			<div id="retake"></div>
@@ -131,7 +134,13 @@
 	<?php require('footer.php') ?>
 	<?php require('overlay-menu.php') ?>
 </div>
+<style type="text/css">
 
+	#quiz .options input:checked label {
+		color: #ddd;
+	}
+	
+</style>
 <script>
 $(function(){
 
