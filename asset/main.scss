@@ -99,10 +99,13 @@ body,
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec4324', endColorstr='#493288', GradientType=1);
             /* IE6-9 fallback on horizontal gradient */
         }
+        &.agnez .overlay-title,
         &.afgan .overlay-title,
         &.noah .overlay-title {
             background-color: #3f3f3f;
         }
+        &.citata .overlay-title,
+        &.syahrini .overlay-title,
         &.ayu .overlay-title {
             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec248f+0,ee974a+100 */
             background: #ec248f;
@@ -130,7 +133,8 @@ body,
             /* IE6-9 */
         }
         &.raditya .overlay-title,
-        &.cemenxdavid .overlay-title {
+        &.cemenxdavid .overlay-title,
+        &.slank .overlay-title {
             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7261e1+0,00a256+100 */
             background: #7261e1;
             /* Old browsers */

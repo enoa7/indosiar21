@@ -10594,9 +10594,9 @@ body,
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec4324', endColorstr='#493288', GradientType=1);
       /* IE6-9 fallback on horizontal gradient */ }
-    #list-artist .slick-artist.afgan .overlay-title, #list-artist .slick-artist.noah .overlay-title {
+    #list-artist .slick-artist.agnez .overlay-title, #list-artist .slick-artist.afgan .overlay-title, #list-artist .slick-artist.noah .overlay-title {
       background-color: #3f3f3f; }
-    #list-artist .slick-artist.ayu .overlay-title {
+    #list-artist .slick-artist.citata .overlay-title, #list-artist .slick-artist.syahrini .overlay-title, #list-artist .slick-artist.ayu .overlay-title {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec248f+0,ee974a+100 */
       background: #ec248f;
       /* Old browsers */
@@ -10620,7 +10620,7 @@ body,
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61396e', endColorstr='#f7d399', GradientType=1);
       /* IE6-9 */ }
-    #list-artist .slick-artist.raditya .overlay-title, #list-artist .slick-artist.cemenxdavid .overlay-title {
+    #list-artist .slick-artist.raditya .overlay-title, #list-artist .slick-artist.cemenxdavid .overlay-title, #list-artist .slick-artist.slank .overlay-title {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7261e1+0,00a256+100 */
       background: #7261e1;
       /* Old browsers */
