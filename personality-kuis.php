@@ -17,7 +17,7 @@
 <div class="page-wrap" id="kuis">
 	<div class="segment" id="personality-list">
 		<div class="container spacepad">
-			<form method="post" id="quiz">
+			<form method="POST" id="quiz">
 				<div class="quiz one">
 					<h3>Question 1</h3>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget euismod neque. Vivamus feugiat ipsum et tortor varius, id vehicula turpis interdum. Sed lacinia metus id luctus ultricies. Aliquam turpis enim, cursus sit amet euismod ut, consectetur ut dui. Maecenas ultricies purus nulla, sed pulvinar orci finibus sit amet.
@@ -123,7 +123,9 @@
 					    </div>
 					</div>
 				</div>
-				<div class="hide"><input type="button" id="submit" value="Submit Quiz" /></div>
+				<div class="submission">
+					<button type="submit" id="submit" class="btn btn-primary">Submit</button>
+				</div>
 			</form>
 			<div id="result"></div>
 			<div id="retake"></div>
@@ -135,25 +137,43 @@
 	<?php require('overlay-menu.php') ?>
 </div>
 <style type="text/css">
-
-	#quiz .options input:checked label {
-		color: #ddd;
+	#submit {
+		    font-size: 2em;
+    width: 100%;
 	}
-	
 </style>
 <script>
 $(function(){
 
+	$( "input[type=radio]" ).on( "click", function(){
+		$(this).parent().css('background', '#24BF98').siblings().css('background', '#fff');
+		$(this).parents('.options').addClass('selected');
+	});
 
-	$('#submit').click(function(){
-		$('form').fadeOut(2000).hide();
+    $('form .quiz > .options').each(function() {
+    	$('.submission').hide();
+    	var radios = $('input[type="radio"]');
+
+    	//display the submit button when all questions are answered
+    	$(this).change(function(){
+			if (radios.filter(':checked').length >= 4) {
+	    		$('.submission').show().addClass('animated bounceInRight');
+	    	} else {
+	    		$('.submission').hide();
+	    	}
+    	});
+    });
+
+	$('#submit').click(function(ev){
+		// $('form').fadeOut(2000).hide();
+		// $('.submission').fadeOut(1000);
+		ev.preventDefault();
+		$('.submission').addClass('animated bounceOutLeft');
 		  $.ajax({
 			type: "POST",
-			url: "kuis-score.php",
 			data: $('form').serialize(),
 			success: function(data) {
-			  $('#result').append(data);
-			  $('#retake').html('<div><a href="personality-kuis.php"><button type="button" class="btn btn-primary">Take the quiz again</button></a></div>');
+			  $('#retake').append('<div><a href="personality-kuis.php"><button type="button" class="btn btn-primary">Take the quiz again</button></a></div>');
 			}
 	     });
 	});
