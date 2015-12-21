@@ -1,5 +1,4 @@
 <?php 
-
 	$pageTitle = "HUT Indosiar 21 | Home";
 	$pageSubject = "HUT Indosiar 21";
 	$pageKeywords = "indosiar, indosiar21, HUT, Konser Raya Indosiar untuk Indonesia, kuis indosiar 21, kontes indosiar 21, ulang tahun ke-21";
@@ -7,22 +6,16 @@
 	$socialTitle = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
 	$socialDesc = "Menyambut ulang tahun ke-21, Indosiar akan mempersembahkan 'Konser Raya HUT 21 Tahun Indosiar untuk Indonesia' panggung spesial dan penuh kejutan segera di 11 januari 2016.";
 	include("header.php");
-
 ?>
 	
 
 <?php require('nav.php') ?>
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
+<!-- this is the index page -->
 <div class="page-wrap" id="homepage">
 	<div class="main-banner">
 	    <div class="container-fluid">
 			<div class="col-xs-12 pos-relative">
-
-				<!-- generic banner -->
-				<!-- <div>
-					<img class="img-responsive center-block" src="asset/images/indosiar21-logo.png">
-				</div> -->
 				<?php if ( $detect->isMobile() ) { ?>
 					<div><img class="img-responsive center-block" src="asset/images/indosiar21-kontes-generic-mobile.jpg" alt="Indosiar 21 kontes"></div>
 				<?php } else { ?>
@@ -82,15 +75,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div class="segment" id="kontes">
-		<div class="container-fluid">
-			<?php if ( $detect->isMobile() ) { ?>
-				<div><img class="img-responsive center-block" src="asset/images/kontes-wefie-title.png" alt=""></div>
-			<?php } else { ?>
-				<div><img class="img-responsive center-block" src="asset/images/kontes-wefie.jpg" alt=""></div>
-			<?php } ?>
-		</div>
-	</div> -->
 	<div id="livestream">
 			<div class="segment">
 		<div class="container-fluid">
@@ -100,7 +84,6 @@
 			</div>
 			<div class="video col-xs-12 spacepad">
 				<div class="">
-					<!-- <iframe class="vidio-embed" src="http://www.vidio.com/embed/208881-andik-tiru-cr7-jadi-kakek-kakek-main-bola-di-jalan?autoplay=false" scrolling="no" frameborder="0" allowfullscreen></iframe> -->
 					<iframe class="vidio-embed" src="http://www.vidio.com/live/205-indosiar-tv-stream/embed?autoplay=false" scrolling="no" frameborder="0" allowfullscreen="" id="fitvid273370"></iframe>
 				</div>
 			</div>
