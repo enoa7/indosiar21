@@ -14,6 +14,7 @@
     if ($answer4 == "D") { $totalCorrect++; }
     // if ($answer5) { $totalCorrect++; }
     
+    echo $answer1;
     echo "<div id='results'>$totalCorrect / 5 correct</div>";
     
 ?>

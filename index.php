@@ -33,14 +33,14 @@
 		
 		<div class="container-fluid slicky">
 			<!-- list artist -->
+			<div class="slick-artist syahrini">
+				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 3rd Lineup </div>
+				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-syahrini.jpg" alt="2nd-lineup-citata">
+			</div>
 			<div class="slick-artist slank">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 3rd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-slank.jpg" alt="2nd-lineup-citata">
 			</div>
-			<!-- <div class="slick-artist syahrini">
-				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 3rd Lineup </div>
-				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-syahrini.jpg" alt="2nd-lineup-citata">
-			</div> -->
 			<div class="slick-artist citata">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 3rd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-citata.jpg" alt="2nd-lineup-citata">
