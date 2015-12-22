@@ -137,8 +137,11 @@
 	<?php require('overlay-menu.php') ?>
 </div>
 <style type="text/css">
+	body {
+		overflow-x: hidden;
+	}
  	#kuis.page-wrap > .segment {
- 		min-height: 600px;
+ 		min-height: 300px;
  	}
 	#submit {
 		font-size: 2em;
