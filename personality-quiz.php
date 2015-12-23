@@ -21,7 +21,7 @@
 			<form method="" id="quiz">
 				<div class="quiz one">
 					<h3>Question 1</h3>
-					Hal pertama yang kamu lakukan ketika melihat temannya temanmu cantik / ganteng.
+					<div class="quest">Hal pertama yang kamu lakukan ketika melihat temannya temanmu cantik / ganteng.</div>
 					<div class="options spacepad">
 						<div>
 							<input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -48,7 +48,7 @@
 				</div>
 				<div class="quiz two">
 					<h3>Question 2</h3>
-					Menurut kamu lauk yang cocok untuk nasi panas adalah?
+					<div class="quest">Menurut kamu lauk yang cocok untuk nasi panas adalah?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
@@ -74,7 +74,7 @@
 				</div>
 				<div class="quiz three">
 					<h3>Question 3</h3>
-					Setelah kenalan sama cewek / cowok, hal apa yang kemudian kamu tanya ke dia?
+					<div class="quest">Setelah kenalan sama cewek / cowok, hal apa yang kemudian kamu tanya ke dia?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
@@ -100,7 +100,7 @@
 				</div>
 				<div class="quiz four">
 					<h3>Question 4</h3>
-					Baju apa yang akan kamu pakai saat mau ketemu gebetan?
+					<div class="quest">Baju apa yang akan kamu pakai saat mau ketemu gebetan?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
@@ -126,7 +126,7 @@
 				</div>
 				<div class="quiz five">
 					<h3>Question 5</h3>
-					Setelah kenalan, gimana cara kamu dapetin kontaknya?
+					<div class="quest">Setelah kenalan, gimana cara kamu dapetin kontaknya?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
@@ -152,7 +152,7 @@
 				</div>
 				<div class="quiz six">
 					<h3>Question 6</h3>
-					Tempat ngedate paling asik buat kencan pertama sama gebetan?
+					<div class="quest">Tempat ngedate paling asik buat kencan pertama sama gebetan?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
@@ -178,7 +178,7 @@
 				</div>
 				<div class="quiz seven">
 					<h3>Question 7</h3>
-					Lagu Indonesia yang langsung bisa kamu nyanyiin di kepala kamu saat ini?
+					<div class="quest">Lagu Indonesia yang langsung bisa kamu nyanyiin di kepala kamu saat ini?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
@@ -204,7 +204,7 @@
 				</div>
 				<div class="quiz eight">
 					<h3>Question 8</h3>
-					Hal pertama yang dilakukan saat kencan?
+					<div class="quest">Hal pertama yang dilakukan saat kencan?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
@@ -230,7 +230,7 @@
 				</div>
 				<div class="quiz nine">
 					<h3>Question 9</h3>
-					Hal yang paling kamu benci, jika:
+					<div class="quest">Hal yang paling kamu benci, jika:</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
@@ -256,7 +256,7 @@
 				</div>
 				<div class="quiz ten">
 					<h3>Question 10</h3>
-					Tontonan favorit di Indosiar:            
+					<div class="quest">Tontonan favorit di Indosiar:</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
@@ -314,6 +314,12 @@
 	#retake > div {
 		animation-delay: 1.1s;
 		transition: 1s all ease-in;
+	}
+	#personality-list .quest {
+		font-size: 1.1em;
+	}
+	#personality-list label {
+		font-weight: 500;
 	}
 	#personality-list .main-title {
 		background: #2E96F1;
