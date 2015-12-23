@@ -403,16 +403,6 @@ $(function(){
 
 		console.log(total);
 
-		var cemen = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/cemen.jpg alt=\"personality cemen\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Cemen!</h2> Wah! Gaya pdkt kamu mirip banget nih sama Cemen karena kamu tuh rela melakukan apapun demi mendapatkan perhatian gebetan kamu. Dalam proses pdkt kamu akan sering kasih sinyal-sinyal positif ke gebetan kamu. Kamu akan mengatur strategi sedemikian rupa demi mendapat tanggapan dari gebetan kamu </div></div>";
-
-		var musdalifah = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/musdalifah.jpg alt=\"personality musdalifah\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Musdalifah!</h2>Wah! Gaya pdkt kamu mirip banget nih sama Musdalifah karena kamu punya percaya diri yang tinggi. Artinya kamu udah yakin banget bisa dapetin gebetan kamu. Kamu merasa diri kamu menarik dan kamu mampu untuk merebut perhatian gebetan kamu.'</div></div>";
-
-		var ipul = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/ipul.jpg alt=\"personality ipul\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Ipul!</h2>Wah! Gaya pdkt kamu mirip banget nih sama Ipul karena kamu orangnya diem. Tapi walaupun kamu diem, kamu tuh orangnya pasti. Artinya cara kamu pdkt itu udah terencana dengan baik. Pada akhirnya gebetan kamu makin tertarik sama kamu.'</div></div>";
-
-		var rizkiridho = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/rizkiridho.jpg alt=\"personality rizki ridho\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Rizki & Ridho!</h2>Wah! Gaya pdkt kamu mirip banget nih sama Rizki dan Ridho karena kamu orangnya setia. Apapun yang terjadi sama gebetan kamu, ngga akan ngurangin rasa suka kamu ke dia. Selagi dia single dan tidak mengecewakan kamu, kamu akan berusaha untuk dapatin dia.</div></div>";
-
-		var irwan = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/irwan.jpg alt=\"personality irwan\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Irwan!</h2>Wah! Gaya pdkt kamu mirip banget nih sama Irwan karena kamu orangnya cuek. Tapi, sebenernya niat kamu buat cuek itu supaya gebetan kamu nungguin apa yang akan kamu bakal lakuin. Jadi, dalam proses PDKT kamu cuma kasih tanda-tanda kecil kalau kamu tuh suka sama gebetan kamu. Itu tandanya kamu jago banget buat gebetan kamu penasaran.</div></div>";
-
 
 		if (total < 15) {
 			// $('#personality-list').load('template/cemen.php');
