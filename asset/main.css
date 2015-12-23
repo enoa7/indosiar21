@@ -10735,4 +10735,7 @@ body,
     #kuis-result .title {
       font-size: 4em; } }
 
+#kuis-result .social-btn {
+  padding-bottom: 20px; }
+
 /*# sourceMappingURL=main.css.map */
