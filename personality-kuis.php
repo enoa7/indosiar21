@@ -4,7 +4,7 @@
 	$pageSubject = "Kuis Personality";
 	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
 	$pageDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
-	$socialShareImg = "http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg";
+	$socialShareImg = "";
 	include("header.php");
 
 ?>
@@ -284,12 +284,7 @@
 			</form>
 
 			<div id="result" class="spacepad">
-			<div class="social-btn twitter right">
-				<a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="test" data-size="large">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			</div>
 
-			</div>
 			<div id="retake"></div>
 		</div>
 
@@ -412,9 +407,11 @@ $(function(){
 
 
 		if (total < 15) {
-			$('#result').prepend(cemen)
-   			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
-   			$('meta[property="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
+			// $('#personality-list').load('template/cemen.php');
+			window.location.href = "cemen.php";
+			// $('#result').prepend(cemen)
+   // 			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
+   // 			$('meta[property="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
 		} else if (total >= 15 && total < 25) {
 			$('#result').prepend(musdalifah)
 			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/musdalifah.jpg');
