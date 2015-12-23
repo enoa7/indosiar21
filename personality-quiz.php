@@ -411,13 +411,13 @@ $(function(){
    // 			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
    // 			$('meta[property="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
 		} else if (total >= 15 && total < 25) {
-			window.location.href = "musdalifah.php";
+			window.location.href = "musdalifah";
 		} else if (total >= 25 && total < 35) {
-			window.location.href = "ipul.php";
+			window.location.href = "ipul";
 		} else if (total >= 35 && total < 45){
-			window.location.href = "rizkiridho.php";
+			window.location.href = "rizkiridho";
 		} else if (total >= 45) {
-			window.location.href = "irwan.php";
+			window.location.href = "irwan";
 		};
 		
 
