@@ -24,7 +24,7 @@
         <div class="person-img col-xs-12 col-sm-6"><img class=img-responsive src=asset/images/kuis/personality/musdalifah.jpg alt="personality musdalifah"></div>
         <div class="person-desc col-xs-12 col-sm-6">
             <h2>Musdalifah!</h2>
-            <p>Wah! Gaya pdkt kamu mirip banget nih sama Musdalifah karena  kamu punya percaya diri yang tinggi. Artinya kamu udah yakin banget bisa dapetin gebetan kamu. Kamu merasa diri kamu menarik dan kamu mampu untuk merebut perhatian gebetan kamu.</p>
+            <p>Wah! Gaya PDKT kamu mirip banget nih sama Musdalifah karena kamu punya percaya diri yang tinggi. Artinya, kamu udah yakin banget bisa dapetin gebetan kamu. Kamu merasa diri kamu menarik dan kamu mampu untuk merebut perhatian gebetan kamu.</p>
             <div class="twitter col-xs-2 text-right pull-right spacepad">
                 <a href="https://twitter.com/share" data-text="Wah! gue mirip Musdalifah! Yuk ikutan indosiar personality quiz di " data-url="http://hut.indosiar.com/personality-kuis" class="twitter-share-button" {count} data-size="large">Tweet</a>
             </div>

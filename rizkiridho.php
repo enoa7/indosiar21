@@ -17,7 +17,7 @@
         <div class="person-img col-xs-12 col-sm-6"><img class=img-responsive src=asset/images/kuis/personality/rizkiridho.jpg alt="personality Rizki &amp; Ridho"></div>
         <div class="person-desc col-xs-12 col-sm-6">
             <h2>Rizki &amp; Ridho!</h2>
-            <p>Wah! Gaya pdkt kamu mirip banget nih sama Rizki dan Ridho karena kamu orangnya setia. Apapun yang terjadi sama gebetan kamu, ngga akan ngurangin rasa suka kamu ke dia. Selagi dia single dan tidak mengecewakan kamu, kamu akan berusaha untuk dapatin dia. </p>
+            <p>Wah! Gaya PDKT kamu mirip banget nih sama Rizki dan Ridho karena kamu orangnya setia. Apapun yang terjadi sama gebetan kamu, ngga akan ngurangin rasa suka kamu ke dia. Selagi dia <i>single</i> dan tidak mengecewakan kamu, kamu akan berusaha untuk dapetin dia. </p>
             <div class="social-btn twitter right">
                 <a href="https://twitter.com/share" data-text="Wah! gue mirip Rizki &amp; Ridho! Yuk ikutan indosiar personality quiz di " data-url="http://hut.indosiar.com/personality-kuis" class="twitter-share-button" {count} data-size="large">Tweet</a>
             </div>

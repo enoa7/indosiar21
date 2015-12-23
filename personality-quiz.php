@@ -21,7 +21,7 @@
 			<form method="" id="quiz">
 				<div class="quiz one">
 					<h3>Question 1</h3>
-					<div class="quest">Hal pertama yang kamu lakukan ketika melihat temannya temanmu cantik / ganteng.</div>
+					<div class="quest">Hal pertama yang kamu lakukan ketika melihat temannya teman kamu cantik/ganteng?</div>
 					<div class="options spacepad">
 						<div>
 							<input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -42,7 +42,7 @@
 					    </div>
 					    <div>
 							<input type="radio" name="question-1-answers" id="question-1-answers-E" value="E" />
-	        				<label for="question-1-answers-E">E) Nunggu dikenalin, karena gengsi kenalan duluan </label>
+	        				<label for="question-1-answers-E">E) Nunggu dikenalin karena gengsi kenalan duluan </label>
 						</div>
 					</div>
 				</div>
@@ -74,7 +74,7 @@
 				</div>
 				<div class="quiz three">
 					<h3>Question 3</h3>
-					<div class="quest">Setelah kenalan sama cewek / cowok, hal apa yang kemudian kamu tanya ke dia?</div>
+					<div class="quest">Setelah kenalan sama cewek/cowok, hal apa yang kemudian kamu tanya ke dia?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
@@ -82,7 +82,7 @@
 					    </div>
 					    <div>
 					        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-					        <label for="question-3-answers-B">B) Asal darimana?</label>
+					        <label for="question-3-answers-B">B) Asalnya dari mana?</label>
 					    </div>
 					    <div>
 					        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
@@ -130,7 +130,7 @@
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-					        <label for="question-5-answers-A">A) Pura-pura minjem hp-nya buat missed call hp sendiri</label>
+					        <label for="question-5-answers-A">A) Pura-pura minjem hp-nya buat <i>missed call</i> ke nomer sendiri</label>
 					    </div>
 					    <div>
 					        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
@@ -182,23 +182,23 @@
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
-					        <label for="question-7-answers-A">A) Sambalado –ayu ting ting</label>
+					        <label for="question-7-answers-A">A) Sambalado – Ayu Ting Ting</label>
 					    </div>
 					    <div>
 					        <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
-					        <label for="question-7-answers-B">B) Cik cik periuk</label>
+					        <label for="question-7-answers-B">B) Cik Cik Periuk</label>
 					    </div>
 					    <div>
 					        <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
-					        <label for="question-7-answers-C">C) Kesempurnaan cinta – rizki anak sule</label>
+					        <label for="question-7-answers-C">C) Kesempurnaan Cinta – Rizki Anak Sule</label>
 					    </div>
 					    <div>
 					        <input type="radio" name="question-7-answers" id="question-7-answers-D" value="D" />
-					        <label for="question-7-answers-D">D) Percayalah – afgan raisa</label>
+					        <label for="question-7-answers-D">D) Percayalah – Afgan feat. Raisa</label>
 					    </div>
 					    <div>
 					        <input type="radio" name="question-7-answers" id="question-7-answers-E" value="E" />
-					        <label for="question-7-answers-E">E)Tetap dalam jiwa – isyana sarasvati</label>
+					        <label for="question-7-answers-E">E) Tetap Dalam Jiwa – Isyana Sarasvati</label>
 					    </div>
 					</div>
 				</div>
@@ -212,11 +212,11 @@
 					    </div>
 					    <div>
 					        <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
-					        <label for="question-8-answers-B">B) mengenalkan ke orang tua</label>
+					        <label for="question-8-answers-B">B) Mengenalkan ke orang tua</label>
 					    </div>
 					    <div>
 					        <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
-					        <label for="question-8-answers-C">C) nonton</label>
+					        <label for="question-8-answers-C">C) Nonton</label>
 					    </div>
 					    <div>
 					        <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
@@ -230,7 +230,7 @@
 				</div>
 				<div class="quiz nine">
 					<h3>Question 9</h3>
-					<div class="quest">Hal yang paling kamu benci, jika:</div>
+					<div class="quest">Hal yang paling kamu benci, jika?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
@@ -256,7 +256,7 @@
 				</div>
 				<div class="quiz ten">
 					<h3>Question 10</h3>
-					<div class="quest">Tontonan favorit di Indosiar:</div>
+					<div class="quest">Tontonan favorit di Indosiar?</div>
 					<div class="options spacepad">
 					    <div>
 					        <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />

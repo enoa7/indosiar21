@@ -17,7 +17,7 @@
         <div class="person-img col-xs-12 col-sm-6"><img class=img-responsive src=asset/images/kuis/personality/irwan.jpg alt="personality Irwan"></div>
         <div class="person-desc col-xs-12 col-sm-6">
             <h2>Irwan!</h2>
-            <p>Wah! Gaya pdkt kamu mirip banget nih sama Irwan karena kamu orangnya cuek. Tapi, sebenernya niat kamu buat cuek itu supaya gebetan kamu nungguin apa yang akan kamu bakal lakuin. Jadi, dalam proses PDKT kamu cuma kasih tanda-tanda kecil kalau kamu tuh suka sama gebetan kamu. Itu tandanya kamu jago banget buat gebetan kamu penasaran.</p>
+            <p>Wah! Gaya PDKT kamu mirip banget nih sama Irwan karena kamu orangnya cuek. Tapi sebenernya niat kamu buat cuek itu supaya gebetan kamu nungguin apa yang bakal kamu lakuin. Jadi dalam proses PDKT, kamu cuma kasih tanda-tanda kecil kalau kamu tuh suka sama gebetan kamu. Itu tandanya kamu jago banget bikin gebetan kamu penasaran.</p>
             <div class="social-btn twitter right">
                 <a href="https://twitter.com/share" data-text="Wah! gue mirip Irwan! Yuk ikutan indosiar personality quiz di " data-url="http://hut.indosiar.com/personality-kuis" class="twitter-share-button" {count} data-size="large">Tweet</a>
             </div>
