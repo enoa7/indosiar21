@@ -15,7 +15,9 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="page-wrap" id="kuis">
 	<div class="segment" id="personality-list">
+	<h1 class="text-center main-title">Indosiar Personality Quiz</h1>
 		<div class="container spacepad">
+			
 			<form method="" id="quiz">
 				<div class="quiz one">
 					<h3>Question 1</h3>
@@ -312,6 +314,12 @@
 	#retake > div {
 		animation-delay: 1.1s;
 		transition: 1s all ease-in;
+	}
+	#personality-list .main-title {
+		background: #2E96F1;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	    color: #fff;
 	}
 </style>
 <script>window.twttr = (function(d, s, id) {
