@@ -4,7 +4,7 @@
 	$pageSubject = "Kuis Personality";
 	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
 	$pageDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
-	$socialShareImg = "http://hut.indosiar.com/asset/images/hutindosiar21.png";
+	$socialShareImg = "";
 	include("header.php");
 
 ?>
@@ -414,18 +414,23 @@ $(function(){
 		if (total < 15) {
 			$('#result').prepend(cemen)
    			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
+   			$('meta[name="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
 		} else if (total >= 15 && total < 25) {
 			$('#result').prepend(musdalifah)
 			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/musdalifah.jpg');
+			$('meta[name="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/musdalifah.jpg');
 		} else if (total >= 25 && total < 35) {
 			$('#result').prepend(ipul)
 			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/ipul.jpg');
+			$('meta[name="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/ipul.jpg');
 		} else if (total >= 35 && total < 45){
 			$('#result').prepend(rizkiridho)
 			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/rizkiridho.jpg');
+			$('meta[name="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/rizkiridho.jpg');
 		} else if (total >= 45) {
 			$('#result').prepend(irwan)
 			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/irwan.jpg');
+			$('meta[name="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/irwan.jpg');
 		};
 		
 
