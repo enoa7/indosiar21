@@ -4,8 +4,7 @@
 	$pageSubject = "Kuis Personality";
 	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
 	$pageDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
-	$socialTitle = "Kuis Tebak Program HUT indosiar 21";
-	$socialDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
+	$socialShareImg = "http://hut.indosiar.com/asset/images/hutindosiar21.png";
 	include("header.php");
 
 ?>
@@ -284,7 +283,13 @@
 				</div>
 			</form>
 
-			<div id="result"></div>
+			<div id="result" class="spacepad">
+			<div class="social-btn twitter right">
+				<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://hut.indosiar.com" data-text="Ayo ikutan kuis personality!" data-size="large" data-hashtags="menujuindosiar21">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+
+			</div>
 			<div id="retake"></div>
 		</div>
 
@@ -314,6 +319,23 @@
 		transition: 1s all ease-in;
 	}
 </style>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
 <script>
 $(function(){
 
@@ -346,7 +368,9 @@ $(function(){
 		// });
 
 		//remove quiz once its submitted with fancy animation lol
-		$('#quiz').click(false).css('color', 'rgba(0, 0, 0, .4)');
+		$('#quiz').click(false).css('color', 'rgba(0, 0, 0, .4)').addClass('animated fadeOutUp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+			$(this).hide();
+		});
 
 		// option animation for the footer :P
 		// $('footer').addClass('animated fadeInUp');
@@ -376,15 +400,37 @@ $(function(){
 
 		console.log(total);
 
-		if (total <= 10) {
-			console.log('cemen');
-		} else if (total > 10 || total < 20) {
-			console.log('slank');
-		}
-		$('#result').append('<div class="spacepad animated bounceInRight">'+ getAnswer +'</div>');
+		var cemen = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/cemen.jpg alt=\"personality cemen\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Cemen!</h2> Wah! Gaya pdkt kamu mirip banget nih sama Cemen karena kamu tuh rela melakukan apapun demi mendapatkan perhatian gebetan kamu. Dalam proses pdkt kamu akan sering kasih sinyal-sinyal positif ke gebetan kamu. Kamu akan mengatur strategi sedemikian rupa demi mendapat tanggapan dari gebetan kamu </div></div>";
+
+		var musdalifah = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/musdalifah.jpg alt=\"personality musdalifah\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Musdalifah!</h2>Wah! Gaya pdkt kamu mirip banget nih sama Musdalifah karena kamu punya percaya diri yang tinggi. Artinya kamu udah yakin banget bisa dapetin gebetan kamu. Kamu merasa diri kamu menarik dan kamu mampu untuk merebut perhatian gebetan kamu.'</div></div>";
+
+		var ipul = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/ipul.jpg alt=\"personality ipul\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Ipul!</h2>Wah! Gaya pdkt kamu mirip banget nih sama Ipul karena kamu orangnya diem. Tapi walaupun kamu diem, kamu tuh orangnya pasti. Artinya cara kamu pdkt itu udah terencana dengan baik. Pada akhirnya gebetan kamu makin tertarik sama kamu.'</div></div>";
+
+		var rizkiridho = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/rizkiridho.jpg alt=\"personality rizki ridho\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Rizki & Ridho!</h2>Wah! Gaya pdkt kamu mirip banget nih sama Rizki dan Ridho karena kamu orangnya setia. Apapun yang terjadi sama gebetan kamu, ngga akan ngurangin rasa suka kamu ke dia. Selagi dia single dan tidak mengecewakan kamu, kamu akan berusaha untuk dapatin dia.</div></div>";
+
+		var irwan = "<div class=\"spacepad animated bounceInRight vertical-align-nofloat\"><div class=\"person-img col-xs-12 col-sm-4\"><img class=img-responsive src=asset/images/kuis/personality/irwan.jpg alt=\"personality irwan\"></div><div class=\"person-desc col-xs-12 col-sm-8\"><h2>Irwan!</h2>Wah! Gaya pdkt kamu mirip banget nih sama Irwan karena kamu orangnya cuek. Tapi, sebenernya niat kamu buat cuek itu supaya gebetan kamu nungguin apa yang akan kamu bakal lakuin. Jadi, dalam proses PDKT kamu cuma kasih tanda-tanda kecil kalau kamu tuh suka sama gebetan kamu. Itu tandanya kamu jago banget buat gebetan kamu penasaran.</div></div>";
+
+
+		if (total < 15) {
+			$('#result').prepend(cemen)
+   			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
+		} else if (total >= 15 && total < 25) {
+			$('#result').prepend(musdalifah)
+			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/musdalifah.jpg');
+		} else if (total >= 25 && total < 35) {
+			$('#result').prepend(ipul)
+			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/ipul.jpg');
+		} else if (total >= 35 && total < 45){
+			$('#result').prepend(rizkiridho)
+			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/rizkiridho.jpg');
+		} else if (total >= 45) {
+			$('#result').prepend(irwan)
+			$('meta[name="twitter:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/irwan.jpg');
+		};
+		
 
 	});
-
+	
 });
 
 </script>

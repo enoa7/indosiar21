@@ -14,20 +14,20 @@
     <meta name="keywords" content="<?php echo $pageKeywords ?>">
     <meta name="description" content="<?php echo $pageDesc ?>">
     <link rel="shortcut icon" href="favicon.ico" />
-    <meta property="og:title" content= "<?php echo $socialTitle ?>" /> 
+    <meta property="og:title" content= "<?php echo $pageSubject; ?>" /> 
     <meta property="og:type" content= "website" />
-    <meta property="og:description" content="<?php echo $socialDesc ?>" /> 
+    <meta property="og:description" content="<?php echo $pageDesc ?>" /> 
     <meta property="og:url" content="http://hut.indosiar.com" />
-    <meta property="og:image" content="http://hut.indosiar.com/asset/images/hutindosiar21.png" />
-    <meta name="twitter:image" content="http://hut.indosiar.com/asset/images/hutindosiar21.png">
+    <meta property="og:image" content="<?php echo $socialShareImg ?>" />
+    <meta name="twitter:image" content="<?php echo $socialShareImg ?>">
     <meta name="twitter:site" content="@IndosiarID">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?php echo $socialTitle ?>">
+    <meta name="twitter:title" content="<?php echo $pageSubject; ?>">
     <meta name="twitter:url" content="http://hut.indosiar.com">
-    <meta name="twitter:description" content="<?php echo $socialDesc ?>">
+    <meta name="twitter:description" content="<?php echo $pageDesc ?>">
     <title><?php echo $pageTitle ?></title>
 
-
+    <!--  -->
     <!-- all compiled css -->
     <link rel="stylesheet" type="text/css" href="asset/main.css">
 

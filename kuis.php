@@ -4,8 +4,7 @@
 	$pageSubject = "Kuis Tebak Program";
 	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
 	$pageDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
-	$socialTitle = "Kuis Tebak Program HUT indosiar 21";
-	$socialDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
+	$socialShareImg = "http://hut.indosiar.com/asset/images/hutindosiar21.png";
 	include("header.php");
 
 ?>

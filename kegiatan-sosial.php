@@ -4,8 +4,7 @@
 	$pageSubject = "Kegiatan Sosial";
 	$pageKeywords = "indosiar, indosiar21, HUT, kegiatan sosial, sekolah, kita";
 	$pageDesc = "Salurkan bantuan kamu untuk renovasi sekolah yang ke-5, yaitu SDN Patemon 12, Probolinggo, melalui rekening BCA 500 555 888 1.";
-	$socialTitle = "Sekolah Kita Indosiar";
-	$socialDesc = "Salurkan bantuan kamu untuk renovasi sekolah yang ke-5, yaitu SDN Patemon 12, Probolinggo, melalui rekening BCA 500 555 888 1.";
+	$socialShareImg = "http://hut.indosiar.com/asset/images/hutindosiar21.png";
 	include("header.php");
 
 ?>
