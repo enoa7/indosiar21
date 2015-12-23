@@ -19,11 +19,11 @@
 		<h1>
 			<?php if ( $detect->isMobile() ) { ?>
 				<div class="slick-kuis">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-8-mobile.jpg" alt="indosiar21 tebak program 7">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-9-mobile.jpg" alt="indosiar21 tebak program 7">
 				</div>
 			<?php } else { ?>
 				<div class="slick-kuis">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-8.jpg" alt="indosiar21 tebak program 7">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-9.jpg" alt="indosiar21 tebak program 7">
 				</div>
 			<?php } ?>
 		</h1>
