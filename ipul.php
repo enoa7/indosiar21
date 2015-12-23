@@ -17,7 +17,7 @@
         <div class="person-img col-xs-12 col-sm-6"><img class=img-responsive src=asset/images/kuis/personality/ipul.jpg alt="personality ipul"></div>
         <div class="person-desc col-xs-12 col-sm-6">
             <h2>Ipul!</h2>
-            <p>Wah! Gaya pdkt kamu mirip banget nih sama Ipul karena kamu punya percaya diri yang tinggi. Artinya kamu udah yakin banget bisa dapetin gebetan kamu. Kamu merasa diri kamu menarik dan kamu mampu untuk merebut perhatian gebetan kamu.</p>
+            <p>Wah! Gaya pdkt kamu mirip banget nih sama Ipul karena kamu orangnya diem. Tapi walaupun kamu diem, kamu tuh orangnya pasti.  Artinya cara kamu pdkt itu udah terencana dengan baik. Pada akhirnya gebetan kamu makin tertarik sama kamu.</p>
             <div class="social-btn twitter right">
                 <a href="https://twitter.com/share" data-text="Wah! gue mirip Ipul! Yuk ikutan indosiar personality quiz di " data-url="http://hut.indosiar.com/personality-kuis" class="twitter-share-button" {count} data-size="large">Tweet</a>
             </div>

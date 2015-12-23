@@ -418,9 +418,9 @@ $(function(){
    // 			$('meta[property="og:image"]').attr('content', 'http://hut.indosiar.com/asset/images/kuis/personality/cemen.jpg');
 		} else if (total >= 15 && total < 25) {
 			window.location.href = "musdalifah";
-		} else if (total >= 25 && total < 35) {
+		} else if (total >= 25 && total <= 30) {
 			window.location.href = "ipul";
-		} else if (total >= 35 && total < 45){
+		} else if (total > 30 && total < 45){
 			window.location.href = "rizkiridho";
 		} else if (total >= 45) {
 			window.location.href = "irwan";
