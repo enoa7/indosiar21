@@ -4,7 +4,7 @@
 	$pageSubject = "Indosiar Quiz Personality";
 	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
 	$pageDesc = "Seperti apa tipe PDKT kamu? Yuk ikutan personality quiz http://hut.indosiar.com/ #MenujuIndosiar21";
-	$socialShareImg = "http://hut.indosiar.com/asset/images/kuis/personality/musdalifah.jpg";
+	$socialShareImg = "http://hut.indosiar.com/asset/images/kuis/personality/musdalifah.jpg?4362984378";
 	include("header.php");
 
 ?>
