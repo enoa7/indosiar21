@@ -88,10 +88,10 @@
 	"buffers":
 	[
 		{
-			"file": "tst.html",
+			"file": "kuis.php",
 			"settings":
 			{
-				"buffer_size": 52,
+				"buffer_size": 1155,
 				"line_ending": "Windows"
 			}
 		}
@@ -342,6 +342,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"9",
+			"7",
 			"trans",
 			"allowover",
 			"mod_re",
@@ -385,6 +387,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"10",
+			"9",
 			"text-center vod-thumb",
 			"winner col-xs-12 spacepad hide",
 			"/embed/",
@@ -421,24 +425,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "tst.html",
-					"semi_transient": true,
+					"file": "kuis.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 52,
+						"buffer_size": 1155,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								1043,
+								1043
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -489,7 +495,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -527,7 +533,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 141.0,
+	"side_bar_width": 226.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
