@@ -193,7 +193,9 @@
 	},
 	"expanded_folders":
 	[
-		"/C/webdev/project/indosiar21"
+		"/C/webdev/project/indosiar21",
+		"/C/webdev/project/indosiar21/asset",
+		"/C/webdev/project/indosiar21/asset/style"
 	],
 	"file_history":
 	[
@@ -342,6 +344,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"11",
 			"9",
 			"7",
 			"trans",
@@ -387,6 +390,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"12",
 			"10",
 			"9",
 			"text-center vod-thumb",
@@ -436,8 +440,8 @@
 						"selection":
 						[
 							[
-								1043,
-								1043
+								6,
+								6
 							]
 						],
 						"settings":
