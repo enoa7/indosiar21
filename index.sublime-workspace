@@ -193,7 +193,6 @@
 	},
 	"expanded_folders":
 	[
-		"/C/webdev/project/indosiar21",
 		"/C/webdev/project/indosiar21/asset",
 		"/C/webdev/project/indosiar21/asset/style"
 	],
@@ -344,6 +343,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"13",
 			"11",
 			"9",
 			"7",
@@ -390,6 +390,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"14",
 			"12",
 			"10",
 			"9",
@@ -440,8 +441,8 @@
 						"selection":
 						[
 							[
-								6,
-								6
+								1138,
+								1138
 							]
 						],
 						"settings":
@@ -451,7 +452,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
