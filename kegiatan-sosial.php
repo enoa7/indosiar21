@@ -18,14 +18,14 @@
 		<div class="container spacepad">
 			<div class="intro-text">
 				<h1 class="title text-center">Kegiatan Sosial</h1>
-				<p class="desc text-center hidden-xs">Hingga 16 Desember 2015, Sekolah Kita Indosiar telah berhasil mengumpulkan dana sebesar Rp 1.271.659.578.  Dana tersebut akan digunakan untuk renovasi empat sekolah, yaitu SDN Tenjolahang 2 Banten, SD Inpres Bengo 2 Gowa, SDN Trimulyo 2 Semarang, dan SMPN 1 Siberut Selatan. Renovasi Sekolah Kita Indosiar saat ini telah dilakukan di dua sekolah, yaitu SDN Tenjolahang 2 Banten dan SD Inpres Bengo 2 Gowa. Perbaikan di SDN Tenjolahang 2, Banten, sudah sampai pada tahap akhir yaitu pemasangan atap dan keramik. Sementara itu, untuk SD Inpres Bengo 2 masih dalam proses penggalian pondasi untuk tiga ruang kelas.</p>
+				<p class="desc text-center hidden-xs">Hingga 16 Desember 2015, Sekolah Kita Indosiar telah berhasil mengumpulkan dana sebesar Rp 1.271.659.578.  Dana tersebut akan digunakan untuk renovasi empat sekolah, yaitu SDN Tenjolahang 2 Banten, SD Inpres Bengo 2 Gowa, SDN Trimulyo 2 Semarang, dan SMPN 1 Siberut Selatan, SDN Patemon 12, Probolinggo. Renovasi Sekolah Kita Indosiar saat ini telah dilakukan di dua sekolah, yaitu SDN Tenjolahang 2 Banten dan SD Inpres Bengo 2 Gowa. Perbaikan di SDN Tenjolahang 2, Banten, sudah sampai pada tahap akhir yaitu pemasangan atap dan keramik. Sementara itu, untuk SD Inpres Bengo 2 masih dalam proses penggalian pondasi untuk tiga ruang kelas.</p>
 				<p class="text-center mobile-text">
-					Salurkan terus bantuan kamu untuk renovasi sekolah yang ke-5, yaitu SDN Patemon 12, Probolinggo, melalui rekening BCA 500-555-888-1.
+					Salurkan terus bantuan kamu untuk renovasi sekolah yang ke-6, yaitu SDN Pulau Rinca, Desa Pasir Panjanga, Kec. Komodo, Kab. Mangarai Barat, Nusa Tenggara Timut melalui rekening BCA 500-555-888-1.
 				</p>
 			</div>
 				<div class="saldo col-xs-12">
 					<div class="name col-xs-12 col-sm-6">total saldo</div>
-					<div class="amount col-xs-12 col-sm-6">Rp 1.411.027.181,-</div>
+					<div class="amount col-xs-12 col-sm-6">Rp 1.555.666.886,-</div>
 				</div>
 			<div class="activity one clearfix">
 				<h3 class="title">SDN Tenjolahang 2, Jiput - Pandeglang Banten</h3>
