@@ -94,7 +94,7 @@
 			<div class="segment">
 		<div class="container-fluid">
 			<div class="intro-text">
-				<h2>Saksikan livestream Indosiar disini</h2>
+				<h2>Saksikan <i>livestream</i> Indosiar di sini</h2>
 				<hr />
 			</div>
 			<div class="video col-xs-12 spacepad">
