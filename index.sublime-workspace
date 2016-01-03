@@ -94,22 +94,6 @@
 				"buffer_size": 1155,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "kegiatan-sosial.php",
-			"settings":
-			{
-				"buffer_size": 5069,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/webdev/project/scm/wp-content/themes/scm/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 984,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "",
@@ -119,10 +103,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 118.0,
-		"last_filter": "syn javasc",
+		"height": 230.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"syn javasc",
 				"Set Syntax: JavaScript"
@@ -130,10 +118,6 @@
 			[
 				"syn js",
 				"Set Syntax: JavaScript"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"syn scss",
@@ -188,7 +172,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 424.0
+		"width": 510.0
 	},
 	"console":
 	{
@@ -213,6 +197,8 @@
 	],
 	"file_history":
 	[
+		"/C/webdev/project/scm/wp-content/themes/scm/gulpfile.js",
+		"/C/webdev/project/indosiar21/kegiatan-sosial.php",
 		"/E/wamp/www/sctv-awards/Capfile",
 		"/E/wamp/www/indosiar21/Capfile",
 		"/C/Users/gamal.pratama/Desktop/account details.txt",
@@ -338,9 +324,7 @@
 		"/E/wamp/www/sctv-awards/opening-sctv-awards.php",
 		"/E/wamp/www/sctv-awards/video/opening-sctv-awards.php",
 		"/E/wamp/www/sctv-awards/asset/sass/_kategori.scss",
-		"/E/wamp/www/sctv-awards/livestream.php",
-		"/E/wamp/www/sctv-awards/header.php",
-		"/E/wamp/www/sctv-awards/kuis.php"
+		"/E/wamp/www/sctv-awards/livestream.php"
 	],
 	"find":
 	{
@@ -358,6 +342,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"18",
 			"13",
 			"11",
 			"9",
@@ -405,6 +390,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"19",
 			"14",
 			"12",
 			"10",
@@ -456,8 +442,8 @@
 						"selection":
 						[
 							[
-								821,
-								821
+								391,
+								391
 							]
 						],
 						"settings":
@@ -465,71 +451,12 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "kegiatan-sosial.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5069,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4588,
-								4588
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1560.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/webdev/project/scm/wp-content/themes/scm/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 984,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								399,
-								399
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Seti_UI/icons/Langs/Gulpfile JS.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
