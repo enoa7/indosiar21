@@ -8213,6 +8213,9 @@ footer {
 /*
 *	Variables SCSS
 */
+.highlight {
+  text-decoration: underline; }
+
 #sosial {
   background: #458FE0;
   color: #fff; }
@@ -8228,7 +8231,8 @@ footer {
   color: #fff;
   font-weight: 700; }
 #sosial .intro-text .desc {
-  padding-top: 15px; }
+  padding-top: 15px;
+  text-transform: capitalize; }
 @media (max-width: 768px) {
   #sosial .intro-text .mobile-text {
     padding-top: 15px; } }

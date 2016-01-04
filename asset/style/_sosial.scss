@@ -6,6 +6,10 @@
 $sosial-red: #D03C3C; //text color red
 $sosial-orange: #FBA227;
 
+.highlight {
+  // color: $sosial-red;
+  text-decoration: underline;
+}
 #sosial {
     background: #458FE0; //bg green
     color: #fff;
@@ -27,12 +31,13 @@ $sosial-orange: #FBA227;
     }
     .desc {
         padding-top: 15px;
+        text-transform: capitalize;
     }
     .mobile-text{
     	@media (max-width: 768px) {
     		padding-top: 15px;
     	}
-    	
+
     }
 }
 
