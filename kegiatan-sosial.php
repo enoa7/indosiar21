@@ -23,18 +23,16 @@
 					Salurkan terus bantuan kamu untuk renovasi sekolah yang ke-6, yaitu SDN Pulau Rinca, Desa Pasir Panjanga, Kec. Komodo, Kab. Mangarai Barat, Nusa Tenggara Timur melalui rekening BCA 500-555-888-1.
 				</p> -->
 				<p class="desc text-center hidden-xs">
-					Dalam rangka hut indosiar ke 21, program‎ "sekolah kita indosiar" ‎ upaya mewujudkan harapan anak-anak kita murid SDN pulau rinca, desa pasir panjang, kec. komodo, kab. mangarai barat, nusa tenggara timur  akan sebuah sekolah yang nyaman & aman untuk belajar, dengan menggalang dana  Rp 426.953.100,-  untuk renovasi sekolah mereka.  saat ini dana yang baru terkumpul sebesar  Rp. 219,512,036,- mari salurkan bantuan anda lewat rekening bca, no rek. 500 555 888 1  a/n sekolah kita indosiar (pt indosiar visual mandiri). kepedulian kita untuk masa depan mereka.
+					Dalam rangka hut indosiar ke 21, program‎ "Sekolah Kita Indosiar" ‎upaya mewujudkan harapan anak-anak kita murid SDN Pulau Rinca, Desa Pasir Panjang, Kec. Komodo, Kab. Manggarai Barat, Nusa Tenggara Timur akan sebuah sekolah yang nyaman & aman untuk belajar, dengan menggalang dana  Rp 426.953.100,-  untuk renovasi sekolah mereka.  Saat ini dana yang baru terkumpul sebesar  Rp. 219,512,036,- mari salurkan bantuan anda lewat rekening bca, no rek. 500 555 888 1  a/n sekolah kita Indosiar (PT Indosiar Visual Mandiri). Kepedulian kita untuk masa depan mereka.
 				</p>
 				<p class="desc text-center hidden-xs">
-					Program sekolah kita indosiar akan berakhir 7 hari lagi, tanggal 11 januari 2016 pukul 23:59 WIB
+					Program sekolah kita Indosiar akan berakhir 7 hari lagi, tanggal 11 januari 2016 pukul 23:59 WIB
 				</p>
 				<p class="desc text-center hidden-xs">
-					Total  dana “sekolah kita indosiar”  yang terkumpul sampai 31 desemeber 2015, sebesar <span class="highlight">Rp. 1,628,986,611,- </span>dan  telah disalurkan untuk 5 sekolah :
-					SDN tenjolahang 2 pandeglang proses renovasi sudah 95% saat ini sedang finishing & menunggu meubel, SD inpres bengo 2 gowa sedang proses pondasi dan pembesian,
-					SDN trimulyo 2 semarang sedang proses pembongkaran bangunan yang rusak, smpn 1 siberut selatan dan  SDN Patemon 12, probolinggo  baru akan memulai proses renovasi.
+					Total dana "Sekolah Kita Indosiar" yang terkumpul sampai 31 Desember 2015, sebesar <span class="highlight">Rp. 1,628,986,611,- </span>dan  telah disalurkan untuk 5 sekolah; SDN Tenjolahang 2 Pandeglang proses renovasi sudah 95% saat ini sedang finishing & menunggu meubel, SD Inpres Bengo 2 Gowa sedang proses pondasi dan pembesian, SDN Trimulyo 2 Semarang sedang proses pembongkaran bangunan yang rusak, SMPN 1 Siberut Selatan dan SDN Patemon 12, Probolinggo baru akan memulai proses renovasi.
 				</p>
 				<p class="desc text-center hidden-xs">
-					Terima kasih sebesar-besarnya kepada seluruh pemirsa yang sudah menyumbangkan dana. semoga tuhan yang maha esa membalas semua bantuan dan kebaikan pemirsa.
+					Terima kasih sebesar-besarnya kepada seluruh pemirsa yang sudah menyumbangkan dana. semoga Tuhan Yang Maha Esa membalas semua bantuan dan kebaikan pemirsa.
 				</p>
 			</div>
 				<div class="saldo col-xs-12">

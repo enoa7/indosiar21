@@ -8231,8 +8231,7 @@ footer {
   color: #fff;
   font-weight: 700; }
 #sosial .intro-text .desc {
-  padding-top: 15px;
-  text-transform: capitalize; }
+  padding-top: 15px; }
 @media (max-width: 768px) {
   #sosial .intro-text .mobile-text {
     padding-top: 15px; } }
