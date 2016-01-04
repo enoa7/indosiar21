@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 	$pageTitle = "HUT Indosiar 21 | Kuis";
 	$pageSubject = "Kuis Tebak Program";
@@ -8,7 +8,7 @@
 	include("header.php");
 
 ?>
-	
+
 
 <?php require('nav.php') ?>
 
@@ -19,11 +19,11 @@
 		<h1>
 			<?php if ( $detect->isMobile() ) { ?>
 				<div class="slick-kuis">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-20-mobile.jpg" alt="indosiar21 tebak program 20">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-21-mobile.jpg" alt="indosiar21 tebak program 21">
 				</div>
 			<?php } else { ?>
 				<div class="slick-kuis">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-20.jpg" alt="indosiar21 tebak program 20">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-21.jpg" alt="indosiar21 tebak program 21">
 				</div>
 			<?php } ?>
 		</h1>
