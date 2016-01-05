@@ -101,7 +101,27 @@
 } ?>
 			</div>
 		</div>
-    			<hr>
+    <hr>
+    <div class="activity four clearfix">
+      <h3 class="title">SDN Trimulyo 2, Semarang</h3>
+      <div class="video col-xs-12 text-center">
+        <div class="hide">
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/184801-sd-inpres-bengo-2-sulawesi-selatan-sekolah-kita?autoplay=false&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <?php if ($detect->isMobile() && !$detect->isTablet()) { ?>
+        <div class="gallery mobile col-xs-12">
+        <img class="img-responsive" src="asset/images/activity/sdn-trimulyo-1.jpg" alt="">
+        <img class="img-responsive" src="asset/images/activity/sdn-trimulyo-2.jpg" alt="">
+        </div>
+      <?php } else { ?>
+        <div class="gallery desktop col-xs-12">
+          <img class="img-responsive" src="asset/images/activity/sdn-trimulyo-1.jpg" alt="">
+          <img class="img-responsive" src="asset/images/activity/sdn-trimulyo-2.jpg" alt="">
+        </div>
+      <?php } ?>
+    </div>
+        <hr>
     <div class="activity three clearfix">
       <h3 class="title">SD Rinca Manggarai, Nusa Tenggara Timur</h3>
       <div class="video col-xs-12 text-center">
@@ -127,26 +147,7 @@
         </div>
       <?php } ?>
     </div>
-    <hr>
-    <div class="activity four clearfix">
-      <h3 class="title">SDN Trimulyo 2, Semarang</h3>
-      <div class="video col-xs-12 text-center">
-        <div class="hide">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/184801-sd-inpres-bengo-2-sulawesi-selatan-sekolah-kita?autoplay=false&" scrolling="no" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <?php if ($detect->isMobile() && !$detect->isTablet()) { ?>
-        <div class="gallery mobile col-xs-12">
-        <img class="img-responsive" src="asset/images/activity/sdn-trimulyo-1.jpg" alt="">
-        <img class="img-responsive" src="asset/images/activity/sdn-trimulyo-2.jpg" alt="">
-        </div>
-      <?php } else { ?>
-        <div class="gallery desktop col-xs-12">
-          <img class="img-responsive" src="asset/images/activity/sdn-trimulyo-1.jpg" alt="">
-          <img class="img-responsive" src="asset/images/activity/sdn-trimulyo-2.jpg" alt="">
-        </div>
-      <?php } ?>
-    </div>
+
   </div>
 	</div>
 	<?php require('footer.php') ?>
