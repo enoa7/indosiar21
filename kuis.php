@@ -1,10 +1,10 @@
 <?php
 
-	$pageTitle = "HUT Indosiar 21 | Kuis";
+	$pageTitle = "HUT Indosiar 19 | Kuis";
 	$pageSubject = "Kuis Tebak Program";
-	$pageKeywords = "indosiar, indosiar21, HUT, kuis, tebak program";
-	$pageDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 21";
-	$socialShareImg = "http://hut.indosiar.com/asset/images/hutindosiar21.png";
+	$pageKeywords = "indosiar, indosiar19, HUT, kuis, tebak program";
+	$pageDesc = "Kuis tebak program unggulan Indosiar dari masa ke masa dalam rangka HUT Indosiar ke 19";
+	$socialShareImg = "http://hut.indosiar.com/asset/images/hutindosiar19.png";
 	include("header.php");
 
 ?>
@@ -19,11 +19,11 @@
 		<h1>
 			<?php if ( $detect->isMobile() ) { ?>
 				<div class="slick-kuis">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-21-mobile.jpg" alt="indosiar21 tebak program 21">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-19-mobile.jpg" alt="indosiar19 tebak program 19">
 				</div>
 			<?php } else { ?>
 				<div class="slick-kuis">
-					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-21.jpg" alt="indosiar21 tebak program 21">
+					<img class="img-responsive center-block" src="asset/images/kuis/tebak-program/tebakprogram-19.jpg" alt="indosiar19 tebak program 19">
 				</div>
 			<?php } ?>
 		</h1>
