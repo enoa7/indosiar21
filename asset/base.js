@@ -69,10 +69,18 @@
               slidesToScroll: 3
         });
         $('#sosial .gallery.mobile').slick();
+        // $('.video-list').slick({
+        //   // lazyLoad: 'ondemand',
+        //   infinite: true,
+        //   slidesToShow: 3,
+        //   slidesToScroll: 3
+        // });
+        //video.php page
+        // $('.content.submenu-content').load('./template/ilikedangdut.html');
         $('#hut-video .submenu > li').click(function(){
           $(this).addClass('active').siblings().removeClass('active');
           var getAttr = $(this).attr('data-name');
-          console.log(getAttr);
           $('.submenu-content > div[name="'+ getAttr +'"]').addClass('active').siblings().removeClass('active');
+        //   $('.content.submenu-content').load('./template/' + getAttr + '.html');
         });
     });

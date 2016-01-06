@@ -22,7 +22,7 @@ ul.nodots > li {
 }
 .spacepad {
 	padding-top: 20px;
-	padding-bottom: 20px; 
+	padding-bottom: 20px;
 }
 .spacemar {
 	margin-top: 20px;
@@ -63,7 +63,8 @@ ul.nodots > li {
 /* **************** /Truncate Function CSS **************** */
 /*use the nofloat if child(div) elements are float*/
 .vertical-align-nofloat > div,
-.vertical-align-nofloat > ul {
+.vertical-align-nofloat > ul,
+.vertical-align-nofloat > span {
     display: inline-block;
     float: none !important;
 
@@ -71,7 +72,8 @@ ul.nodots > li {
 }
 /*move the all child of the div except the first child so that it can sit side by side*/
 .vertical-align-nofloat > div:not(first-child),
-.vertical-align-nofloat > ul:not(first-child) {
+.vertical-align-nofloat > ul:not(first-child),
+.vertical-align-nofloat > span:not(first-child) {
     margin-left: -4px;
 }
 

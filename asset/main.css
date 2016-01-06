@@ -8307,7 +8307,9 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px; }
   #hut-video .submenu li > div {
-    text-align: center; }
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto; }
   #hut-video .submenu li:hover, #hut-video .submenu li.active {
     background: #2c89c3; }
   #hut-video .submenu li a {
@@ -8315,17 +8317,34 @@ footer {
   #hut-video .submenu li img {
     width: 50px;
     height: 50px; }
-  #hut-video .submenu li span {
-    display: inline-block; }
-    #hut-video .submenu li span:first-child {
-      vertical-align: middle; }
-    @media (min-width: 768px) {
-      #hut-video .submenu li span:nth-child(2) {
-        margin-left: 8px; } }
 #hut-video .submenu-content-list {
   display: none; }
   #hut-video .submenu-content-list.active {
     display: block; }
+
+.submenu-content-list div:nth-child(2) .title {
+  border-bottom: 2px solid #d03c3c;
+  padding-bottom: 10px; }
+  @media (max-width: 768px) {
+    .submenu-content-list div:nth-child(2) .title {
+      font-size: 1.5em; } }
+
+.submenu-content-list .video-list > div[class^="col-"] {
+  text-align: center; }
+.submenu-content-list .video-list iframe {
+  width: 100%;
+  min-height: 200px; }
+
+/* override slider */
+.slick-prev,
+.slick-next {
+  padding: 0; }
+
+.slick-prev {
+  left: -30px; }
+
+.slick-next {
+  right: -30px; }
 
 /*kodein--*/
 /*!
@@ -10565,14 +10584,16 @@ ul.nodots > li {
 /* **************** /Truncate Function CSS **************** */
 /*use the nofloat if child(div) elements are float*/
 .vertical-align-nofloat > div,
-.vertical-align-nofloat > ul {
+.vertical-align-nofloat > ul,
+.vertical-align-nofloat > span {
   display: inline-block;
   float: none !important;
   vertical-align: middle; }
 
 /*move the all child of the div except the first child so that it can sit side by side*/
 .vertical-align-nofloat > div:not(first-child),
-.vertical-align-nofloat > ul:not(first-child) {
+.vertical-align-nofloat > ul:not(first-child),
+.vertical-align-nofloat > span:not(first-child) {
   margin-left: -4px; }
 
 /* create skew object - it must have the correct html structure*/
