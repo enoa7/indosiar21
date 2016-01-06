@@ -1,0 +1,54 @@
+/* ------------------- */
+// Video Page CSS
+/* ------------------- */
+#hut-video .header {
+  background: $secondary-color-three;
+}
+#hut-video {
+  .header > div[class^="container"] {
+    @include nosides(padding);
+  }
+}
+#hut-video .submenu {
+  li {
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    @include transition(0.4s);
+    text-decoration: none;
+    > div {
+      text-align: center;
+    }
+    &:hover,
+    &.active {
+      background: $main-color-two;
+    }
+    @include spacepad(15px);
+    a {
+      color: #fff;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    span {
+      display: inline-block;
+      &:first-child {
+        vertical-align: middle;
+      }
+      &:nth-child(2) {
+        @media (min-width: 768px) {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  &-content-list {
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+}

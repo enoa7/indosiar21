@@ -25,6 +25,10 @@
     margin-left: 0;
     margin-right: 0;
 }
+@mixin nosides($args) {
+  #{$args}-left:0;
+  #{$args}-right:0;
+}
 
 @function calculateRem($size) {
   $remSize: $size / 16px;

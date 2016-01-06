@@ -5,7 +5,7 @@
         if ($(window).scrollTop() >= (orgElementTop)) {
             // scrolled past the original position; now only show the cloned, sticky element.
 
-            // Cloned element should always have same left position and width as original element.     
+            // Cloned element should always have same left position and width as original element.
             orgElement = $('.original');
             coordsOrgElement = orgElement.offset();
             leftOrgElement = coordsOrgElement.left;
@@ -69,4 +69,10 @@
               slidesToScroll: 3
         });
         $('#sosial .gallery.mobile').slick();
+        $('#hut-video .submenu > li').click(function(){
+          $(this).addClass('active').siblings().removeClass('active');
+          var getAttr = $(this).attr('data-name');
+          console.log(getAttr);
+          $('.submenu-content > div[name="'+ getAttr +'"]').addClass('active').siblings().removeClass('active');
+        });
     });

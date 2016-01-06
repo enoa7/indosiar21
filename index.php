@@ -1,4 +1,4 @@
-<?php 
+<?php
 	$pageTitle = "HUT Indosiar 21 | Home";
 	$pageSubject = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
 	$pageKeywords = "indosiar, indosiar21, HUT, Konser Raya Indosiar untuk Indonesia, kuis indosiar 21, kontes indosiar 21, ulang tahun ke-21";
@@ -6,7 +6,7 @@
 	$socialShareImg = "http://hut.indosiar.com/asset/images/hutindosiar21.png";
 	include("header.php");
 ?>
-	
+
 
 <?php require('nav.php') ?>
 
@@ -16,11 +16,11 @@
 	    <div class="container-fluid nopadding">
 			<div class="col-xs-12 pos-relative nopadding">
 				<?php if ( $detect->isMobile() ) { ?>
-					<div><img class="img-responsive center-block" src="asset/images/nonton-narsis.jpg" alt="Indosiar 21 nonton narsis"></div>
+					<div><img class="img-responsive center-block" src="asset/images/hutindosiar21-mainbanner-winner-mobile.jpg" alt="Indosiar 21 LiveStream"></div>
 				<?php } else { ?>
-					<div><img class="img-responsive center-block" src="asset/images/nonton-narsis-mobile.jpg" alt="Indosiar 21 nonton narsis"></div>
+					<div><img class="img-responsive center-block fullwidth" src="asset/images/hutindosiar21-mainbanner-winner.jpg" alt="Indosiar 21 nonton narsis"></div>
 				<?php } ?>
-				
+
 				<!-- <div class="call-to-action">
 					<a target="_blank" href="http://www.vidio.com/events/15-indosiar-21"><button type="button" class="btn btn-default btn-danger">Ikuti Kontes!</button></a>
 				</div> -->
@@ -29,7 +29,7 @@
 	</div>
 
 	<div class="segment" id="list-artist">
-		
+
 		<div class="container-fluid slicky">
 			<!-- list artist -->
 			<div class="slick-artist syahrini">
