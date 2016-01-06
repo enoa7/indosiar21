@@ -69,12 +69,11 @@
               slidesToScroll: 3
         });
         $('#sosial .gallery.mobile').slick();
-        // $('.video-list').slick({
-        //   // lazyLoad: 'ondemand',
-        //   infinite: true,
-        //   slidesToShow: 3,
-        //   slidesToScroll: 3
-        // });
+        $('.video-list').slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+        });
         //video.php page
         // $('.content.submenu-content').load('./template/ilikedangdut.html');
         $('#hut-video .submenu > li').click(function(){

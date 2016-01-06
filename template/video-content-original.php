@@ -10,28 +10,28 @@
           <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-4">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/216926/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-4">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/221249/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-4">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/217554/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-4">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214628/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-4">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/215614/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-4">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/189590/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-4">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/197588/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-4">
-          <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          <iframe class="vidio-embed" src="http://www.vidio.com/embed/167227/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@
       </div>
       <div class="container">
         <h2 class="title">Pemenang Greetings Indosiar 21</h2>
-        <!-- <div class="video-list row spacepad"> -->
+        <div class="video-list row spacepad">
           <div class="col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/179949/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
@@ -81,7 +81,7 @@
     </div>
     <div class="container">
       <h2 class="title">Pemenang Video Bumper 21</h2>
-      <!-- <div class="video-list row spacepad"> -->
+      <div class="video-list row spacepad">
         <div class="col-sm-4">
           <iframe class="vidio-embed" src="http://www.vidio.com/embed/225160/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
