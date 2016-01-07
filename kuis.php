@@ -18,7 +18,11 @@
     <?php include('video-menu.php') ?>
     </div>
     <div class="content">
-      <img class="img-responsive" src="asset/images/video/hutindosiar21-banner-pemenangkontes.jpg" alt="">
+      <?php if ( $detect->isMobile() ) { ?>
+                    <div><img class="img-responsive center-block" src="asset/images/hutindosiar21-mainbanner-winner-mobile.jpg" alt="Indosiar 21 LiveStream"></div>
+                <?php } else { ?>
+                    <div><img class="img-responsive center-block fullwidth" src="asset/images/hutindosiar21-mainbanner-winner.jpg" alt="Indosiar 21 nonton narsis"></div>
+                <?php } ?>
     </div>
     <?php require('footer.php') ?>
     <?php require('overlay-menu.php') ?>

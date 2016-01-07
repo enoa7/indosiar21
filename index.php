@@ -16,14 +16,10 @@
 	    <div class="container-fluid nopadding">
 			<div class="col-xs-12 pos-relative nopadding">
 				<?php if ( $detect->isMobile() ) { ?>
-					<div><img class="img-responsive center-block" src="asset/images/hutindosiar21-mainbanner-winner-mobile.jpg" alt="Indosiar 21 LiveStream"></div>
+					<div><img class="img-responsive center-block" src="asset/images/hutindosiar21-konserraya.jpg" alt="Indosiar 21 LiveStream"></div>
 				<?php } else { ?>
-					<div><img class="img-responsive center-block fullwidth" src="asset/images/hutindosiar21-mainbanner-winner.jpg" alt="Indosiar 21 nonton narsis"></div>
+					<div><img class="img-responsive center-block fullwidth" src="asset/images/hutindosiar21-konserraya.jpg" alt="Indosiar 21 nonton narsis"></div>
 				<?php } ?>
-
-				<!-- <div class="call-to-action">
-					<a target="_blank" href="http://www.vidio.com/events/15-indosiar-21"><button type="button" class="btn btn-default btn-danger">Ikuti Kontes!</button></a>
-				</div> -->
 			</div>
 	    </div>
 	</div>
