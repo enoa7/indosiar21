@@ -26,15 +26,3 @@
         </li>
     </ul>
 </div>
-<script>
-    function highlightSubMenu() {
-      var target = '.submenu > li';
-      var url = window.location.href.split('/');
-      var urlLastSegment = url[4].split('.');
-      var newUrl = urlLastSegment[0];
-      $(target + '[data-name="'+ newUrl +'"]').addClass('active').siblings().removeClass('active');
-    }
-    $(document).ready(function () {
-        highlightSubMenu();
-    })
-</script>
