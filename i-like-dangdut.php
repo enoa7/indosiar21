@@ -4,6 +4,7 @@
     $pageKeywords = 'indosiar, indosiar21, HUT, Kontes, I Like Dangdut, pemenang';
     $pageDesc = 'Kontes I Like Dangdut untuk HUT Indosiar 21';
     $socialShareImg = 'http://hut.indosiar.com/asset/images/hutindosiar21.png';
+    $pageName = 'ilikedangdut';
     include('header.php');
 ?>
 <?php require('nav.php') ?>
@@ -12,38 +13,42 @@
     <?php include('video-menu.php') ?>
   </div>
   <div class="content">
-    <div class="submenu-content-list active" name="ilikedangdut">
+    <div class="submenu-content-list active" name="<?php echo $pageName ?>">
       <div class="container-fluid nopadding">
-        <img class="img-responsive center-block" src="asset/images/video/ilikedangdut-mainbanner.jpg" alt="banner - ilikedangdut" />
+        <?php if($detect->isMobile()) { ?>
+          <img class="img-responsive center-block" src="asset/images/video/ilikedangdut-mainbanner-mobile.jpg" alt="banner - ilikedangdut" />
+        <?php } else { ?>
+          <img class="img-responsive center-block" src="asset/images/video/ilikedangdut-mainbanner.jpg" alt="banner - ilikedangdut" />
+        <?php } ?>
       </div>
       <div class="container">
         <h2 class="title">Pemenang I Like Dangdut</h2>
         <div class="video-list row spacepad">
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/216926/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/221249/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/217554/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/214628/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/215614/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/189590/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/217588/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/167227/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
