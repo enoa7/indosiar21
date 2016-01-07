@@ -1,13 +1,3 @@
-    function highlightSubMenu() {
-      var target = '.submenu > li';
-      var url = window.location.href;
-      var url2 = url.split('/');
-      var url3 = url2[4];
-      var urlLastSegment = url3.split('.');
-      var newUrl = urlLastSegment[0];
-      $(target + '[data-name="'+ newUrl +'"]').addClass('active').siblings().removeClass('active');
-    }
-
     function stickIt() {
         var orgElementPos = $('.original').offset();
         orgElementTop = orgElementPos.top;
@@ -44,7 +34,7 @@
 
         // call the function
         cloneMegamenu();
-        highlightSubMenu();
+        // highlightSubMenu();
 
         // add animation on the logo when the page loads
         var navLogo = $('.navbar .logo img');
