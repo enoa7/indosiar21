@@ -1,7 +1,8 @@
     function highlightSubMenu() {
       var target = '.submenu > li';
-      var url = window.location.href.split('/');
-      var urlLastSegment = url[4].split('.');
+      var url = window.location.href;
+      var url2 = url.split('/');
+      var urlLastSegment = url2[4].split('.');
       var newUrl = urlLastSegment[0];
       $(target + '[data-name="'+ newUrl +'"]').addClass('active').siblings().removeClass('active');
     }
