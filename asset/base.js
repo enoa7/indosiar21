@@ -1,14 +1,11 @@
     function highlightSubMenu() {
       var target = '#hut-video .submenu > li';
-      var url = window.location.href.split('/');
-      var urlLastSegment = url[4].split('.');
-      var newUrl = urlLastSegment[0];
+      var href = window.location.href;
+      var hrefLast = href.substr(href.lastIndexOf('/') + 1);
+      var urlSplit = hrefLast.split('.');
+      var newUrl = urlSplit[0];
       $(target + '[data-name="'+ newUrl +'"]').addClass('active').siblings().removeClass('active');
-      console.log(newUrl);
     }
-    $(document).ready(function() {
-        highlightSubMenu();
-    });
     function stickIt() {
         var orgElementPos = $('.original').offset();
         orgElementTop = orgElementPos.top;
