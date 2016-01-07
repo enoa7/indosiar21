@@ -8,7 +8,10 @@
     include 'header.php';
 
 ?>
-<?php require('nav.php') ?>
+<?php 
+	require('nav.php');
+	$saldo = "1.776.015.674,-"
+?>
 
 <div class="page-wrap" id="sosial">
 	<div class="segment">
@@ -25,7 +28,7 @@
 					Program sekolah kita Indosiar akan berakhir 7 hari lagi, tanggal 11 januari 2016 pukul 23:59 WIB
 				</p>
 				<p class="desc text-center hidden-xs">
-					Total dana "Sekolah Kita Indosiar" yang terkumpul sampai 31 Desember 2015, sebesar <span class="highlight">Rp. 1,628,986,611,- </span>dan  telah disalurkan untuk 5 sekolah; sdn Tenjolahang 2 Pandeglang proses renovasi sudah 95% saat ini sedang finishing & menunggu meubel, SD Inpres Bengo 2 Gowa sedang proses pondasi dan pembesian, sdn Trimulyo 2 Semarang sedang proses pembongkaran bangunan yang rusak, SMPN 1 Siberut Selatan dan sdn Patemon 12, Probolinggo baru akan memulai proses renovasi.
+					Total dana "Sekolah Kita Indosiar" yang terkumpul sampai 7 Januari 2015, sebesar <span class="highlight">Rp. <?php echo $saldo ?>&nbsp;</span>dan  telah disalurkan untuk 5 sekolah; sdn Tenjolahang 2 Pandeglang proses renovasi sudah 95% saat ini sedang finishing & menunggu meubel, SD Inpres Bengo 2 Gowa sedang proses pondasi dan pembesian, sdn Trimulyo 2 Semarang sedang proses pembongkaran bangunan yang rusak, SMPN 1 Siberut Selatan dan sdn Patemon 12, Probolinggo baru akan memulai proses renovasi.
 				</p>
 				<p class="desc text-center hidden-xs">
 					Terima kasih sebesar-besarnya kepada seluruh pemirsa yang sudah menyumbangkan dana. semoga Tuhan Yang Maha Esa membalas semua bantuan dan kebaikan pemirsa.
@@ -33,7 +36,7 @@
 			</div>
 				<div class="saldo col-xs-12">
 					<div class="name col-xs-12 col-sm-6">total saldo</div>
-					<div class="amount col-xs-12 col-sm-6">Rp 1,735,200,564,-</div>
+					<div class="amount col-xs-12 col-sm-6">Rp. <?php echo $saldo ?></div>
 				</div>
 			<div class="activity one clearfix">
 				<h3 class="title">sdn Tenjolahang 2, Jiput - Pandeglang Banten</h3>

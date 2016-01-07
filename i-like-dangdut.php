@@ -1,0 +1,59 @@
+<?php
+    $pageTitle = 'HUT Indosiar 21 | Kontes I Like Dangdut';
+    $pageSubject = 'Kontes I Like Dangdut Kontes';
+    $pageKeywords = 'indosiar, indosiar21, HUT, Kontes, I Like Dangdut, pemenang';
+    $pageDesc = 'Kontes I Like Dangdut untuk HUT Indosiar 21';
+    $socialShareImg = 'http://hut.indosiar.com/asset/images/hutindosiar21.png';
+    include('header.php');
+?>
+<?php require('nav.php') ?>
+<div class="page-wrap" id="hut-video">
+  <div class="header">
+    <?php include('video-menu.php') ?>
+  </div>
+  <div class="content">
+    <div class="submenu-content-list active" name="ilikedangdut">
+      <div class="container-fluid nopadding">
+        <img class="img-responsive center-block" src="asset/images/video/ilikedangdut-mainbanner.jpg" alt="banner - ilikedangdut" />
+      </div>
+      <div class="container">
+        <h2 class="title">Pemenang I Like Dangdut</h2>
+        <div class="video-list row spacepad">
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/216926/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/221249/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/217554/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/214628/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/215614/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/189590/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/217588/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe class="vidio-embed" src="http://www.vidio.com/embed/167227/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <?php require('footer.php') ?>
+  <?php require('overlay-menu.php') ?>
+</div>
+</body>
+</html>

@@ -1,3 +1,11 @@
+    function highlightSubMenu() {
+      var target = '.submenu > li';
+      var url = window.location.href.split('/');
+      var urlLastSegment = url[4].split('.');
+      var newUrl = urlLastSegment[0];
+      $(target + '[data-name="'+ newUrl +'"]').addClass('active').siblings().removeClass('active');
+    }
+
     function stickIt() {
         var orgElementPos = $('.original').offset();
         orgElementTop = orgElementPos.top;
@@ -34,7 +42,8 @@
 
         // call the function
         cloneMegamenu();
-
+        highlightSubMenu();
+        
         // add animation on the logo when the page loads
         var navLogo = $('.navbar .logo img');
         setTimeout(function() {
@@ -76,10 +85,10 @@
         });
         //video.php page
         // $('.content.submenu-content').load('./template/ilikedangdut.html');
-        $('#hut-video .submenu > li').click(function(){
-          $(this).addClass('active').siblings().removeClass('active');
-          var getAttr = $(this).attr('data-name');
-          $('.submenu-content > div[name="'+ getAttr +'"]').addClass('active').siblings().removeClass('active');
+        // $('#hut-video .submenu > li').click(function(){
+        //   $(this).addClass('active').siblings().removeClass('active');
+        //   var getAttr = $(this).attr('data-name');
+        //   $('.submenu-content > div[name="'+ getAttr +'"]').addClass('active').siblings().removeClass('active');
         //   $('.content.submenu-content').load('./template/' + getAttr + '.html');
-        });
+        // });
     });
