@@ -16,7 +16,7 @@
 	    <div class="container-fluid nopadding">
 			<div class="col-xs-12 pos-relative nopadding">
 				<?php if ( $detect->isMobile() ) { ?>
-					<div><img class="img-responsive center-block" src="asset/images/hutindosiar21-konserraya.jpg" alt="Indosiar 21 LiveStream"></div>
+					<div><img class="img-responsive center-block" src="asset/images/hutindosiar21-konserraya-mobile.jpg" alt="Indosiar 21 LiveStream"></div>
 				<?php } else { ?>
 					<div><img class="img-responsive center-block fullwidth" src="asset/images/hutindosiar21-konserraya.jpg" alt="Indosiar 21 nonton narsis"></div>
 				<?php } ?>
