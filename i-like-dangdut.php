@@ -1,7 +1,7 @@
 <?php
     $pageTitle = 'HUT Indosiar 21 | Kontes I Like Dangdut';
     $pageSubject = 'Kontes I Like Dangdut Kontes';
-    $pageKeywords = 'indosiar, indosiar21, HUT, Kontes, I Like Dangdut, pemenang';
+    $pageKeywords = 'indosiar, indosiar21, HUT, Kontes, I Like Dangdut, Finalis';
     $pageDesc = 'Kontes I Like Dangdut untuk HUT Indosiar 21';
     $socialShareImg = 'http://hut.indosiar.com/asset/images/hutindosiar21.png';
     $pageName = 'ilikedangdut';
@@ -22,7 +22,7 @@
         <?php } ?>
       </div>
       <div class="container">
-        <h2 class="title">Pemenang I Like Dangdut</h2>
+        <h2 class="title">Finalis I Like Dangdut</h2>
         <div class="video-list row spacepad">
           <div class="col-xs-12 col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/214760/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>

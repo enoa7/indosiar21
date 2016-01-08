@@ -1,7 +1,7 @@
 <?php
     $pageTitle = 'HUT Indosiar 21 | Kontes Video Bumper Indosiar 21';
     $pageSubject = 'Kontes Video Bumper Indosiar 21';
-    $pageKeywords = 'indosiar, indosiar21, HUT, kontes, Video Bumper, pemenang';
+    $pageKeywords = 'indosiar, indosiar21, HUT, kontes, Video Bumper, Finalis';
     $pageDesc = 'Kontes Video Bumper Indosiar 21 untuk HUT Indosiar 21';
     $socialShareImg = 'http://hut.indosiar.com/asset/images/hutindosiar21.png';
     include('header.php');
@@ -17,7 +17,7 @@
           <img class="img-responsive center-block" src="asset/images/video/bumper-mainbanner.jpg" alt="banner - video bumper" />
         </div>
         <div class="container">
-          <h2 class="title">Pemenang Video Bumper</h2>
+          <h2 class="title">Finalis Video Bumper</h2>
           <div class="video-list row spacepad">
             <div class="col-sm-4">
               <iframe class="vidio-embed" src="http://www.vidio.com/embed/225160/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>

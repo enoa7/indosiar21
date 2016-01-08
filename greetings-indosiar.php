@@ -1,7 +1,7 @@
 <?php
     $pageTitle = 'HUT Indosiar 21 | Kontes Greetings Pemirsa Indosiar 21';
     $pageSubject = 'Kontes Greetings Pemirsa Indosiar 21';
-    $pageKeywords = 'indosiar, indosiar21, HUT, kontes, Greetings Pemirsa Indosiar 21, pemenang';
+    $pageKeywords = 'indosiar, indosiar21, HUT, kontes, Greetings Pemirsa Indosiar 21, Finalis';
     $pageDesc = 'Kontes Greetings Pemirsa Indosiar 21 untuk HUT Indosiar 21';
     $socialShareImg = 'http://hut.indosiar.com/asset/images/hutindosiar21.png';
     include('header.php');
@@ -17,7 +17,7 @@
         <img class="img-responsive center-block" src="asset/images/video/kontes-greeting-mainbanner.jpg" alt="banner - ilikedangdut" />
       </div>
       <div class="container">
-        <h2 class="title">Pemenang Greetings Pemirsa Indosiar 21</h2>
+        <h2 class="title">Finalis Greetings Pemirsa Indosiar 21</h2>
         <div class="video-list row spacepad">
           <div class="col-sm-4">
             <iframe class="vidio-embed" src="http://www.vidio.com/embed/209248/?autoplay=false&player_only=true&" scrolling="no" frameborder="0" allowfullscreen></iframe>
