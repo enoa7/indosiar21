@@ -8060,6 +8060,18 @@ button.close {
 /* ------------------- */
 /* ------------------- */
 /* ------------------- */
+.indosiar-title, .photo-gallery .title {
+  font-size: 1.2em;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .indosiar-title, .photo-gallery .title {
+      font-size: 2em; } }
+  @media (min-width: 992px) {
+    .indosiar-title, .photo-gallery .title {
+      font-size: 3em; } }
+
 /*pages--*/
 /* navigation -- start */
 nav.navbar {
@@ -8345,6 +8357,46 @@ footer {
 
 .slick-next {
   right: -30px; }
+
+/* ===========================
+ * Photo Gallery SCSS
+ * =========================== */
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item {
+  width: 20%; }
+
+@media (max-width: 768px) {
+  .grid-item {
+    width: 100% !important; } }
+
+/* 2 columns */
+.grid-item--width2 {
+  width: 40%; }
+
+.grid-item--height2 {
+  height: 200px; }
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* force scrollbar, prevents initial gap */
+html {
+  overflow-y: scroll; }
+
+/* add padding on each images */
+.tile {
+  padding: 30px 15px; }
+
+.photo-gallery .title {
+  color: #fff;
+  background-color: #24c296; }
+@media (min-width: 1200px) {
+  .photo-gallery .container {
+    width: 1630px; } }
 
 /*kodein--*/
 /*!

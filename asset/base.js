@@ -35,6 +35,24 @@
         $(megamenu).addClass('original').clone().insertAfter(megamenu).addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').removeClass('original').hide();
         scrollIntervalID = setInterval(stickIt, 10);
     }
+
+    /* make the isotope a bit dynamic
+     * example of use => doIsotope('#gallery')
+     */
+    function doIsotope($target) {
+      // wrap the isotope init in imagesLoaded plugins to prevent unloaded images broke the isotope
+      var $grid = $($target).imagesLoaded(function(){
+        $grid.isotope({
+          // options
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          masonry: {
+            // use element for option
+            columnWidth: '.grid-sizer'
+          }
+        });
+      });
+    }
     $(document).ready(function() {
 
         // instantiate fastclick
@@ -107,17 +125,69 @@
                 slidesToScroll: 1
               }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
           ]
         });
-        //video.php page
-        // $('.content.submenu-content').load('./template/ilikedangdut.html');
-        // $('#hut-video .submenu > li').click(function(){
-        //   $(this).addClass('active').siblings().removeClass('active');
-        //   var getAttr = $(this).attr('data-name');
-        //   $('.submenu-content > div[name="'+ getAttr +'"]').addClass('active').siblings().removeClass('active');
-        //   $('.content.submenu-content').load('./template/' + getAttr + '.html');
-        // });
-    });
+      
+
+      $.ajax({
+        url: 'json/gallery.json',
+        dataType: 'text'
+      })
+      .success(function(data) {
+        var data = $.parseJSON(data);
+        var mobile = '.photo-gallery.mobile #gallery';
+        var desktop = '.photo-gallery.desktop #gallery';
+        var common = '.photo-gallery.common #gallery'
+
+        $.each(data, function(i){
+          var num = i + 1;
+          var htmlDesktop = '<div class="tile '+ data[i].class +'"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="behind-the-scene-'+ num +'"></div>';
+          var htmlMobile = '<div class="tile"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="behind-the-scene-'+ num +'"></div>';
+          
+          doIsotope(desktop);
+          $(desktop).append(htmlDesktop);
+          $(mobile).append(htmlMobile);
+          $(common).append(htmlMobile);
+
+        }); //$.each
+
+        // add slick feature for mobile gallery
+        $(mobile).slick({
+          draggable: true
+        });
+        $(common).slick({
+          draggable: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          dots: true,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+
+      }); //ajax success
+
+    }); //ajax
