@@ -23,7 +23,7 @@
 			</div>
 	    </div>
 	</div>
-
+	
 	<div class="segment" id="list-artist">
 
 		<div class="container-fluid slicky">
