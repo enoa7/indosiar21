@@ -8346,6 +8346,31 @@ footer {
 .slick-next {
   right: -30px; }
 
+/* ===========================
+ * Photo Gallery SCSS
+ * =========================== */
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item {
+  width: 20%; }
+
+/* 2 columns */
+.grid-item--width2 {
+  width: 40%; }
+
+.grid-item--height2 {
+  height: 200px; }
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* force scrollbar, prevents initial gap */
+html {
+  overflow-y: scroll; }
+
 /*kodein--*/
 /*!
 Animate.css - http://daneden.me/animate

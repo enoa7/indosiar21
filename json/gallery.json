@@ -1,0 +1,62 @@
+[
+	{
+		"name": "gallery-1",
+		"class": "grid-item",
+		"category": "test",
+		"alt": "this is gallery 1"
+	},
+	{
+		"name": "gallery-2",
+		"class": "grid-item grid-item--width2",
+		"category": "test",
+		"alt": "this is gallery 2"
+	},
+	{
+		"name": "gallery-3",
+		"class": "grid-item",
+		"category": "test",
+		"alt": "this is gallery 3"
+	},
+	{
+		"name": "gallery-1",
+		"class": "grid-item grid-item",
+		"category": "test",
+		"alt": "this is gallery 4"
+	},
+	{
+		"name": "gallery-2",
+		"class": "grid-item grid-item--height2",
+		"category": "test",
+		"alt": "this is gallery 5"
+	},
+		{
+		"name": "gallery-1",
+		"class": "grid-item",
+		"category": "test",
+		"alt": "this is gallery 1"
+	},
+	{
+		"name": "gallery-2",
+		"class": "grid-item grid-item--width2",
+		"category": "test",
+		"alt": "this is gallery 2"
+	},
+	{
+		"name": "gallery-3",
+		"class": "grid-item",
+		"category": "test",
+		"alt": "this is gallery 3"
+	},
+	{
+		"name": "gallery-1",
+		"class": "grid-item grid-item--width2",
+		"category": "test",
+		"alt": "this is gallery 4"
+	},
+	{
+		"name": "gallery-2",
+		"class": "grid-item grid-item--height2",
+		"category": "test",
+		"alt": "this is gallery 5"
+	}
+]

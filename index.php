@@ -87,20 +87,21 @@
 		</div>
 	</div>
 	<div id="livestream">
-			<div class="segment">
-		<div class="container-fluid">
-			<div class="intro-text">
-				<h2>Saksikan <i>livestream</i> Indosiar di sini</h2>
-				<hr />
-			</div>
-			<div class="video col-xs-12 spacepad">
-				<div class="">
-					<iframe class="vidio-embed" src="http://www.vidio.com/live/205-indosiar-tv-stream/embed?autoplay=false" scrolling="no" frameborder="0" allowfullscreen="" id="fitvid273370"></iframe>
+		<div class="segment">
+			<div class="container-fluid">
+				<div class="intro-text">
+					<h2>Saksikan <i>livestream</i> Indosiar di sini</h2>
+					<hr />
+				</div>
+				<div class="video col-xs-12 spacepad">
+					<div class="">
+						<iframe class="vidio-embed" src="http://www.vidio.com/live/205-indosiar-tv-stream/embed?autoplay=false" scrolling="no" frameborder="0" allowfullscreen="" id="fitvid273370"></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	</div>
+	<?php include('photo-gallery.html') ?> 
 
 	<?php require('footer.php') ?>
 	<?php require('overlay-menu.php') ?>

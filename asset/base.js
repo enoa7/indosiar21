@@ -35,6 +35,24 @@
         $(megamenu).addClass('original').clone().insertAfter(megamenu).addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').removeClass('original').hide();
         scrollIntervalID = setInterval(stickIt, 10);
     }
+
+    /* make the isotope a bit dynamic
+     * example of use => doIsotope('#gallery')
+     */
+    function doIsotope($target) {
+      // wrap the isotope init in imagesLoaded plugins to prevent unloaded images broke the isotope
+      var $grid = $($target).imagesLoaded(function(){
+        $grid.isotope({
+          // options
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          masonry: {
+            // use element for option
+            columnWidth: '.grid-sizer'
+          }
+        });
+      });
+    }
     $(document).ready(function() {
 
         // instantiate fastclick
@@ -107,17 +125,27 @@
                 slidesToScroll: 1
               }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
           ]
         });
-        //video.php page
-        // $('.content.submenu-content').load('./template/ilikedangdut.html');
-        // $('#hut-video .submenu > li').click(function(){
-        //   $(this).addClass('active').siblings().removeClass('active');
-        //   var getAttr = $(this).attr('data-name');
-        //   $('.submenu-content > div[name="'+ getAttr +'"]').addClass('active').siblings().removeClass('active');
-        //   $('.content.submenu-content').load('./template/' + getAttr + '.html');
-        // });
+      
+
+      $.ajax({
+        url: 'json/gallery.json',
+        dataType: 'text'
+      })
+      .success(function(data) {
+        var data = $.parseJSON(data);
+        $.each(data, function(i){
+          var num = i + 1;
+          var html = '<div id="tile-'+ num +'" class="'+ data[i].class +'"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="'+ data[i].alt +'"></div>';
+          // wrap isotope in imagesload to prevent unloaded image to overlap or wreck the stuff
+          doIsotope('#gallery');
+          $('#gallery').append(html);
+        });
+      });
+
+
+
+
+
     });
