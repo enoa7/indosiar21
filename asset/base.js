@@ -135,17 +135,22 @@
       })
       .success(function(data) {
         var data = $.parseJSON(data);
+        var mobile = '.photo-gallery.mobile #gallery';
+        var desktop = '.photo-gallery.desktop #gallery';
+        
         $.each(data, function(i){
           var num = i + 1;
-          var html = '<div id="tile-'+ num +'" class="'+ data[i].class +'"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="'+ data[i].alt +'"></div>';
-          // wrap isotope in imagesload to prevent unloaded image to overlap or wreck the stuff
-          doIsotope('#gallery');
-          $('#gallery').append(html);
-        });
-      });
+          var htmlDesktop = '<div id="tile-'+ num +'" class="'+ data[i].class +'"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="'+ data[i].alt +'"></div>';
+          var htmlMobile = '<div id="tile-'+ num +'"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="'+ data[i].alt +'"></div>';
+          
+          doIsotope(desktop);
+          $(desktop).append(htmlDesktop);
+          $(mobile).append(htmlMobile);
 
+        }); //$.each
+        $(mobile).slick({
+          draggable: true
+        }); //slick
+      }); //ajax success
 
-
-
-
-    });
+    }); //ajax

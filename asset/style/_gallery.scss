@@ -8,6 +8,11 @@
 /* fluid 5 columns */
 .grid-sizer,
 .grid-item { width: 20%; }
+.grid-item {
+	@media (max-width: 768px) {
+		width: 100% !important;
+	}
+}
 /* 2 columns */
 .grid-item--width2 { width: 40%; }
 .grid-item--height2 { height: 200px; }

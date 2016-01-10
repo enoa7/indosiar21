@@ -101,7 +101,13 @@
 			</div>
 		</div>
 	</div>
-	<?php include('photo-gallery.html') ?> 
+	<?php 
+		if ( $detect->isMobile() ) {
+			include('template/photo-gallery-mobile.html');
+		} else {
+			include('template/photo-gallery-desktop.html');
+		}
+	?> 
 
 	<?php require('footer.php') ?>
 	<?php require('overlay-menu.php') ?>

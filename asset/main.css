@@ -8354,6 +8354,10 @@ footer {
 .grid-item {
   width: 20%; }
 
+@media (max-width: 768px) {
+  .grid-item {
+    width: 100% !important; } }
+
 /* 2 columns */
 .grid-item--width2 {
   width: 40%; }
