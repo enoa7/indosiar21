@@ -37,4 +37,9 @@ html {
 		background-color: $main-color-one;
 		@extend .indosiar-title;
 	}
+	.container {
+		@media (min-width: 1200px) {
+    		width: 1630px;
+		}
+	}
 }
