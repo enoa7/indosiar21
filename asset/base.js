@@ -137,20 +137,56 @@
         var data = $.parseJSON(data);
         var mobile = '.photo-gallery.mobile #gallery';
         var desktop = '.photo-gallery.desktop #gallery';
-        
+        var common = '.photo-gallery.common #gallery'
+
         $.each(data, function(i){
           var num = i + 1;
-          var htmlDesktop = '<div id="tile-'+ num +'" class="'+ data[i].class +'"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="'+ data[i].alt +'"></div>';
-          var htmlMobile = '<div id="tile-'+ num +'"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="'+ data[i].alt +'"></div>';
+          var htmlDesktop = '<div class="tile '+ data[i].class +'"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="behind-the-scene-'+ num +'"></div>';
+          var htmlMobile = '<div class="tile"><img class="img-responsive" src="asset/images/gallery/indosiar21-'+ data[i].name +'.jpg" alt="behind-the-scene-'+ num +'"></div>';
           
           doIsotope(desktop);
           $(desktop).append(htmlDesktop);
           $(mobile).append(htmlMobile);
+          $(common).append(htmlMobile);
 
         }); //$.each
+
+        // add slick feature for mobile gallery
         $(mobile).slick({
           draggable: true
-        }); //slick
+        });
+        $(common).slick({
+          draggable: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+
       }); //ajax success
 
     }); //ajax

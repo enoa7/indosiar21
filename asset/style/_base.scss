@@ -7,3 +7,14 @@
 @import '_partials/font-mixin';
 @import '_partials/utility-mixin';
 
+.indosiar-title {
+    font-size: 1.2em;
+    margin: 0;
+    @include spacepad(15px);
+    @media (min-width: 768px) and (max-width: 992px) {
+        font-size: 2em;
+    }
+    @media (min-width: 992px) {
+        font-size: 3em;
+    }
+}

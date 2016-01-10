@@ -27,3 +27,14 @@
 html {
   overflow-y: scroll; 
 }
+/* add padding on each images */
+.tile {
+	padding: 30px 15px;
+}
+.photo-gallery {
+	.title {
+		color: #fff;
+		background-color: $main-color-one;
+		@extend .indosiar-title;
+	}
+}

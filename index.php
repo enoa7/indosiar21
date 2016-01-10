@@ -102,11 +102,12 @@
 		</div>
 	</div>
 	<?php 
-		if ( $detect->isMobile() ) {
-			include('template/photo-gallery-mobile.html');
-		} else {
-			include('template/photo-gallery-desktop.html');
-		}
+		// if ( $detect->isMobile() ) {
+		// 	include('template/photo-gallery-mobile.html');
+		// } else {
+		// 	include('template/photo-gallery-desktop.html');
+		// }
+		include('template/photo-gallery-common.html');
 	?> 
 
 	<?php require('footer.php') ?>

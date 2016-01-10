@@ -8060,6 +8060,18 @@ button.close {
 /* ------------------- */
 /* ------------------- */
 /* ------------------- */
+.indosiar-title, .photo-gallery .title {
+  font-size: 1.2em;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .indosiar-title, .photo-gallery .title {
+      font-size: 2em; } }
+  @media (min-width: 992px) {
+    .indosiar-title, .photo-gallery .title {
+      font-size: 3em; } }
+
 /*pages--*/
 /* navigation -- start */
 nav.navbar {
@@ -8374,6 +8386,14 @@ footer {
 /* force scrollbar, prevents initial gap */
 html {
   overflow-y: scroll; }
+
+/* add padding on each images */
+.tile {
+  padding: 30px 15px; }
+
+.photo-gallery .title {
+  color: #fff;
+  background-color: #24c296; }
 
 /*kodein--*/
 /*!
