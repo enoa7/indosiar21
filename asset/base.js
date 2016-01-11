@@ -189,7 +189,7 @@
             var data = $.parseJSON(data);
             $.each(data, function(i) {
                 var num = i + 1;
-                var htmlDesktop = '<div class="vod-content-tile col-xs-12 col-sm-4"><a target="_blank" href="segment/'+ data[i].link +'.php"><div class="vod-content-vid"><img class="img-responsive" src="asset/images/vod/'+ data[i].name +'.png"></div><div class="vod-content-title">'+ data[i].title +'</div></a></div>';
+                var htmlDesktop = '<div class="vod-content-tile col-xs-12 col-sm-4"><a target="_blank" href="segment/'+ data[i].link +'"><div class="vod-content-vid"><img class="img-responsive" src="asset/images/vod/'+ data[i].name +'.png"></div><div class="vod-content-title">'+ data[i].title +'</div></a></div>';
 
                 var htmlMobile = '<div class="tile"><img class="img-responsive" src="asset/images/gallery/indosiar21-' + data[i].name + '.jpg" alt="behind-the-scene-' + num + '"></div>';
                 $('#vod .content').append(htmlDesktop);
