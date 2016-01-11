@@ -8394,9 +8394,6 @@ html {
 .photo-gallery .title {
   color: #fff;
   background-color: #24c296; }
-@media (min-width: 1200px) {
-  .photo-gallery .container {
-    width: 1630px; } }
 
 /*kodein--*/
 /*!
