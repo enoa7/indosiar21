@@ -18,3 +18,15 @@
         font-size: 3em;
     }
 }
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+/* force scrollbar, prevents initial gap */
+// html {
+//   overflow-y: scroll; 
+// }

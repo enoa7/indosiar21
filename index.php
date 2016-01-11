@@ -32,12 +32,15 @@
 				</div>
 				<div class="video col-xs-12 spacepad">
 					<div class="">
-						<iframe class="vidio-embed" src="http://www.vidio.com/live/205-indosiar-tv-stream/embed?autoplay=false" scrolling="no" frameborder="0" allowfullscreen="" id="fitvid273370"></iframe>
+						<iframe class="vidio-embed" src="http://www.vidio.com/live/384-11-jan-19-00-live-streaming-konser-raya-21-indosiar/embed" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+						<!-- <iframe class="vidio-embed" src="http://eventstreaming.production.liputan6.static6.com/event/HutIndosiar,240,360" scrolling="no" frameborder="0" allowfullscreen=""></iframe> -->
+						
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<?php  // include('vod.php'); ?>
 	<?php 
 		if ( $detect->isMobile() ) {
 			include('template/photo-gallery-mobile.html');

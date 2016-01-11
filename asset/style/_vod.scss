@@ -1,0 +1,61 @@
+$vid-width: 560;
+$vid-height: 317;
+
+// content on the index page
+#vod {
+	background-color: darken($main-color-two, 10%);
+    .title {
+        color: #fff;
+        background-color: $main-color-two;
+        
+        @extend .indosiar-title;
+    }
+    .vod-content-tile {
+    	padding-top: 15px;
+    	padding-bottom: 15px;
+    	a {
+    		color: #fff;
+    		&:hover, &:focus, &:active {
+    			color: $main-color-three;
+    		}
+    	}
+    }
+    .vod-content-title {
+		padding-top: 5px;
+		text-transform: capitalize;
+    }
+}
+
+// content on each individual video page
+.vod {
+    .container {
+        @media (max-width: 768px) {
+            padding: 0 0 30px 0; // remove all padding but the bottom
+        }
+    }
+    .video {
+        @media (max-width: 768px) {
+            padding: 20px 0;
+        }
+    }
+    .content {
+        background: $main-color-one;
+    }
+    .title {
+        text-transform: capitalize;
+        color: #fff;
+    }
+    iframe {
+        @extend .center-block;
+        width: 100%;
+        height: auto;
+        @media (min-width: 768px) {
+            width: $vid-width + px;
+            height: $vid-height + px;
+        }
+        @media (min-width: 1200px) {
+            width: #{$vid-width + 200}px;
+            height: #{$vid-height + 200}px;
+        }
+    }
+}

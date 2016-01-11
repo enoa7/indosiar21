@@ -5587,7 +5587,7 @@ button.close {
 .clearfix:after {
   clear: both; }
 
-.center-block {
+.center-block, .vod iframe {
   display: block;
   margin-left: auto;
   margin-right: auto; }
@@ -8060,18 +8060,25 @@ button.close {
 /* ------------------- */
 /* ------------------- */
 /* ------------------- */
-.indosiar-title, .photo-gallery .title {
+.indosiar-title, .photo-gallery .title, #vod .title {
   font-size: 1.2em;
   margin: 0;
   padding-top: 15px;
   padding-bottom: 15px; }
   @media (min-width: 768px) and (max-width: 992px) {
-    .indosiar-title, .photo-gallery .title {
+    .indosiar-title, .photo-gallery .title, #vod .title {
       font-size: 2em; } }
   @media (min-width: 992px) {
-    .indosiar-title, .photo-gallery .title {
+    .indosiar-title, .photo-gallery .title, #vod .title {
       font-size: 3em; } }
 
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%; }
+
+/* force scrollbar, prevents initial gap */
 /*pages--*/
 /* navigation -- start */
 nav.navbar {
@@ -8388,14 +8395,49 @@ footer {
   display: block;
   clear: both; }
 
-/* force scrollbar, prevents initial gap */
-html {
-  overflow-y: scroll; }
-
 /* add padding on each images */
 .photo-gallery .title {
   color: #fff;
   background-color: #24c296; }
+
+#vod {
+  background-color: #236c99; }
+  #vod .title {
+    color: #fff;
+    background-color: #2c89c3; }
+  #vod .vod-content-tile {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    #vod .vod-content-tile a {
+      color: #fff; }
+      #vod .vod-content-tile a:hover, #vod .vod-content-tile a:focus, #vod .vod-content-tile a:active {
+        color: #F6BF74; }
+  #vod .vod-content-title {
+    padding-top: 5px;
+    text-transform: capitalize; }
+
+@media (max-width: 768px) {
+  .vod .container {
+    padding: 0 0 30px 0; } }
+@media (max-width: 768px) {
+  .vod .video {
+    padding: 20px 0; } }
+.vod .content {
+  background: #24c296; }
+.vod .title {
+  text-transform: capitalize;
+  color: #fff; }
+.vod iframe {
+  width: 100%;
+  height: auto; }
+  @media (min-width: 768px) {
+    .vod iframe {
+      width: 560px;
+      height: 317px; } }
+  @media (min-width: 1200px) {
+    .vod iframe {
+      width: 760px;
+      height: 517px; } }
 
 /*kodein--*/
 /*!
