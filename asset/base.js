@@ -219,12 +219,10 @@
             url: 'json/vod.json',
             dataType: 'text'
         }).success(function(data) {
-            var data = $.parseJSON(data);
+            var data = $.parseJSON(data).reverse(); //parse it and reverse the order
             $.each(data, function(i) {
                 var num = i + 1;
                 var htmlDesktop = '<div class="vod-content-tile col-xs-12 col-sm-3"><a target="_blank" href="segment/' + data[i].link + '"><div class="vod-content-vid"><img class="img-responsive" src="asset/images/vod/' + data[i].name + '.png"></div><div class="vod-content-title">' + data[i].title + '</div></a></div>';
-
-                var htmlMobile = '<div class="tile"><img class="img-responsive" src="asset/images/gallery/indosiar21-' + data[i].name + '.jpg" alt="behind-the-scene-' + num + '"></div>';
                 $('#vod .content').append(htmlDesktop);
             }); //$.each
             wrapSlick();
