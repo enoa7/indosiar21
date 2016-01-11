@@ -1,6 +1,6 @@
 <?php
 
-	$string = "siti-nurhaliza-iyeth-bustami-laksamana-raja-dilaut";
+	$string = "noah-langit-tak-mendengar-konser-raya-21";
 	$hometitle = str_replace("-", " ", $string);
 	$hometitle = ucfirst($hometitle);
 	$pageTitle = "HUT Indosiar 21 | VoD - " . $hometitle . "";
@@ -20,7 +20,7 @@
 		<div class="container">
 			<h2 class="title text-center"><?php echo $hometitle; ?></h2>
 			<div class="video col-xs-12 spacepad">
-				<iframe class="vidio-embed" src="http://www.vidio.com/embed/243170-iklan-produk-kecantikan-thailand-ini-menuai-protes?autoplay=false&amp;player_only=true&amp;" scrolling="no" frameborder="0" allowfullscreen></iframe>
+				<iframe class="vidio-embed" src="http://www.vidio.com/embed/244485-noah-langit-tak-mendengar-konser-raya-21?autoplay=false&amp;player_only=true&amp;" scrolling="no" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>	
 	</div>	
