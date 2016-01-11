@@ -54,6 +54,38 @@
             });
         });
     }
+
+    function wrapSlick() {
+        var thumbnails = $('#vod-content > .vod-content-tile');
+        var activeclass = 'setslick';
+
+        // for every 8 image wrap it in a div
+        for (var i = 0; i < thumbnails.length; i += 8) {
+            // display the content using .wrapAll()
+            thumbnails.slice(i, i + 8).wrapAll('<div class="' + activeclass + '"></div>');
+        }
+        $('.setslick').slick({
+            draggable: true,
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },{
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }]
+        })
+    }
     $(document).ready(function() {
 
         // instantiate fastclick
@@ -62,6 +94,7 @@
         // call the function
         cloneMegamenu();
         highlightSubMenu();
+
 
         // add animation on the logo when the page loads
         var navLogo = $('.navbar .logo img');
@@ -189,10 +222,11 @@
             var data = $.parseJSON(data);
             $.each(data, function(i) {
                 var num = i + 1;
-                var htmlDesktop = '<div class="vod-content-tile col-xs-12 col-sm-4"><a target="_blank" href="segment/'+ data[i].link +'"><div class="vod-content-vid"><img class="img-responsive" src="asset/images/vod/'+ data[i].name +'.png"></div><div class="vod-content-title">'+ data[i].title +'</div></a></div>';
+                var htmlDesktop = '<div class="vod-content-tile col-xs-12 col-sm-3"><a target="_blank" href="segment/' + data[i].link + '"><div class="vod-content-vid"><img class="img-responsive" src="asset/images/vod/' + data[i].name + '.png"></div><div class="vod-content-title">' + data[i].title + '</div></a></div>';
 
                 var htmlMobile = '<div class="tile"><img class="img-responsive" src="asset/images/gallery/indosiar21-' + data[i].name + '.jpg" alt="behind-the-scene-' + num + '"></div>';
                 $('#vod .content').append(htmlDesktop);
             }); //$.each
+            wrapSlick();
         });
     });
