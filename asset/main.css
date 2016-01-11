@@ -8377,6 +8377,11 @@ footer {
 .grid-item--height2 {
   height: 200px; }
 
+.grid-item--style2 {
+  width: 40%;
+  height: 140px;
+  overflow: hidden; }
+
 /* clear fix */
 .grid:after {
   content: '';
@@ -8388,9 +8393,6 @@ html {
   overflow-y: scroll; }
 
 /* add padding on each images */
-.tile {
-  padding: 30px 15px; }
-
 .photo-gallery .title {
   color: #fff;
   background-color: #24c296; }

@@ -16,7 +16,11 @@
 /* 2 columns */
 .grid-item--width2 { width: 40%; }
 .grid-item--height2 { height: 200px; }
-
+.grid-item--style2 {
+	width: 40%;
+	height: 140px;
+	overflow: hidden;
+}
 /* clear fix */
 .grid:after {
   content: '';
@@ -29,7 +33,7 @@ html {
 }
 /* add padding on each images */
 .tile {
-	padding: 30px 15px;
+	// padding: 30px 15px;
 }
 .photo-gallery {
 	.title {

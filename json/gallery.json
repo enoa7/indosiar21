@@ -21,17 +21,17 @@
 	},
 	{
 		"name": "gallery-5",
-		"class": "grid-item grid-item--height2",
+		"class": "grid-item",
 		"category": "test"
 	},
 		{
 		"name": "gallery-6",
-		"class": "grid-item",
+		"class": "grid-item grid-item--width2",
 		"category": "test"
 	},
 	{
 		"name": "gallery-7",
-		"class": "grid-item grid-item--width2",
+		"class": "grid-item",
 		"category": "test"
 	},
 	{
@@ -41,22 +41,27 @@
 	},
 	{
 		"name": "gallery-9",
-		"class": "grid-item grid-item--width2",
+		"class": "grid-item",
 		"category": "test"
 	},
 	{
 		"name": "gallery-10",
-		"class": "grid-item grid-item--height2",
+		"class": "grid-item",
 		"category": "test"
 	},
 	{
 		"name": "gallery-11",
-		"class": "grid-item grid-item--width2",
+		"class": "grid-item",
 		"category": "test"
 	},
 	{
 		"name": "gallery-12",
-		"class": "grid-item grid-item--height2",
+		"class": "grid-item grid-item--style2",
+		"category": "test"
+	},
+	{
+		"name": "gallery-13",
+		"class": "grid-item",
 		"category": "test"
 	}
 ]

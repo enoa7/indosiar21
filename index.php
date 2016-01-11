@@ -24,11 +24,10 @@
 	    </div>
 	</div>
 	
-	<div class="segment" id="list-artist">
-
-		<div class="container-fluid slicky">
+	<!-- <div class="segment" id="list-artist">
+		<div class="container-fluid slicky"> -->
 			<!-- list artist -->
-			<div class="slick-artist syahrini">
+			<!-- <div class="slick-artist syahrini">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 3rd Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-syahrini.jpg" alt="2nd-lineup-citata">
 			</div>
@@ -83,9 +82,9 @@
 			<div class="slick-artist lesti">
 				<div class="overlay-title">Konser Raya HUT 21 Indosiar Untuk Indonesia - 1st Lineup </div>
 				<img class="img-responsive center-block" src="asset/images/list-artist/indosiar21-artist-lesti.jpg" alt="1st-lineup-lesti">
-			</div>
-		</div>
-	</div>
+			</div> -->
+		<!-- </div>
+	</div> -->
 	<div id="livestream">
 		<div class="segment">
 			<div class="container-fluid">
@@ -102,12 +101,12 @@
 		</div>
 	</div>
 	<?php 
-		// if ( $detect->isMobile() ) {
-		// 	include('template/photo-gallery-mobile.html');
-		// } else {
-		// 	include('template/photo-gallery-desktop.html');
-		// }
-		include('template/photo-gallery-common.html');
+		if ( $detect->isMobile() ) {
+			include('template/photo-gallery-mobile.html');
+		} else {
+			include('template/photo-gallery-desktop.html');
+		}
+		// include('template/photo-gallery-common.html');
 	?> 
 
 	<?php require('footer.php') ?>
