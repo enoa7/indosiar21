@@ -7,7 +7,7 @@
 	$pageSubject = "Konser Raya HUT 21 Indosiar Untuk Indonesia";
 	$pageKeywords = "hut indosiar 21, video on demand";
 	$pageDesc = $hometitle;
-	$socialShareImg = "http://hut.indosiar.com/asset/images/vod/vod-thumb-2.png";
+	$socialShareImg = "http://hut.indosiar.com/asset/images/vod/vod-thumb-4.png";
 	require('../segment-header.php')
 ?>
 
