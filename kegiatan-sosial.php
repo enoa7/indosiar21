@@ -10,7 +10,7 @@
 ?>
 <?php 
 	require('nav.php');
-	$saldo = "1.803.086.675-"
+	$saldo = "1.953.997.715"
 ?>
 
 <div class="page-wrap" id="sosial">
